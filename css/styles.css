@@ -1,0 +1,30 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  src: local();
+}
+
+:root {
+  --color-main: ;
+  --color-secondary: ;
+  --color-pack-1: ;
+  --color-pack-2: ;
+  --color-pack-3: ;
+  --font-title: ;
+  --font-text: ;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  width: 375px;
+  margin: auto;
+}
+
