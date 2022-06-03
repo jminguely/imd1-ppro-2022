@@ -1,0 +1,24 @@
+:root {
+  --main-color: #000000;
+  --secondary-color: #ffffff;
+  --main-display-color: #a9a5ff;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  max-width: 375px;
+  margin: auto;
+  background-color: pink;
+}
+
+h1 {
+  font-family: 'jambore';
+}
+
+h2 {
+  font-family: 'new-editorial';
+}
+
