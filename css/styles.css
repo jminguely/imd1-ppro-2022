@@ -1,0 +1,79 @@
+body {
+  width: 375px;
+  background: #e6d8cf;
+  margin: 0;
+}
+
+header,
+footer{
+  background: #719159;
+  color: #e6d8cf;
+}
+
+header {
+  padding: 1px 0px 50px 37px;
+}
+
+header div {
+  display: flex;
+  flex-direction: row;
+  margin: 15px 0px 65px 0px;
+}
+
+header a {
+  display: flex;
+  flex-direction: column;
+  color: #e6d8cf;
+  text-decoration: none;
+  text-align: center;
+  font-family: adobe-jenson-pro-subhead, serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 36px;
+  padding: 15px 45px 0px 0px;
+}
+
+h1 {
+  width: 30%;
+}
+
+h2 {
+  font-family: park-lane, serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 34px;
+  color: #719159;
+}
+
+.burger-menu {
+  width: 10%;
+  right: 50%;
+  top: 18px;
+  TRANSFORM: translate(166px);
+}
+
+.shop-button
+
+.article-img-1 {
+  right: 50%;
+  TRANSFORM: translate(187px);
+}
+
+.article-img-2 {
+  
+}
+
+.sales-location img{
+  width: 10%;
+}
+
+.sales-location {
+  display: flex;
+  flex-direction: row;
+}
+
+p {
+  font-family: adobe-jenson-pro, serif;
+  font-weight: 400;
+  font-style: normal;
+}
