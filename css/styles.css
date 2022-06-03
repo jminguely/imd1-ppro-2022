@@ -1,7 +1,10 @@
+/* margin 13 px except for header*/
+
 :root {
-  --main-color: #000000;
-  --secondary-color: #ffffff;
-  --main-display-color: #a9a5ff;
+  --main-color: #ffffff;
+  --secondary-color: #000000;
+  --third-color: #44ff49;
+  --credit-color: #989898;
 }
 
 html {
