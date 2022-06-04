@@ -5,16 +5,12 @@
   box-sizing: border-box;
 }
 
-@font-face {
-  src: local();
-}
-
 :root {
-  --color-main: ;
-  --color-secondary: ;
-  --color-pack-1: ;
-  --color-pack-2: ;
-  --color-pack-3: ;
+  --color-main: #ACDC8F;
+  --color-secondary: #11160E;
+  --color-pack-1: #F4A257;
+  --color-pack-2: #8FDCCE;
+  --color-pack-3: #DC8FCB;
   --font-title: ;
   --font-text: ;
 }
