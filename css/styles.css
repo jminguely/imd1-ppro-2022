@@ -47,6 +47,13 @@ p {
   margin: 15px;
 }
 
+span {
+  font-family: 'Avenir';
+  font-weight: 600;
+  font-style: normal;
+  font-size: 18px;
+}
+
 a {
   font-family: 'Avenir';
   font-weight: 400;
@@ -62,4 +69,26 @@ a {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-around;
+}
+
+.adresse-container a {
+  width: 152px;
+  padding: 10px 4px;
+}
+
+footer img {
+  width: 219px;
+  margin-left: 16px;
+}
+
+.footer-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* align-items: baseline; */
+}
+
+footer a {
+  margin: 0px 69px;
+  font-size: 18px;
 }
