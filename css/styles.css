@@ -11,8 +11,8 @@
   --color-pack-1: #F4A257;
   --color-pack-2: #8FDCCE;
   --color-pack-3: #DC8FCB;
-  --font-title: ;
-  --font-text: ;
+  --font-title: cooper-black-std, serif;
+  --font-text: basic-sans, sans-serif;
 }
 
 html {
