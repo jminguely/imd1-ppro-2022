@@ -9,15 +9,15 @@
 @font-face {
   font-family: 'Avenir';
   src: url(../fonts/AvenirLTStd-Medium.woff) 
-  url(../fonts/AvenirLTStd-Roman.woff2);
+  url(../fonts/AvenirLTStd-Medium.woff2);
   font-weight: 600;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Avenir';
-  src: url(../fonts/AvenirLTStd-Black.woff) 
-  url(../fonts/AvenirLTStd-Roman.woff2);
+  src: url(../fonts/AvenirLTStd-Heavy.woff) 
+  url(../fonts/AvenirLTStd-Heavy.woff2);
   font-weight: 800;
   font-style: normal;
 }

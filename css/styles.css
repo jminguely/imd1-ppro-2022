@@ -1,0 +1,65 @@
+body {
+  max-width: 375px;
+  margin: auto;
+  width: 100%;
+  background-color: #F0E8D5;
+}
+
+img {
+ width: 380px;
+}
+
+.logo-semence {
+  margin: 5px 15px;
+  width: 344px;
+}
+
+.header-button {
+  font-family: 'Avenir';
+  font-weight: 800;
+  font-style: normal;
+  font-size: 21px;
+  text-decoration: none;
+  color: black;
+  background-color: #C6CCB6;
+}
+
+.header-button-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+h1 {
+  font-family: 'Avenir';
+  font-weight: 600;
+  font-style: normal;
+  font-size: 21px;
+  margin: 15px;
+}
+
+p {
+  font-family: 'Avenir';
+  font-weight: 400;
+  font-style: normal;
+  font-size: 12px;
+  margin: 15px;
+}
+
+a {
+  font-family: 'Avenir';
+  font-weight: 400;
+  font-style: normal;
+  font-size: 14px;
+  color: black;
+  text-decoration: none;
+  padding: 15px;
+}
+
+.adresse-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
