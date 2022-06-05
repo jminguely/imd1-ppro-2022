@@ -73,7 +73,7 @@ a {
 
 .adresse-container a {
   width: 152px;
-  padding: 10px 4px;
+  /* padding: 10px 4px; */
 }
 
 footer img {
@@ -91,4 +91,8 @@ footer img {
 footer a {
   margin: 0px 69px;
   font-size: 18px;
+}
+
+.mamie-adresse {
+  width: 10px;
 }
