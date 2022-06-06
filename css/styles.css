@@ -1,0 +1,24 @@
+/* ITC Avant Garde Gothic Pro Bold
+font-family: itc-avant-garde-gothic-pro, sans-serif;
+font-weight: 700;
+font-style: normal;
+
+
+ITC Avant Garde Gothic Pro Book
+font-family: itc-avant-garde-gothic-pro, sans-serif;
+font-weight: 300;
+font-style: normal;
+
+
+ITC Avant Garde Gothic Pro Medium
+font-family: itc-avant-garde-gothic-pro, sans-serif;
+font-weight: 500;
+font-style: normal; */
+
+@font-face {
+    font-family: 'Zighead';
+    src: url('ZigheadRegular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
