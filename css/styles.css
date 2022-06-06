@@ -43,6 +43,7 @@ body {
     font-family: itc-avant-garde-gothic-pro, sans-serif;
     font-weight: 500;
     font-style: normal;
+    font-size: 12px;
 }
 
 a {
@@ -72,9 +73,53 @@ a {
     display: flex;
     justify-content: center;
     justify-content: space-around;
-    font-size: 12px;
-    width: 304px;
-    padding: 19px 0px;
-    border: 2px solid black;
+    width: 308px;
+    border-bottom: 2px solid black;
+    border-right: 2px solid black;
+}
+
+.border {
+    border-left: 2px solid black;
     border-top: none;
+    border-bottom: none;
+    padding: 19px 14px;
+}
+
+main {
+    margin: 30px 20px;
+}
+
+main img {
+    width: 335px;
+    margin: 30px 0;
+    border: 3px solid black;
+    border-radius: 50%;
+}
+
+.rectangle {
+    border: 2px solid black;
+}
+
+.rectangle-txt {
+    padding: 20px;
+    text-align: justify;
+}
+
+.map {
+    border: none;
+}
+
+.shadow {
+    display: flex;
+    justify-content: center;
+}
+
+.btn {
+    display: flex;
+    border: 2px solid black;
+    text-align: center;
+    font-size: 15px;
+    padding: 10px 70px;
+    font-weight: 700;
+    color: #f1e2b1;
 }
