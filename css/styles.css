@@ -51,6 +51,7 @@ a {
   color: var(--main-color);
   font-family: var(--text-font);
   font-size: 15px;
+  z-index: 10;
 }
 
 .decoration {
@@ -59,17 +60,24 @@ a {
 
 img {
   max-width: 325px;
+  -webkit-user-drag: none;
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
 }
 
 h1, h2 {
   font-family: var(--title-font);
   font-size: 17px;
+  z-index: 10;
 }
 
 p {
   font-size: 15px;
   font-family: var(--text-font);
   line-height: 17px;
+  z-index: 10;
 }
 
 /* header ↓ */
@@ -168,5 +176,9 @@ footer {
 
 .contacts h1 {
   padding: 0 0 5px;
+}
+
+footer a {
+  text-decoration: underline;
 }
 
