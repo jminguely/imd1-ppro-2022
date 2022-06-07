@@ -42,8 +42,8 @@ body {
   --secondary-color: #28906F;
   --third-color: #FFF;
   --background-color: #FFF8F0;
-  --title-font: font-family: "tomarik-display",sans-serif;
-  --text-font: font-family: font-family: "tablet-gothic",sans-serif;
+  --title-font: "tomarik-display",sans-serif;
+  --text-font: "tablet-gothic",sans-serif;
 }
 
 a {
