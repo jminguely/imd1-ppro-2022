@@ -21,8 +21,7 @@ html {
 }
 
 .Header-menu {
-  position: sticky;
-  top: 0;
+  background-image: url(../img/menu-logo.svg);
 }
 
 body {
@@ -35,8 +34,8 @@ body {
   width: 50px;
   display: flex;
   position: fixed;
-  bottom: 20px;
-  right: 15px;
+  bottom: 40px;
+  right: 30px;
 }
 
 header{
@@ -106,7 +105,7 @@ header{
 .top-button {
   display: flex;
   flex-direction: row;
-  padding-top: 10px;
+  padding-top: 20px;
   padding-bottom: 10px;
   justify-content: space-around;
 }
@@ -116,4 +115,92 @@ header{
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+  padding-bottom: 20px;
+}
+
+.about {
+  background-color: aliceblue;
+  padding-bottom: 100px;
+  border-radius: 20px;
+  font-family: "bio-sans-default";
+  text-align: center;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+img {
+  max-width: 300px;
+  justify-content: center;
+}
+
+h1 {
+  font-family: "somatic";
+  text-align: center;
+  padding-top: 20px;
+}
+
+.product h1 {
+  background-color: #DC953E;
+  border-radius: 12px;
+  padding-bottom: 12px;
+  padding-top: 10px;
+  margin-left: 10px;
+  margin-right: 12px;
+  color: white;
+}
+
+.location h1 {
+  color: white;
+  background-color: #DC953E;
+  border-radius: 12px;
+  padding-bottom: 12px;
+  padding-top: 10px;
+  margin-left: 10px;
+  margin-right: 12px;
+}
+
+.location-info {
+  background-color: white;
+  border-radius: 12px;
+  padding: 6px 9px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.map {
+  padding-bottom: 30px;
+  padding-top: 30px;
+  max-width: 270px;
+  margin: auto;
+}
+
+.product img {
+  display: flex;
+  max-width: 270px;
+  justify-content: center;
+  margin: auto;
+}
+
+.bleuets {
+  padding-bottom: 217px;
+}
+
+.potimarron {
+  padding-bottom: 217px;
+}
+
+.harricot {
+  padding-bottom: 217px;
+}
+
+footer {
+  background-color: #414141;
+  padding-bottom: 200px;
+}
+
+footer h1 {
+  color: azure;
+  font-size: 28px;
 }
