@@ -31,6 +31,8 @@ body {
 
 header {
   padding: 30px;
+  background-image: url(../img/img_association_header.webp);
+  background-size: cover;
 }
 
 .card {
@@ -61,6 +63,26 @@ h2 {
   margin-top: 70px;
   font-family: 'General Sans', sans-serif;
   margin-bottom: 0;
+}
+
+.map {
+  background-image: url(../img/img_association.webp);
+  background-size: cover;
+  padding: 50px;
+}
+
+.card-map {
+  color: black;
+  font-family: 'General Sans', sans-serif;
+  margin: 40px auto;
+  background-color: rgba(255,255,255,0.06);
+  border: 1px solid rgba(255,255,255,0.1);
+  backdrop-filter: blur(10px);
+  padding: 16px;
+}
+
+.map h2 {
+  margin-top: 15px;
 }
 
 footer {
