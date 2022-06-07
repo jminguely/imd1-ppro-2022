@@ -114,14 +114,12 @@ ul {
 }
 
 .button {
-  position:relative;
   background-color: var(--main-color);
   font-size: 44px;
   padding: 15px 40px 0px 40px;
   border: solid 4px var(--secondary-color);
   border-radius: 50px;
   cursor: pointer;
-  outline: 1px solid #000;
   box-shadow: 10px 10px 0px #000000;
 }
 
@@ -134,7 +132,7 @@ ul {
 }
 
 .button-arrow {
-  padding: 8px 20px 15px 20px;
+  padding: 6px 20px 14px 20px;
   border-radius: 200px;
 }
 
@@ -158,9 +156,67 @@ h3 {
 
 .map-marker {
   position: absolute;
+  z-index: 10;
   width: 19px;
+}
+
+.mark-genève {
+  transform: translate(-55px, -100px);
+}
+
+.mark-lausanne {
+  transform: translate(0px, -145px);
+}
+
+.mark-orbe {
+  transform: translate(-17px, -160px);
+}
+
+.mark-bex {
+  transform: translate(30px, -90px);
+}
+
+.mark-martigny {
+  transform: translate(50px, -70px);
 }
 
 .map {
   width: 206px;
+  position: relative;
+  left: 62%;
+  top: -50px;
+  transform: translate(10px, -205px);
+}
+
+.mascotte {
+  width: 138px;
+  margin-right: 25px;
+  margin-bottom: -30px;
+}
+
+.logo-semences {
+  width: 131px;
+  margin-top: 60px;
+}
+
+.flex-footer-container {
+  display: flex;
+}
+
+.flex-footer-container p {
+  font-size: 14px;
+  line-height: 17px;
+}
+
+footer { 
+  margin: 100px 13px 0px 13px;
+  padding-bottom: 40px;
+}
+
+.site-credit {
+  margin-top: 30px;
+}
+
+.site-credit span {
+  color: var(--credit-color);
 }
