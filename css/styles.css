@@ -5,19 +5,115 @@
 }
 
 @font-face {
-  font-family: "Bio-Sans-bold";
+  font-family: "bio-Sans-bold";
   src: url("../fonts/BioSans-Bold.woff") format("woff"),
   url("../fonts/BioSans-Bold.woff2") format("woff2")
 }
 
 @font-face {
-  font-family: "Somatic";
+  font-family: "somatic";
   src: url("../fonts/Somatic-Rounded.woff") format("woff"),
     url("../fonts/Somatic-Rounded.woff2") format("woff2");
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.Header-menu {
+  position: sticky;
+  top: 0;
 }
 
 body {
   max-width: 375px;
   margin: auto;
   background-color: #C4D696;
+}
+
+.arrow-up {
+  width: 50px;
+  display: flex;
+  position: fixed;
+  bottom: 20px;
+  right: 15px;
+}
+
+header{
+  background-image: url(../img/greenhouse.webp);
+  max-width: 375px;
+  padding-bottom: 484px;
+  background-size: 100%;
+  background-size: cover;
+}
+
+.button-about {
+  background-color: white;
+  border-radius: 12px;
+  padding: 6px 9px;
+  padding-left: 10px;
+  padding-right: 10px;
+  width: 120px;
+  text-decoration: none;
+  font-family: "somatic";
+  font-size: 15px;
+  text-align: center;
+  color: black;
+}
+
+.button-product {
+  background-color: white;
+  border-radius: 12px;
+  padding: 6px 9px;
+  width: 120px;
+  padding-left: 10px;
+  padding-right: 10px;
+  text-decoration: none;
+  font-family: "somatic";
+  font-size: 15px;
+  text-align: center;
+  color: black;
+}
+
+.button-location {
+  background-color: white;
+  border-radius: 12px;
+  padding: 6px 9px;
+  width: 120px;
+  padding-left: 10px;
+  padding-right: 10px;
+  text-decoration: none;
+  font-family: "somatic";
+  font-size: 15px;
+  text-align: center;
+  color: black;
+}
+
+.button-contact {
+  background-color: white;
+  border-radius: 12px;
+  padding: 6px 9px;
+  width: 120px;
+  padding-left: 10px;
+  padding-right: 10px;
+  text-decoration: none;
+  font-family: "somatic";
+  font-size: 15px;
+  text-align: center;
+  color: black;
+}
+
+.top-button {
+  display: flex;
+  flex-direction: row;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  justify-content: space-around;
+}
+
+.bottom-button {
+  padding-top: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
 }
