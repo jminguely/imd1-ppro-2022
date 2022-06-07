@@ -27,6 +27,8 @@ body {
   background-color: var(--background-color);
   box-shadow: 0 0 50px rgb(0 0 0 / 20%);
   color: var(--main-color);
+  text-align: center;
+  padding: 0 25px;
 }
 
 * {
@@ -40,12 +42,52 @@ body {
   --secondary-color: #28906F;
   --third-color: #FFF;
   --background-color: #FFF8F0;
-  --title-font: font-family: tomarik-display, sans-serif;;
-  --text-font: font-family: tablet-gothic, sans-serif;;
+  --title-font: font-family: "tomarik-display",sans-serif;
+  --text-font: font-family: font-family: "tablet-gothic",sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: var(--main-color);
+}
+
+.decoration {
+  position: absolute;
+}
+
+img {
+  max-width: 325px;
+}
+
+h1, h2 {
+  font-family: var(--title-font);
+}
+
+p {
+  font-size: 15px;
+  font-family: var(--text-font);
 }
 
 /* header ↓ */
 
+header h1 {
+  padding: 10px 0;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
+
+nav a {
+  line-height: 13px;
+  padding: 5px;
+}
+
+/* header .decoration img {
+  transform: translate(-2px);
+} */
 
 /* footer ↓ */
 
