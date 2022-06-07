@@ -126,10 +126,6 @@ main .decoration img{
 
   /* main products ↓ */
 
-.products {
-  padding: 40px 0;
-}
-
 .products img {
     max-width: 250px;
   }
@@ -144,6 +140,20 @@ main .decoration img{
   align-items: center;
 }
 
+.packaging-first {
+  position: relative;
+  top: 50px;
+}
+
+.packaging-secondary img {
+  z-index: 1;
+}
+
+.packaging-third img {
+  position: relative;
+  bottom: 40px;
+  z-index: 2;
+}
 
 
 /* footer ↓ */
