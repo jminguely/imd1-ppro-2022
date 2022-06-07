@@ -184,15 +184,15 @@ h1 {
 }
 
 .bleuets {
-  padding-bottom: 217px;
+  padding-bottom: 140px;
 }
 
 .potimarron {
-  padding-bottom: 217px;
+  padding-bottom: 140px;
 }
 
 .harricot {
-  padding-bottom: 217px;
+  padding-bottom: 140px;
 }
 
 footer {
@@ -203,4 +203,41 @@ footer {
 footer h1 {
   color: azure;
   font-size: 28px;
+}
+
+.shovel-container {
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+  max-width: 50px;
+  z-index: -1;
+}
+
+.location-info {
+font-family: "bio-sans-default";
+}
+
+.first-location {
+  color: #D64763;
+  font-family: "bio-sans-bold";
+}
+
+.second-location {
+  color: #556B49;
+  font-family: "bio-sans-bold";
+}
+
+.third-location {
+  color: #2A842F;
+  font-family: "bio-sans-bold";
+}
+
+.fourth-location {
+  color: #2E41CE;
+  font-family: "bio-sans-bold";
+}
+
+.fifth-location {
+  color: #DE9725;
+  font-family: "bio-sans-bold";
 }
