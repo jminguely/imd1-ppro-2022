@@ -62,9 +62,6 @@ img {
   max-width: 325px;
   -webkit-user-drag: none;
   user-select: none;
-  -moz-user-select: none;
-  -webkit-user-select: none;
-  -ms-user-select: none;
 }
 
 h1, h2 {
@@ -168,10 +165,13 @@ main .decoration img{
 
 footer {
   padding: 15px 0 ;
+  position: relative;
 }
 
 .contacts {
   padding: 25px;
+  position: relative;
+  z-index: 10;
 }
 
 .contacts h1 {
@@ -180,5 +180,9 @@ footer {
 
 footer a {
   text-decoration: underline;
+}
+
+footer .decoration img {
+  position: relative;
 }
 
