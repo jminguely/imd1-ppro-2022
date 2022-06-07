@@ -1,0 +1,14 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  width: 100%;
+  max-width: 375px;
+  display: block;
+  text-align: center;
+  margin: auto;
+  background-color: #babd7093;
+  background-image: url(../img/Background/background.webp);
+  scroll-behavior: smooth;
+}
