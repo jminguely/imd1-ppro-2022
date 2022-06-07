@@ -29,6 +29,10 @@ body {
   font-style: normal;
 }
 
+header {
+  padding: 30px;
+}
+
 .card {
   background-color: #ff1fb3;
   padding: 36px 20px;
