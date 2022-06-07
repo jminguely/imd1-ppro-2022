@@ -1,0 +1,41 @@
+@font-face { 
+  font-family: 'LotaGrotesque'; 
+  src:  url('../fonts/LotaGrotesque-Light.woff2') format('woff2'); 
+  font-weight: lighter; 
+  font-style: normal; 
+} 
+
+@font-face { 
+  font-family: 'LotaGrotesque'; 
+  src:  url('../fonts/LotaGrotesque-LightIt.woff2') format('woff2'); 
+  font-weight: lighter; 
+  font-style: italic; 
+} 
+
+@font-face { 
+  font-family: 'LotaGrotesque'; 
+  src:  url('../fonts/LotaGrotesque-SemiBold.woff2') format('woff2'); 
+  font-weight: 700; 
+  font-style: normal; 
+} 
+
+@font-face { 
+  font-family: 'SuisseIntl'; 
+  src:  url('../fonts/SuisseIntl-Thin.woff2') format('woff2'); 
+  font-weight: 100; 
+  font-style: normal; 
+}
+
+@font-face { 
+  font-family: 'SuisseIntl'; 
+  src:  url('../fonts/SuisseIntl-Book.woff2') format('woff2'); 
+  font-weight: 200; 
+  font-style: normal; 
+} 
+
+@font-face { 
+  font-family: 'SuisseIntl'; 
+  src:  url('../fonts/SuisseIntl-Medium.woff2') format('woff2'); 
+  font-weight: 300; 
+  font-style: normal; 
+} 
