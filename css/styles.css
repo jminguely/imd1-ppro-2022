@@ -179,9 +179,10 @@ h1 {
 
 .product img {
   display: flex;
-  max-width: 270px;
+  max-width: 300px;
   justify-content: center;
   margin: auto;
+  padding-top: 40px;
 }
 
 
@@ -189,7 +190,6 @@ h1 {
   padding-bottom: 140px;
   position: relative;
 }
-
 
 .potimarron {
   padding-bottom: 140px;
@@ -323,4 +323,17 @@ a {
 
 .shop-button {
   padding-top: 150px;
+}
+
+footer p {
+  text-align: center;
+  color: white;
+  font-family: "bio-sans-default";
+  padding-top: 40px;
+}
+
+.e-mail {
+  text-align: center;
+  color: #DC953E;
+  font-family: "bio-sans-default";
 }
