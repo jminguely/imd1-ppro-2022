@@ -13,8 +13,14 @@ img {
   margin: 5px 15px;
   width: 344px;
 }
-
+/* 
 .button-shop {
+  margin: 15px;
+
+} */
+
+.button-shop-container .button {
+  width: 79px;
   margin: 15px;
 }
 
@@ -53,7 +59,7 @@ h1 {
   font-weight: 600;
   font-style: normal;
   font-size: 21px;
-  margin: 15px;
+  margin: 15px 15px 0px 15px;
 }
 
 p {
@@ -61,7 +67,7 @@ p {
   font-weight: 400;
   font-style: normal;
   font-size: 12px;
-  margin: 15px;
+  margin: 5px 15px 15px 15px;
 }
 
 .button-semence-pays {
@@ -85,6 +91,7 @@ figcaption {
 
 .semence-card {
   background-color: #CFAC8A;
+  height: 474px;
 }
 
 .semence-card p {
@@ -92,7 +99,7 @@ figcaption {
 }
 
 .image-carte-posittion {
-  width: 322px;
+  width: 272px;
   margin-left: 27px;
 }
 
@@ -144,4 +151,25 @@ footer img {
 footer a {
   margin: 0px 72px;
   font-size: 18px;
+}
+
+/* .adresse-mamie span {
+  margin-right: 21px;
+} */
+
+.adresse-nouvelle-terre-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.adresse-nouvelle-terre-container a {
+  width: 152px;
+  padding: 18px 0px 24px 5px;
+  margin-left: 15px;
+}
+
+.contact-mail {
+  padding: 0px 16px 24px 5px;
+  margin: ;
 }
