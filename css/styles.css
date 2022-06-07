@@ -43,6 +43,14 @@ img {
   height: 21px;
 }
 
+.button:hover {
+  background-color: #D2D0D0;
+}
+
+a:hover {
+  color: #CFAC8A;
+}
+
 .header-button-container {
   display: flex;
   flex-direction: row;
@@ -67,7 +75,7 @@ p {
   font-weight: 400;
   font-style: normal;
   font-size: 12px;
-  margin: 5px 15px 15px 15px;
+  margin: 5px 15px 60px 15px;
 }
 
 .button-semence-pays {
@@ -91,11 +99,12 @@ figcaption {
 
 .semence-card {
   background-color: #CFAC8A;
-  height: 474px;
+  height: 490px;
 }
 
 .semence-card p {
   font-size: 18px;
+  margin: 5px 15px 5px 15px
 }
 
 .image-carte-posittion {
@@ -171,5 +180,11 @@ footer a {
 
 .contact-mail {
   padding: 0px 16px 24px 5px;
-  margin: ;
 }
+
+.semence-card h1 {
+  padding-top: 15px;
+}
+
+
+
