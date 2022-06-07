@@ -69,6 +69,7 @@ h1, h2 {
 p {
   font-size: 15px;
   font-family: var(--text-font);
+  line-height: 17px;
 }
 
 /* header ↓ */
@@ -90,7 +91,7 @@ nav a {
 }
 
 header .decoration img {
-  transform: translate(4px);
+  transform: translate(6px);
 }
 
 /* main ↓ */
@@ -119,12 +120,26 @@ header .decoration img {
 
 
 main .decoration img{
-  max-width: 200px;
-  align-items: center;
-  padding: 30px 63px;
+  max-width: 240px;
+  padding: 28px 43px;
 }
-
 
 /* footer ↓ */
 
+footer {
+  padding: 15px 0 ;
+}
+
+.contacts {
+  padding: 25px;
+}
+
+.contacts h1 {
+  padding: 0 0 5px;
+}
+
+footer img {
+  padding: 10px 15px;
+  max-width: 300px;
+}
 
