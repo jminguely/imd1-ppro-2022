@@ -17,8 +17,13 @@ font-style: normal; */
 
 /* font-family: 'General Sans', sans-serif; */
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   max-width: 375px;
+  margin: auto;
   font-family: roc-grotesk, sans-serif;
   font-weight: 400;
   font-style: normal;
@@ -43,9 +48,26 @@ nav {
   margin-bottom: 70px;
 }
 
+h2 {
+  font-size: 35px;
+}
+
 .card h2 {
   margin-top: 70px;
-  font-size: 35px;
   font-family: 'General Sans', sans-serif;
   margin-bottom: 0;
+}
+
+footer {
+  background-color: #233131;
+  color: #ff1fb3;
+  padding: 31px;
+}
+
+footer h2 {
+  font-family: 'General Sans', sans-serif;
+}
+
+footer img {
+  max-width: 90px;
 }
