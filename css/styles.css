@@ -160,7 +160,7 @@ h1 {
 }
 
 .product-section {
-  background-image: url(../img/SVG/Fichier\ 47.svg);
+  background-image: url(../img/product-bg.svg);
   background-repeat: no-repeat;
   padding-bottom: 180px;
   background-size: 240px;
@@ -290,16 +290,50 @@ a {
   display: flex;
   flex-direction: row;
   margin: auto;
-  max-width: 25px;
+  max-width: 35px;
   z-index: 1;
-  padding-bottom: 10px;
+  padding-bottom: 60px;
   position: relative;
 }
 
-.shop-button {
+.shop-button-blue {
   padding-top: 10px;
   padding-bottom: 10px;
-  background-color: #414141;
+  background-color: #2D326D;
+  max-width: 90px;
+  border-radius: 27px;
+  text-align: center;
+  margin: auto;
+}
+
+.title-product {
+  padding-top: 30px;
+}
+
+.title-product h1 {
+  color: white;
+  background-color: #dc953e;
+  border-radius: 12px;
+  padding-bottom: 12px;
+  padding-top: 10px;
+  margin-left: 10px;
+  margin-right: 12px;
+}
+
+.shop-button-orange {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: #7C3F33;
+  max-width: 90px;
+  border-radius: 27px;
+  text-align: center;
+  margin: auto;
+}
+
+.shop-button-red {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: #442727;
   max-width: 90px;
   border-radius: 27px;
   text-align: center;
