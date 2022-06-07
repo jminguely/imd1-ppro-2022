@@ -38,6 +38,7 @@ body {
 :root {
   --main-color: #064534;
   --secondary-color: #28906F;
+  --third-color: #FFF;
   --background-color: #FFF8F0;
   --title-font: font-family: tomarik-display, sans-serif;;
   --text-font: font-family: tablet-gothic, sans-serif;;
