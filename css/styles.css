@@ -98,6 +98,7 @@ header .decoration img {
 .about-us h1,
 .shops h1 {
   padding: 30px 0 20px;
+  font-size: 20px;
 }
 
 .button {
@@ -122,8 +123,6 @@ main .decoration img{
   align-items: center;
   padding: 30px 63px;
 }
-
-
 
 
 /* footer ↓ */
