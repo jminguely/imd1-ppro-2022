@@ -1,0 +1,23 @@
+@font-face {
+  font-family: "bio-sans-default" ;
+  src: url("../fonts/BioSans-Light.woff") format("woff"),
+    url("../fonts/BioSans-Light.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Bio-Sans-bold";
+  src: url("../fonts/BioSans-Bold.woff") format("woff"),
+  url("../fonts/BioSans-Bold.woff2") format("woff2")
+}
+
+@font-face {
+  font-family: "Somatic";
+  src: url("../fonts/Somatic-Rounded.woff") format("woff"),
+    url("../fonts/Somatic-Rounded.woff2") format("woff2");
+}
+
+body {
+  max-width: 375px;
+  margin: auto;
+  background-color: #C4D696;
+}
