@@ -39,7 +39,8 @@ header {
 }
 
 .card img {
-  max-width: 55px;
+  max-width: 150px;
+  margin: 0 60px;
 }
 
 a {
