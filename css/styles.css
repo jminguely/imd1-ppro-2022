@@ -1,5 +1,5 @@
 @font-face {
-  font-family: "bio-sans-default" ;
+  font-family: "bio-sans-default";
   src: url("../fonts/BioSans-Light.woff") format("woff"),
     url("../fonts/BioSans-Light.woff2") format("woff2");
 }
@@ -7,7 +7,7 @@
 @font-face {
   font-family: "bio-Sans-bold";
   src: url("../fonts/BioSans-Bold.woff") format("woff"),
-  url("../fonts/BioSans-Bold.woff2") format("woff2")
+    url("../fonts/BioSans-Bold.woff2") format("woff2");
 }
 
 @font-face {
@@ -20,14 +20,23 @@ html {
   scroll-behavior: smooth;
 }
 
-.Header-menu {
-  background-image: url(../img/menu-logo.svg);
+.title-container {
+  background-color: white;
+  padding-top: 7px;
+  padding-bottom: 7px;
+}
+
+.logo {
+  max-width: 120px;
+  display: flex;
+  flex-direction: row;
+  margin: auto;
 }
 
 body {
   max-width: 375px;
   margin: auto;
-  background-color: #C4D696;
+  background-color: #c4d696;
 }
 
 .arrow-up {
@@ -39,7 +48,7 @@ body {
   z-index: 2;
 }
 
-header{
+header {
   background-image: url(../img/greenhouse.webp);
   max-width: 375px;
   padding-bottom: 484px;
@@ -141,7 +150,7 @@ h1 {
 }
 
 .product h1 {
-  background-color: #DC953E;
+  background-color: #dc953e;
   border-radius: 12px;
   padding-bottom: 12px;
   padding-top: 10px;
@@ -150,9 +159,17 @@ h1 {
   color: white;
 }
 
+.product-section {
+  background-image: url(../img/SVG/Fichier\ 47.svg);
+  background-repeat: no-repeat;
+  padding-bottom: 180px;
+  background-size: 240px;
+  background-position: center;
+}
+
 .location h1 {
   color: white;
-  background-color: #DC953E;
+  background-color: #dc953e;
   border-radius: 12px;
   padding-bottom: 12px;
   padding-top: 10px;
@@ -177,28 +194,25 @@ h1 {
   margin: auto;
 }
 
-.product img {
+.product-section img {
   display: flex;
-  max-width: 300px;
-  justify-content: center;
+  max-width: 330px;
+  display: block;
   margin: auto;
-  padding-top: 40px;
-}
-
-
-.bleuets {
-  padding-bottom: 140px;
-  position: relative;
-}
-
-.potimarron {
-  padding-bottom: 140px;
-  position: relative;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 
 .harricot {
-  padding-bottom: 140px;
-    position: relative;
+  padding-bottom: 900px;
+}
+
+.potimarron {
+  padding-bottom: 900px;
+}
+
+.bleuet {
+  padding-top: 300px;
 }
 
 footer {
@@ -212,34 +226,34 @@ footer h1 {
 }
 
 .location-info {
-font-family: "bio-sans-default";
+  font-family: "bio-sans-default";
 }
 
 .first-location {
-  color: #D64763;
+  color: #d64763;
   font-family: "bio-sans-bold";
   text-align: left;
 }
 
 .second-location {
-  color: #556B49;
+  color: #556b49;
   font-family: "bio-sans-bold";
   text-align: right;
 }
 
 .third-location {
-  color: #2A842F;
+  color: #2a842f;
   font-family: "bio-sans-bold";
 }
 
 .fourth-location {
-  color: #2E41CE;
+  color: #2e41ce;
   font-family: "bio-sans-bold";
   text-align: right;
 }
 
 .fifth-location {
-  color: #DE9725;
+  color: #de9725;
   font-family: "bio-sans-bold";
 }
 
@@ -267,45 +281,6 @@ font-family: "bio-sans-default";
   max-width: 60px;
 }
 
-.shop-button-blue {
-  background-color: #2D326D;
-  border-radius: 50px;
-  padding: 20px 20px;
-  width: 130px;
-  text-decoration: none;
-  font-family: "somatic";
-  font-size: 12px;
-  text-align: center;
-  margin: auto;
-  font-size: 30px;
-}
-
-.shop-button-orange {
-  background-color: #7C3F33;
-  border-radius: 50px;
-  padding: 20px 20px;
-  width: 130px;
-  text-decoration: none;
-  font-family: "somatic";
-  font-size: 12px;
-  text-align: center;
-  margin: auto;
-  font-size: 30px;
-}
-
-.shop-button-red {
-  background-color: #442727;
-  border-radius: 50px;
-  padding: 20px 20px;
-  width: 130px;
-  text-decoration: none;
-  font-family: "somatic";
-  font-size: 12px;
-  text-align: center;
-  margin: auto;
-  font-size: 30px;
-}
-
 a {
   color: white;
   text-decoration: none;
@@ -322,7 +297,13 @@ a {
 }
 
 .shop-button {
-  padding-top: 150px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: #414141;
+  max-width: 90px;
+  border-radius: 27px;
+  text-align: center;
+  margin: auto;
 }
 
 footer p {
@@ -334,6 +315,6 @@ footer p {
 
 .e-mail {
   text-align: center;
-  color: #DC953E;
+  color: #dc953e;
   font-family: "bio-sans-default";
 }
