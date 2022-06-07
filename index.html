@@ -11,16 +11,22 @@
     <header>
       <img class="logo-semence" src="img/logo_semences_pays.svg" alt="logo de semences de pays">
       <div class="header-button-container">
-        <a class="header-button button-semence-pays" href="#semences-pays">Semences de pays</a>
-        <a class="header-button" href="#semence">Nos semences</a>
+        <a class="button button-semence-pays" href="#semences-pays">Semences de pays</a>
+        <a class="button" href="#semence">Nos semences</a>
       </div>
       <div class="header-button-container">
-        <a class="header-button" href="#vente">Points de vente</a>
-        <a class="header-button" href="#contact">Contact</a>
+        <a class="button" href="#vente">Points de vente</a>
+        <a class="button" href="#contact">Contact</a>
       </div>
     </header>
     <main>
-      <img src="img/photo_horticulteur.webp" alt="photo d'un horticuleur et de son sécateur">
+      <figure>
+        <img src="img/photo_horticulteur.webp" alt="photo d'un horticuleur et de son sécateur">
+        <figcaption>
+          Wallace, récolte de graines de cardon, Genève, août 2020 © Elisa 
+          Larvego
+        </figcaption>
+      </figure>
       <h1 id="semences-pays">Semences de pays</h1>
       <p>
         Semences de pays développe une production de semences reproductibles, 
@@ -30,15 +36,36 @@
       </p>
       <div class="semence-card">
         <h1 id="semence">Nos semences</h1>
-        <img src="" alt="">
+        <!-- <figure>
+          <img src="img/photo_sachet_bleuet.webp" alt="photo du sachet de graine de bleuet">
+          <figcaption>
+            Bleuet Blauer Junge – Centaurea cyanus
+          </figcaption>
+        </figure>
+        <figure>
+          <img src="img/photo_sachet_haricot.webp" alt="photo du sachets de graine d'haricot">
+          <figcaption>
+            Haricot à rames Borlotto – Phaseolus vulgaris
+          </figcaption>
+        </figure>
+        <figure>
+          <img src="img/photo_sachet_potimaron.webp" alt="photo du sachet de graine de potimaron">
+          <figcaption>
+            Potimarron français  – Cucurbita maxima
+          </figcaption>
+        </figure> -->
+        <img src="img/photo_trois_sachet.webp" alt="photo des trois sachet de graine">
         <p>
           Découvrez nos trésors de biodiversité sur le shop!
         </p>
-        <a class="button" href="https://shop.semencesdepays.ch">shop</a>
+        <div class="button-shop button-shop-container">
+          <a class="button" href="https://shop.semencesdepays.ch">shop</a>
+        </div>
       </div>
       <h1 id="vente">Points de vente </h1>
-      <img src="img/illustration_carte.webp" alt="illustration de la carte de la suisse romande">
+      <img class="image-carte-posittion" src="img/illustration_carte.webp" alt="illustration de la carte de la suisse romande">
       <!-- attention pour l'illustration de la carte il faut essayer avec un webp -->
+      <!-- attentionnom de la classe -->
       <div class="adresse-container">
         <a href="https://www.google.ch/maps/place/Chez+mamie+Gen%C3%A8ve/@46.2019802,6.1360803,17z/data=!3m1!4b1!4m5!3m4!1s0x478c653829cd987d:0x5186ae8274728048!8m2!3d46.2019765!4d6.138269?hl=fr" target="_blank">
           <span>Chez Mamie</span> Rue des Rois 17 1204 Genève
@@ -65,7 +92,9 @@
         <a href="https://www.google.ch/maps/place/Semences+de+Pays/@46.2053306,6.2051603,17z/data=!3m1!4b1!4m5!3m4!1s0x478c6f14387d454b:0x296e15d740b1f898!8m2!3d46.2053269!4d6.207349?hl=fr" target="_blank">
           Serres de Belle-Idée Chemin du Petit-Bel-Air 2 1225 Chêne-Bourg
         </a>
-        <a id="contact " href="mailto:info@semencesdepays.ch">info@semencesdepays.ch</a>
+        <a id="contact " href="mailto:info@semencesdepays.ch">
+          info@semencesdepays.ch
+        </a>
       </div>
     </footer>
   </body>

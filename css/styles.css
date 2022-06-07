@@ -6,7 +6,7 @@ body {
 }
 
 img {
- width: 380px;
+ width: 375px;
 }
 
 .logo-semence {
@@ -14,7 +14,18 @@ img {
   width: 344px;
 }
 
-.header-button {
+.button-shop {
+  margin: 15px;
+}
+
+.button-shop-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+
+}
+
+.button {
   font-family: 'Avenir';
   font-weight: 800;
   font-style: normal;
@@ -53,8 +64,36 @@ p {
   margin: 15px;
 }
 
+.button-semence-pays {
+  padding: 5px 15px 5px 5px;
+  height: 53px;
+  width: 148px;
+}
+
+figure {
+  margin: 0px;
+}
+
+figcaption {
+  font-family: 'Avenir';
+  font-weight: 400;
+  font-style: normal;
+  font-size: 10px;
+  margin: 0px 15px;
+
+}
+
 .semence-card {
   background-color: #CFAC8A;
+}
+
+.semence-card p {
+  font-size: 18px;
+}
+
+.image-carte-posittion {
+  width: 322px;
+  margin-left: 27px;
 }
 
 span {
@@ -62,12 +101,6 @@ span {
   font-weight: 600;
   font-style: normal;
   font-size: 18px;
-}
-
-.button-semence-pays {
-  padding: 5px 15px 5px 5px;
-  height: 53px;
-  width: 148px;
 }
 
 a {
@@ -98,7 +131,7 @@ footer {
 
 footer img {
   width: 219px;
-  margin: 10px 0px 0px 16px;
+  margin: 10px 0px 0px -1px;
 }
 
 .footer-container {
@@ -109,6 +142,6 @@ footer img {
 }
 
 footer a {
-  margin: 0px 69px;
+  margin: 0px 72px;
   font-size: 18px;
 }
