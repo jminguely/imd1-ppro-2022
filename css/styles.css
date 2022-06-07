@@ -96,11 +96,16 @@ h1 {
 }
 .product-slider {
     height: auto;
-    border: solid black 1px;
     overflow-y: hidden;
     overflow-x: scroll;
     display: flex;
     scroll-snap-type: x mandatory ;
+    overflow-y: scroll;
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none;  /* IE 10+ */
+}
+.product-slider::-webkit-scrollbar { /* WebKit */
+  width: 0px;
 }
 .button-shop {
     background-color: chocolate;
