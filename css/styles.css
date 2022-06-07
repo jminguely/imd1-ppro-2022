@@ -1,0 +1,59 @@
+
+@font-face {
+  font-family: 'HappyCamper';
+
+  src:  url('../fonts/HappyCamper-Regular.woff2') format('woff2'),
+        url('../fonts/HappyCamper-Regular.woff') format('woff');
+  font-style: bold;
+  font-display: swap;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  max-width: 375px;
+  box-shadow: 0 0 20px rgb(0 0 0 / 30%);
+  text-align: left;
+  margin: auto;
+}
+
+ul {
+  list-style: none;
+}
+
+/* Header */
+
+header {
+  width: 375px;
+  top: 0;
+}
+
+h1 {
+  font-family: HappyCamper;
+}
+
+span {
+  color: white;
+  background-color: black;
+  font-size: 30px;
+  padding: 0px;
+  font-family: HappyCamper;
+}
+
+main {
+}
+
+.product-card {
+  background-color: black;
+  color: white;
+  padding: 0px;
+}
+/* Footer */
+
+footer {
+  background-color: black;
+  color: white;
+}
+
