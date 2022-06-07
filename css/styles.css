@@ -39,7 +39,8 @@ ul {
     color: white;
   }
   img {
-      margin: 10px 10%;
+      margin: 10px 0%;
+      width: 100%;
   }
 
 p {
@@ -56,7 +57,7 @@ p {
 .txt  {
     white-space: nowrap;
     font-size: 60px; 
-    animation: scrollTxt 3s linear infinite;
+    animation: scrollTxt 10s linear infinite;
 }
 @keyframes scrollTxt {
     0% {
@@ -74,7 +75,16 @@ p {
     transform: translateY(-40%);
    
 }
- .adresse {
+ a {
     text-decoration: none;
     color: black;
+    text-align:left ;
+}
+footer {
+    border: 1px solid black;
+    margin: 0 0px 35px 0;
+    padding: 5px 5px;
+}
+.logo_about {
+    width: 50%;
 }
