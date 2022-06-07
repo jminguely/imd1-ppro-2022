@@ -3,12 +3,26 @@ html {
 }
 
 body {
-  width: 100%;
   max-width: 375px;
   display: block;
   text-align: center;
   margin: auto;
   background-color: #babd7093;
   background-image: url(../img/Background/background.webp);
-  scroll-behavior: smooth;
+}
+
+.top-infos {
+  display: flex;
+  background-color: hsla(0, 0%, 100%, 0.7);
+  box-shadow: 0px 10px 15px -18px rgba(0,0,0,0.1);
+  justify-content: space-between;
+}
+
+.logo {
+  max-width: 130px;
+  padding: 10px;
+}
+
+header .go-buy {
+  max-width: 70px; 
 }
