@@ -17,12 +17,35 @@ font-style: normal; */
 
 /* font-family: 'General Sans', sans-serif; */
 
-h1 {
-  font-family: 'General Sans', sans-serif;
-}
-
-p {
+body {
+  max-width: 375px;
   font-family: roc-grotesk, sans-serif;
   font-weight: 400;
   font-style: normal;
+}
+
+.card {
+  background-color: #ff1fb3;
+  padding: 36px 20px;
+}
+
+.card img {
+  max-width: 55px;
+}
+
+a {
+  font-size: 18px;
+  color: black;
+  font-family: 'General Sans', sans-serif;
+}
+
+nav {
+  margin-bottom: 70px;
+}
+
+.card h2 {
+  margin-top: 70px;
+  font-size: 35px;
+  font-family: 'General Sans', sans-serif;
+  margin-bottom: 0;
 }
