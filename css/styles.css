@@ -124,6 +124,28 @@ main .decoration img{
   padding: 28px 43px;
 }
 
+  /* main products ↓ */
+
+.products {
+  padding: 40px 0;
+}
+
+.products img {
+    max-width: 250px;
+  }
+
+.products .illustration {
+  max-width: 85px;
+}
+
+.packaging {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+
+
 /* footer ↓ */
 
 footer {
