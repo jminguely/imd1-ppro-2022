@@ -21,7 +21,7 @@ html {
 body {
   max-width: 375px;
   box-shadow: 0 0 20px rgb(0 0 0 / 30%);
-  text-align: left;
+
   word-break: initial;
   margin: auto;
   font-family: manrope;
@@ -30,6 +30,7 @@ body {
 ul {
   list-style: none;
   padding: 0px;
+  margin: 0px;
 }
 
 .category {
@@ -40,8 +41,10 @@ ul {
 .header-intro {
   background-image: url(../img/people_wrinting_pumpkin_header.webp);
   background-repeat: no-repeat;
-  background-size: 375px;
   height: 650px;
+  width: auto;
+  padding-top: 0px;
+  background-size: contain;
 }
 
 header {
@@ -65,24 +68,40 @@ span {
   color: white;
   background-color: black;
   font-size: 30px;
-  padding: 0px;
+  padding: 20px;
+  display: flex;
+  align-content: stretch;
   font-family: HappyCamper;
+  text-align: center;
 }
 
 main {
   margin-top: 0px;
 }
 
+.text-card-packaging {
+  padding: 20px;
+}
+
 .product-card {
   background-color: black;
   color: white;
   padding: 0px;
-  padding: 20px;
+}
+
+.text-card-packaging a {
+  font-family: HappyCamper;
+  font-size: 25px;
+  color: black;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #fff;
 }
 /* Footer */
 
 footer {
   background-color: black;
   color: white;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
