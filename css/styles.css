@@ -53,10 +53,6 @@ a {
   z-index: 10;
 }
 
-.decoration {
-  position: absolute;
-}
-
 img {
   max-width: 325px;
   -webkit-user-drag: none;
@@ -88,15 +84,13 @@ nav {
   align-items: center;
   padding: 10px;
   justify-content: space-around;
+  background-image: url(../img/grille-nav-vert.webp);
+  background-size: cover;
 }
 
 nav a {
   line-height: 13px;
-  padding: 5px 2px 5px 13px;
-}
-
-header .decoration img {
-  transform: translate(6px);
+  padding: 9px 8px 11px 12px;
 }
 
 /* main ↓ */
@@ -123,9 +117,10 @@ header .decoration img {
 
 /* main about-us ↓ */
 
-main .decoration img {
-  max-width: 240px;
-  padding: 28px 43px;
+.title-decoration {
+  background-image: url(../img/ornement-titre.webp);
+  background-size: cover;
+  background-position: center;
 }
 
 /* main products ↓ */
@@ -164,6 +159,9 @@ main .decoration img {
 footer {
   padding: 15px 0;
   position: relative;
+  background-image: url(../img/ornement-footer.webp);
+  background-size: cover;
+  background-position: center;
 }
 
 .contacts {
@@ -178,8 +176,4 @@ footer {
 
 footer a {
   text-decoration: underline;
-}
-
-footer .decoration img {
-  position: relative;
 }
