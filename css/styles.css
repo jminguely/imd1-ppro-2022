@@ -22,6 +22,7 @@ header {
   padding: 20px 35px;
   position: sticky;
   top: 0;
+  z-index: 100;
 }
 
 header .logo {
@@ -77,18 +78,24 @@ h1 {
 .presentation-potimarron {
   margin-bottom: 100px;
   background-image: url(../img/potimarron.svg);
+  background-repeat: no-repeat;
+  background-position: center;
   padding: 65px 55px;
 }
 
 .presentation-haricot {
   margin-bottom: 100px;
   background-image: url(../img/haricot.svg);
+  background-repeat: no-repeat;
+  background-position: center;
   padding: 65px 55px;
 }
 
 .presentation-bleuet {
   margin-bottom: 50px;
   background-image: url(../img/bleuet.svg);
+  background-repeat: no-repeat;
+  background-position: center;
   padding: 65px 55px;
 }
 
@@ -113,7 +120,8 @@ h1 {
 }
 
 .presentation-produit img {
-  max-width: 165px;
+  max-width: 205px;
+  transform: translateX(-5px);
 }
 
 .carte {
@@ -125,7 +133,43 @@ h1 {
   background-color: #FEFEF8;
   border-top-left-radius: 50%;
   border-top-right-radius: 50%;
-  height: 275px;
+  height: 255px;
   max-width: 200px;
+  margin: auto;
+}
+
+.presentation-produit h2 {
+  font-family: "acumin-pro", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.presentation-produit h3 {
+  font-family: "acumin-pro", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+  padding-bottom: 20px;
+}
+
+.presentation-produit p {
+  font-family: "acumin-pro", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  padding-bottom: 50px;
+}
+
+footer {
+  background-color: #D7AB73;
+  padding: 20px 35px;
+}
+
+footer img {
+  max-width: 130px;
+}
+
+footer p {
+  font-family: "acumin-pro", sans-serif;
+  font-weight: 300;
+  font-style: normal;
 }
 
