@@ -1,0 +1,98 @@
+/*
+font-family: quicksand,sans-serif;
+font-weight: 300;
+font-style: normal;
+
+font-family: quicksand,sans-serif;
+font-weight: 400;
+font-style: normal;
+
+font-family: quincy-cf,serif;
+font-weight: 400;
+font-style: normal;
+
+font-family: quincy-cf,serif;
+font-weight: 500;
+font-style: normal;
+*/
+
+:root {
+  --title-font: 'quincy-cf', serif;
+  --text-font: 'quicksand', sans-serif;
+  --text-color: #666666;
+  --text-important-color: #fff;
+  --background-color: #CFD7AE;
+  --logo-color: #333333; 
+  --padding: 0 30px;
+}
+
+html,body {
+  max-width: 375px;
+  margin: auto;
+  box-sizing: border-box;
+  background-color: var(--background-color);
+}
+
+.nav-container {
+  background-image: url(../img/herbe.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  justify-content: space-between;
+}
+
+h4 {
+  color: var(--logo-color);
+  font-size: 20px;
+  font-family: var(--title-font);
+}
+
+.nav-element {
+  width: 33px;
+  display: flex;
+  flex-direction: row;
+  margin: 15px;
+}
+
+h1 {
+  color: var(--text-important-color);
+  font-size: 30px;
+  font-family: var(--title-font);
+  font-weight: 400;
+  font-style: normal;
+  padding: var(--padding);
+  padding-right: 150px; 
+}
+
+h2 {
+  color: var(--text-color);
+  font-size: 25px;
+  font-family: var(--text-font);
+  font-weight: 300;
+  font-style: normal;
+  padding: var(--padding); 
+  padding-right: 220px; 
+  line-height: 30px;
+}
+
+.button {
+  color: var(--text-important-color);
+  font-family: var(--title-font);
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
+  border: solid 2px #fff;
+  text-decoration: none;
+  padding: 8px;
+}
+
+p {
+  color: var(--text-color);
+  font-family: var(--text-font);
+  font-size: 15px;
+  font-weight: 300;
+  font-style: normal;
+  line-height: 20px;
+}
