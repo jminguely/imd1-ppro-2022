@@ -5,6 +5,7 @@ body{
   font-family: "gill-sans-nova", sans-serif;
   font-weight: 400;
   font-style: normal;
+  position: relative;
 }
 nav {
   margin: 5px;
@@ -30,39 +31,53 @@ h1{
   padding-top: 0px;
   writing-mode: vertical-rl;
   text-orientation: sideways; 
-  transform: translate(120px,-90px);
+  position: absolute;
 }
 h2{
   color: #702a2c;
+  position: absolute;
+  bottom: 30px;
 }
 .sdp{
   color: #702a2c;
-  transform: translate(265px,-10px);
+  position: absolute;
   font-size: 50px;
+  text-align: right;
+  left: 0px;
+  right: 0px;
+  top: 7px;
 }
 .small{
   width: 200px;
   height: auto;
   margin-top: 100px;
 }
+.small-middle{
+  width: 200px;
+  height: auto;
+}
 .logo{
   margin: 15px;
 }
 p{
   width: 280px;
-  transform: translate(20px, -530px);
+  position: absolute;
+  right: 70px;
 }
 .horizontal{
-  transform: translate();
   padding-left: 20px;
 }
 .trans{
   width: 150px;
   height: auto;
-  transform: translate(0px,-200px);
 }
 .packaging{
   width: 150px;
   height: auto;
-  transform: translate(-20px,-50px);
+}
+.acheter{
+  font-weight: 800;
+}
+div{
+  position: relative;
 }
