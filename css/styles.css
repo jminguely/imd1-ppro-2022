@@ -24,20 +24,24 @@ a{
   display: block;
 }
 h1{
-  color: #702a2c;
   font-family: "termina", sans-serif;
   font-weight: 800;
   font-style: normal;
   padding-top: 0px;
-}
-.sdp{
   writing-mode: vertical-rl;
   text-orientation: sideways; 
-  transform: translate(265px,-180px);
+  transform: translate(120px,-90px);
+}
+h2{
+  color: #702a2c;
+}
+.sdp{
+  color: #702a2c;
+  transform: translate(265px,-10px);
   font-size: 50px;
 }
 .small{
-  width: 170px;
+  width: 200px;
   height: auto;
   margin-top: 100px;
 }
@@ -51,4 +55,14 @@ p{
 .horizontal{
   transform: translate();
   padding-left: 20px;
+}
+.trans{
+  width: 150px;
+  height: auto;
+  transform: translate(0px,-200px);
+}
+.packaging{
+  width: 150px;
+  height: auto;
+  transform: translate(-20px,-50px);
 }
