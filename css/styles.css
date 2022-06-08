@@ -130,14 +130,46 @@ h2 {
 .product-card img {
   margin: 20px 0;
   width: 100%;
-  box-shadow: 3px 3px 10px #11160e40;
+  filter: drop-shadow(3px 3px 10px #11160e40);
 }
 
 .product-card p {
-
+  margin-bottom: 20px;
 }
 
-.product-card a img {
+.spec-buy {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: left;
+  font-weight: 100;
+  font-size: 12px;
+}
+
+.spec-buy p {
+  margin-bottom: 0;
+}
+
+.spec-buy a {
+  background-color: var(--color-secondary);
+  padding: 6px 20px;
+  border-radius: 20px;
+}
+
+.spec-buy a img {
   width: auto;
   box-shadow: none;
+  margin: 0;
+}
+
+.pumkin {
+  background-color: var(--color-pack-1);
+}
+
+.flower {
+  background-color: var(--color-pack-2);
+}
+
+.bean {
+  background-color: var(--color-pack-3);
 }
