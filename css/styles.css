@@ -24,6 +24,7 @@ font-style: normal;
   --background-color: #CFD7AE;
   --logo-color: #333333; 
   --padding: 0 30px;
+  --footer-background-color: #C2A089;
 }
 
 html,body {
@@ -160,3 +161,34 @@ main {
 .man {
   margin-top: 120px;
 }
+
+.end-title {
+  padding: 0 130px 0 30px; 
+  line-height: 40px;
+}
+
+.end-text {
+  text-align: right;
+  padding: 30px 30px 0 200px; 
+}
+
+.map {
+  margin: 60px 32px 80px;
+}
+
+.end-container {
+  position: relative;
+}
+
+.end-container .small-element {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.end-container .big-element {
+  position: absolute;
+  top: 250px;
+  left: 0;
+}
+
