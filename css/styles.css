@@ -64,6 +64,7 @@ h1 {
   font-style: normal;
   padding: var(--padding);
   padding-right: 150px; 
+  margin: 35px 0 15px;
 }
 
 h2 {
@@ -120,3 +121,42 @@ p {
   margin-right: 50px;
 }
 
+.article {
+  margin: 0 45px;
+}
+
+h3 {
+  color: var(--text-important-color);
+  font-size: 30px;
+  font-family: var(--title-font);
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
+  margin: 30px 0 0 0;
+}
+
+.infos {
+  margin: 0;
+}
+
+.text-infos {
+  margin: 15px 0 40px;
+}
+
+main {
+  position: relative;
+}
+
+.buy {
+  position: absolute;
+  left: 50%;
+  transform: translate(-47px, 0px);
+}
+
+.pumpkin, .bean {
+  margin-top: 50px;
+}
+
+.man {
+  margin-top: 120px;
+}
