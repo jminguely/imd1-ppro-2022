@@ -50,6 +50,10 @@ body{
   background-color: #ffffff;
   color: #111111;
   text-align: left;
+  font-family: 'LotaGrotesque'; 
+  font-weight: lighter; 
+  font-style: normal;
+  font-size: 14px;
 }
 
 header{
@@ -64,11 +68,27 @@ nav{
   justify-content: center;
 }
 
+div{
+  margin: 20px 0;
+  border-top: solid #111111 0.5px;
+  border-bottom: solid #111111 0.5px;
+}
+
 h1{
   font-family: 'SuisseIntl'; 
   font-weight: 200; 
   font-style: normal; 
   font-size: 36px;
+}
+
+h2{
+  font-family: 'SuisseIntl';
+  font-weight: 300; 
+  font-style: normal;
+  font-size: 20px;
+  margin: 0 0 20px;
+  padding: 10px 0 10px 10px;
+  border-bottom: solid #111111 0.5px;
 }
 
 a{
@@ -99,7 +119,8 @@ header h1 img{
 
 .brand-introduction{
   position: relative;
-  margin-bottom: 110px;
+  margin: 0 0 110px;
+  border: none;
 }
 
 .brand-visual-introduction{
@@ -107,4 +128,24 @@ header h1 img{
   right: 0;
   top: -50px;
   z-index: -1;
+  border: none;
+}
+
+.brand-information{
+  position: relative;
+  padding: 0 0 20px;
+}
+
+.brand-information img{
+  max-width: 220px;
+  position: absolute;
+  right: 0;
+  top: 60px;
+  z-index: -1;
+}
+
+.brand-information p{
+  max-width: 190px;
+  position: relative;
+  left: 20px;
 }
