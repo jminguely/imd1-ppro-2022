@@ -166,6 +166,10 @@ h2 {
     font-size: 40px;
 }
 
+h3 {
+    margin: 0;
+}
+
 .revendeur {
     font-size: 15px;
 }
@@ -186,12 +190,12 @@ footer {
     display: flex;
     align-items: flex-end;
     justify-content: space-between;
-    padding: 30px 20px;
+    padding: 45px 20px;
     font-size: 15px;
     color: black;
     line-height: 3.0;
 }
 
 .contact {
-    margin-bottom: 0;
+    margin: 0;
 }
