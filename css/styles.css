@@ -116,3 +116,18 @@ div{
   width: 270px;
   height: auto;
 }
+.carte{
+  position: absolute;
+  right: 80px;
+  bottom: 100px;
+  width: 200px;
+  height: auto;
+}
+.lieu{
+  position: absolute;
+  left: 30px;
+  top: 150px;
+}
+.pdv{
+  padding-top: 70px;
+}
