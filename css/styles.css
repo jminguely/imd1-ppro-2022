@@ -21,20 +21,12 @@ html {
 body {
   max-width: 375px;
   box-shadow: 0 0 20px rgb(0 0 0 / 30%);
-
   word-break: initial;
   margin: auto;
-  font-family: manrope;
+  font-family: manrope, sans-serif;
+  font-weight: lighter;
 }
 
-ul {
-  list-style: none;
-  padding: 0px;
-  margin: 0px;
-}
-
-.category {
-}
 
 /* Header */
 
@@ -53,15 +45,10 @@ header {
   background-color: black;
 }
 
-.text-card {
-  background-color: white;
-  margin: 35px;
-  padding: 8px 0 25px;
-  color: black;
-}
 
 h1 {
   font-family: HappyCamper;
+  margin: 0px;
 }
 
 span {
@@ -73,14 +60,34 @@ span {
   align-content: stretch;
   font-family: HappyCamper;
   text-align: center;
+  border-top: solid;
+  border-color: white;
+  text-align: center;
 }
+
+/* Main */
 
 main {
   margin-top: 0px;
 }
 
+ul {
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+}
+
+h2 { 
+  font-family: HappyCamper;
+  padding-left: 18px;
+  font-size: 18px;
+  margin: 20px;
+}
+
+/* card */
+
 .text-card-packaging {
-  padding: 20px;
+  padding: 40px;
 }
 
 .product-card {
@@ -95,13 +102,51 @@ main {
   color: black;
   -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: #fff;
+
 }
+
+.text-card {
+  background-color: white;
+  margin: 35px;
+  padding: 8px 0 25px;
+  color: black;
+}
+
+.text-card-packaging p {
+ border-top: solid;
+ border-color: white;
+ border-width: thin;
+ margin-top: 50px;
+ padding-top: 10px;
+}
+
+em {
+  font-weight: bolder;
+  font-style: normal;
+}
+
+.card-text {
+  margin: 0 40px 50px ;
+}
+
+.card-text li {
+  margin: 20px 0 20px ;
+  word-break: normal;
+
+}
+
 /* Footer */
 
 footer {
   background-color: black;
   color: white;
-  padding-top: 60px;
+
   padding-bottom: 60px;
 }
 
+.logo {
+  height: 35px;
+  margin-bottom: 15px;
+  width: auto;
+  padding: 10px;
+}
