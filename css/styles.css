@@ -48,7 +48,6 @@ body {
     margin: auto;
     max-width: 375px;
     padding: 0;
-    box-shadow: 0 0 20px rgb(0 0 0 / 30%);
     font-family: itc-avant-garde-gothic-pro, sans-serif;
     font-weight: 300;
     font-style: normal;
@@ -67,27 +66,26 @@ a {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    margin: 0 20px;
+    margin: 30px 20px;
+    border: 2px solid black;
 }
 
 .container-logo {
-    display: flex;
     justify-content: space-around;
+    border-bottom: 2px solid black;
+    width: 100%;
 }
 
 .logo-header {
-    margin-top: 20px;
     height: 30px;
-    width: 100%;
-    padding: 10px 100%;
-    border: 2px solid black;
+    padding: 10px 0;
     background-color: white;
+    width: 100%;
 }
 
 .container-nav {
     display: flex;
     justify-content: space-between;
-    border: 2px solid black;
     border-top: none;
     background-color: white;
     box-sizing: border-box;
