@@ -173,3 +173,28 @@ h2 {
 .bean {
   background-color: var(--color-pack-3);
 }
+
+.pop-up {
+  font-family: var(--font-text);
+  font-weight: 600;
+  font-style: italic;
+  text-align: center;
+}
+
+.button-shop {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 35px;
+  color: var(--color-main);
+  font-family: var(--font-title);
+  font-style: italic;
+  background-color: var(--color-secondary);
+  text-decoration: none;
+  letter-spacing: 3px;
+  border-radius: 20px;
+  padding: 5px 30px;
+  width: 230px;
+  margin: 30px auto;
+  box-shadow: 3px 3px 10px #11160e40;
+}
