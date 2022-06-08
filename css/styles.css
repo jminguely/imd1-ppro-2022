@@ -9,6 +9,9 @@
         url('../fonts/Recoleta-RegularDEMO.woff') format('woff'); 
 } 
 
+html {
+  scroll-behavior: smooth;
+}
 
 body {
   background-color: #FEFEF8;
@@ -25,6 +28,12 @@ header {
   position: sticky;
   top: 0;
   z-index: 100;
+}
+
+.introduction p {
+  font-family: acumin-pro, sans-serif;
+  font-weight: 300;
+  font-style: normal;
 }
 
 header .logo {
@@ -57,11 +66,11 @@ nav a {
   padding: 65px 35px;
   background-image: url(../img/photo-introduction.svg);
   background-repeat: no-repeat;
-  margin-bottom: 80px;
+  margin-bottom: 60px;
 }
 
 .introduction h1 {
-  padding-bottom: 35px;
+  transform: translateY(-30px);
 }
 
 .presentation-produit {
@@ -167,6 +176,8 @@ footer {
 
 footer img {
   max-width: 130px;
+  margin-bottom: 30px;
+  margin-top: 10px;
 }
 
 footer p {
@@ -225,4 +236,16 @@ footer p {
 
 .carte {
   margin-bottom: 60px;
+}
+
+.footer-nom {
+  margin-bottom: 20px;
+}
+
+.adresse {
+  margin-bottom: 20px;
+}
+
+.email {
+  transform: translateX(125px);
 }
