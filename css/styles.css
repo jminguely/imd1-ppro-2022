@@ -1,0 +1,41 @@
+body {
+  width: 380px;
+  margin: auto;
+  background-color: #CCBAA2;
+}
+
+h1 {
+  font-size: 24px;
+  font-family: 'canto';
+}
+
+p {
+  font-size: 16px;
+  font-family: 'cochin';
+}
+
+img {
+  width: 380px;
+}
+
+/* header */
+
+nav a {
+  color: #000000;
+}
+
+a:hover {
+  color: #FFFFFF;
+}
+
+.site-header nav {
+  margin: 20px;
+  text-align: right;
+}
+
+.title-container img {
+  width: 190px;
+  margin-top: 10px;
+  margin-bottom: 40px;
+  margin-left: 19px;
+}
