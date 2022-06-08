@@ -28,6 +28,7 @@ h1{
   font-family: "termina", sans-serif;
   font-weight: 800;
   font-style: normal;
+  padding-top: 0px;
 }
 .sdp{
   writing-mode: vertical-rl;
@@ -36,7 +37,7 @@ h1{
   font-size: 50px;
 }
 .small{
-  width: 156px;
+  width: 170px;
   height: auto;
   margin-top: 100px;
 }
@@ -46,4 +47,8 @@ h1{
 p{
   width: 280px;
   transform: translate(20px, -530px);
+}
+.horizontal{
+  transform: translate();
+  padding-left: 20px;
 }
