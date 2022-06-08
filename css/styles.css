@@ -24,7 +24,7 @@ font-style: normal;
   --background-color: #CFD7AE;
   --logo-color: #333333; 
   --padding: 0 30px;
-  --footer-background-color: #C2A089;
+  --footer-background-color: #c2a08980;
 }
 
 html,body {
@@ -35,7 +35,7 @@ html,body {
 }
 
 .nav-container {
-  background-image: url(../img/herbe.jpg);
+  background-image: url(../img/herbe.webp);
   background-repeat: no-repeat;
   background-size: cover;
   display: flex;
@@ -113,6 +113,11 @@ p {
   position: absolute;
   top: 20px;
   right: 0px;
+  width: 190px;
+}
+
+.header-container .small-element{
+  width: 145px;
 }
 
 .header-container .element {
@@ -123,7 +128,8 @@ p {
 }
 
 .article {
-  margin: 0 45px;
+  margin: 0 35px;
+  width: 300px;
 }
 
 h3 {
@@ -133,7 +139,8 @@ h3 {
   font-weight: 400;
   font-style: normal;
   text-align: center;
-  margin: 30px 0 0 0;
+  padding: 30px 0 0 0;
+  margin: 0;
 }
 
 .infos {
@@ -164,7 +171,8 @@ main {
 
 .end-title {
   padding: 0 130px 0 30px; 
-  line-height: 40px;
+  line-height: 27px;
+  font-size: 23px;
 }
 
 .end-text {
@@ -173,7 +181,8 @@ main {
 }
 
 .map {
-  margin: 60px 32px 80px;
+  margin: 60px 15px 80px;
+  width: 340px;
 }
 
 .end-container {
@@ -184,11 +193,20 @@ main {
   position: absolute;
   top: 0;
   right: 0;
+  width: 115px;
 }
 
 .end-container .big-element {
   position: absolute;
   top: 250px;
   left: 0;
+  width: 180px;
 }
 
+footer {
+  background-color: var(--footer-background-color);
+}
+
+img {
+  width: 375px;
+}
