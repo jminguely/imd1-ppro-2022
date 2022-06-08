@@ -43,9 +43,9 @@ h2{
   position: absolute;
   font-size: 50px;
   text-align: right;
-  left: 0px;
   right: 0px;
   top: 7px;
+  margin-right: 0px;
 }
 .small{
   width: 200px;
@@ -62,7 +62,7 @@ h2{
 p{
   width: 280px;
   position: absolute;
-  right: 70px;
+  padding: 10px;
 }
 .horizontal{
   padding-left: 20px;
@@ -80,4 +80,5 @@ p{
 }
 div{
   position: relative;
+  height: 700px;
 }
