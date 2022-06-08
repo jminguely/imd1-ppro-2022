@@ -12,6 +12,8 @@
 
 body {
   background-color: #FEFEF8;
+  max-width: 375px;
+  margin: auto;
 }
 
 header {
@@ -104,7 +106,7 @@ h1 {
 }
 
 .titre-semences {
-  margin-bottom: 40px;
+  margin-bottom: 20px;
 }
 
 .presentation-produit h2 {
@@ -173,3 +175,54 @@ footer p {
   font-style: normal;
 }
 
+.bouton-shop a {
+  color: #FEFEF8;
+  text-decoration: none;
+  font-family: "acumin-pro", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  background-color: #232823;
+}
+
+.bouton-shop {
+  margin: 0px 55px;
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.filler-photo {
+  padding-bottom: 60px;
+}
+
+.vente-titre {
+  padding-bottom: 40px;
+}
+
+.display-carte {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-bottom: 50px;
+}
+
+.text-carte-titre h2 {
+  font-family: Recoleta;
+}
+
+.text-carte-titre p {
+  font-family: "acumin-pro", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.text-carte-titre-vert {
+  padding-right: 15px;
+}
+
+.text-carte-titre-noir {
+  padding-right: 21px;
+}
+
+.carte {
+  margin-bottom: 60px;
+}
