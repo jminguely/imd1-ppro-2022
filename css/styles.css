@@ -1,141 +1,147 @@
 @font-face {
-    font-family: 'Argue-DEMO';
-    src: url('../fonts/Argue-DEMO.woff') format('woff'),;
+  font-family: "Argue-DEMO";
+  src: url("../fonts/Argue-DEMO.woff") format("woff");
 }
 @font-face {
-    font-family: 'NewYork';
-    src: url('../fonts/NewYork.woff') format('woff');
+  font-family: "NewYork";
+  src: url("../fonts/NewYork.woff") format("woff");
 }
 :root {
---green: #999966b6 ;
---beige:beige;
---Title:'NewYork';
---text:'Argue-DEMO';
+  --green: #999966b6;
+  --beige: beige;
+  --Title: "NewYork";
+  --text: "Argue-DEMO";
 }
 body {
-background-color: var(--green);
-margin: auto;
-max-width: 375px;
+  background-color: var(--green);
+  margin: auto;
+  max-width: 375px;
 }
 ul {
-    list-style-type: none;
-    margin: 10;
-    padding: 0px;
-    width: 380px;
-    background-color: var(--beige);
-  }
-  li a {
-    display: block;
-    color: #000;
-    padding: 8px 16px;
-    text-decoration: none;
-    border-bottom: black 1px solid;
-    font-family: var(--Title);
-  }
-  li a:hover {
-    background-color: var(--green);
-    color: white;
-  }
-  img {
-      margin: 10px 0%;
-      width: 100%;
-  }
+  list-style-type: none;
+  margin: 10;
+  padding: 0px;
+  width: 380px;
+  background-color: var(--beige);
+}
+li a {
+  display: block;
+  color: #000;
+  padding: 8px 16px;
+  text-decoration: none;
+  border-bottom: black 1px solid;
+  font-family: var(--Title);
+}
+li a:hover {
+  background-color: var(--green);
+  color: white;
+}
+img {
+  margin: 10px 0%;
+  width: 100%;
+}
 p {
-    font-family: var(--text);
-    font-size: 14px;
-    margin: 0 9px;
-    
-
+  font-family: var(--text);
+  font-size: 14px;
+  margin: 0 9px;
 }
 .container {
-    display: flex;
-    overflow: hidden;
-    width: 100%;
-    margin: 40px 0;
-    transform: translateY(-40%);
+  display: flex;
+  overflow: hidden;
+  width: 100%;
+  margin: 40px 0;
+  transform: translateY(-40%);
 }
-.txt  {
-    white-space: nowrap;
-    font-size: 14mm; 
-    animation: scrollTxt 10s linear infinite;
-    font-family: var(--Title);
+.txt {
+  white-space: nowrap;
+  font-size: 14mm;
+  animation: scrollTxt 10s linear infinite;
+  font-family: var(--Title);
 }
 @keyframes scrollTxt {
-    0% {
-        transform: translate(0, 0);
-    }
-    100% {
-        transform: translate(-100%, 0);
-    }
-}
-.secondcontainer {
-    display: flex;
-    overflow: hidden;
-    width: 100%;
-    margin: 40px 0;
-    transform: translateY(-40%);
-   
+  0% {
+    transform: translate(0, 0);
+  }
+  100% {
+    transform: translate(-100%, 0);
+  }
 }
 
- a {
-    text-decoration: none;
-    color: black;
-    text-align:left ;
+.secondcontainer {
+  display: flex;
+  overflow: hidden;
+  width: 100%;
+  margin: 40px 0;
+  transform: translateY(-40%);
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  text-align: left;
 }
 footer {
-   background-color: var(--beige);
-    margin: 14px 0 50px 0;
-    padding: 5px 5px;
-    text-align: right;
-    font-family: var(--text);
-
+  background-color: var(--beige);
+  margin: 14px 0 50px 0;
+  padding: 5px 5px;
+  text-align: right;
+  font-family: var(--text);
 }
 .logo_about {
-    width: 60%;
-    padding: 0 0 7px 0;
+  width: 60%;
+  padding: 0 0 7px 0;
 }
 .location {
- padding: 0 0 0 70px;
- font-size: 14px;
- 
+  padding: 0 0 0 70px;
+  font-size: 14px;
 }
 h1 {
-    font-size: 16px;
-    padding: 0 9px;
-    font-family: var(--Title);
+  font-size: 16px;
+  padding: 0 9px;
+  font-family: var(--Title);
 }
 .product-slider {
-    height: auto;
-    overflow-y: hidden;
-    overflow-x: scroll;
-    display: flex;
-    scroll-snap-type: x mandatory ;
-    overflow-y: scroll;
+  height: auto;
+  overflow-y: hidden;
+  overflow-x: scroll;
+  display: flex;
+  scroll-snap-type: x mandatory;
+  overflow-y: scroll;
   scrollbar-width: none; /* Firefox */
-  -ms-overflow-style: none;  /* IE 10+ */
+  -ms-overflow-style: none; /* IE 10+ */
 }
-.product-slider::-webkit-scrollbar { /* WebKit */
+.product-slider::-webkit-scrollbar {
+  /* WebKit */
   width: 0px;
 }
 .button-shop {
-    background-color: beige;
-    border-radius: 6px;
-    position: absolute;
-    bottom: 40px;
-    right: 10px;
-    transform: translate(-50, 50);
-    padding: 5px 15px; 
-    font-family: var(--text);
+  background-color: beige;
+  border-radius: 6px;
+  position: absolute;
+  bottom: 40px;
+  right: 10px;
+  transform: translate(-50, 50);
+  padding: 5px 15px;
+  font-family: var(--text);
+}
+.button-shop1 {
+  bottom: 80px;
+  background-color: beige;
+  border-radius: 6px;
+  position: absolute;
+  right: 10px;
+  transform: translate(-50, 50);
+  padding: 5px 15px;
+  font-family: var(--text);
 }
 .container-product {
-    position: relative;
-    display: inline-block;
-    flex: none;
-    width: 100%;
-    scroll-snap-align: start ;
-
+  position: relative;
+  display: inline-block;
+  flex: none;
+  width: 100%;
+  scroll-snap-align: start;
 }
 .logo_semence {
-    width: 90%;
-    padding: 15px;
+  width: 90%;
+  padding: 15px;
 }
