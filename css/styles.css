@@ -58,7 +58,7 @@ body{
 
 header{
   padding: 100px 0 20px;
-  border-bottom: solid #111111 0.5px;
+  border-bottom: 0.5px solid #111111;
 }
 
 nav{
@@ -70,8 +70,14 @@ nav{
 
 div{
   margin: 20px 0;
-  border-top: solid #111111 0.5px;
-  border-bottom: solid #111111 0.5px;
+  border-top:0.5px solid #111111;
+  border-bottom: 0.5px solid #111111;
+}
+
+article{
+  display: flex;
+  flex-flow: row-reverse nowrap;
+  border-bottom: 0.5px #111111 solid;
 }
 
 h1{
@@ -88,7 +94,7 @@ h2{
   font-size: 20px;
   margin: 0 0 20px;
   padding: 10px 0 10px 10px;
-  border-bottom: solid #111111 0.5px;
+  border-bottom: 0.5px solid #111111;
 }
 
 a{
@@ -98,7 +104,7 @@ a{
   font-style: normal; 
   text-decoration: none;
   color: #111111;
-  border: solid #111111 0.5px;
+  border: 0.5px solid #111111;
   border-radius: 15px;
   padding: 5px 8px;
   margin: 0 3px 15px;
@@ -115,6 +121,28 @@ header img{
 header h1 img{
   position: relative;
   left: 20px;
+}
+
+article h1{
+  font-family: 'SuisseIntl'; 
+  font-weight: 100; 
+  font-style: normal; 
+  font-size: 14px;
+  text-align: center;
+  margin: 0;
+}
+
+article h2{
+  font-family: 'LotaGrotesque'; 
+  font-weight: lighter; 
+  font-style: normal;  
+  font-size: 14px;
+  border: none;
+}
+
+article img{
+  max-height: 250px;
+  margin: 0;
 }
 
 .brand-introduction{
@@ -148,4 +176,58 @@ header h1 img{
   max-width: 190px;
   position: relative;
   left: 20px;
+}
+
+.product-introduction img{
+  max-height: 100px;
+}
+
+.product-introduction{
+  display: flex;
+  flex-flow: row nowrap;
+  margin-top: 0;
+  margin-bottom: 0;
+  border: none;
+  border-bottom: 0.5px solid #111111;
+}
+
+.product-presentation h2{
+  margin: 0;
+}
+
+.product-introduction p{
+  padding: 20px 0 0 10px;
+  margin: 0;
+}
+
+.product-information{
+  width: 100%;
+  margin: 0;
+  border: none;
+  border-left: 0.5px solid #111111;
+  padding: 20px 10px;
+  position: relative;
+}
+
+.product-information a{
+  position: absolute;
+  right: 20px;
+  bottom: 20px;
+}
+
+.product-visual {
+  width: 100%;
+  padding: 25px;
+  margin: 0;
+  border: none;
+}
+
+.fabacees-product{
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+.fabacees-product .product-information{
+  border: none;
+  border-right: 0.5px solid #111111;
 }
