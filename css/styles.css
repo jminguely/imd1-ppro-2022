@@ -1,7 +1,7 @@
 @font-face {
   font-family: "bio-sans-default";
-  src: url("../fonts/BioSans-Light.woff") format("woff"),
-    url("../fonts/BioSans-Light.woff2") format("woff2");
+  src: url("../fonts/BioSans-Regular.woff") format("woff"),
+   url("../fonts/BioSans-Regular.woff2") format("woff2");
 }
 
 @font-face {
@@ -20,19 +20,6 @@ html {
   scroll-behavior: smooth;
 }
 
-.title-container {
-  background-color: white;
-  padding-top: 7px;
-  padding-bottom: 7px;
-}
-
-.logo {
-  max-width: 120px;
-  display: flex;
-  flex-direction: row;
-  margin: auto;
-}
-
 body {
   max-width: 375px;
   margin: auto;
@@ -43,89 +30,51 @@ body {
   width: 50px;
   display: flex;
   position: fixed;
-  bottom: 40px;
-  right: 30px;
+  bottom: 3px;
+  right: 15px;
   z-index: 2;
+}
+
+.logo {
+  max-width: 120px;
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+  padding-top: 5px;
+}
+
+.title-container {
+  background-color: white;
+  padding-top: 7px;
+  padding-bottom: 7px;
 }
 
 header {
   background-image: url(../img/greenhouse.webp);
   max-width: 375px;
-  padding-bottom: 484px;
+  padding-bottom: 500px;
   background-size: 100%;
   background-size: cover;
 }
 
-.button-about {
+.button-main {
   background-color: white;
-  border-radius: 12px;
-  padding: 9px 9px;
-  padding-left: 10px;
-  padding-right: 10px;
-  width: 150px;
-  text-decoration: none;
-  font-family: "somatic";
-  font-size: 12px;
+  border-radius: 15px;
+  padding-top: 10px;
   text-align: center;
-  color: black;
-}
-
-.button-product {
-  background-color: white;
-  border-radius: 12px;
-  padding: 9px 9px;
-  width: 150px;
-  padding-left: 10px;
-  padding-right: 10px;
-  text-decoration: none;
-  font-family: "somatic";
-  font-size: 12px;
-  text-align: center;
-  color: black;
-}
-
-.button-location {
-  background-color: white;
-  border-radius: 12px;
-  padding: 9px 9px;
-  width: 150px;
-  padding-left: 10px;
-  padding-right: 10px;
-  text-decoration: none;
-  font-family: "somatic";
-  font-size: 12px;
-  text-align: center;
-  color: black;
-}
-
-.button-contact {
-  background-color: white;
-  border-radius: 12px;
-  padding: 9px 9px;
-  width: 150px;
-  padding-left: 10px;
-  padding-right: 10px;
-  text-decoration: none;
-  font-family: "somatic";
-  font-size: 12px;
-  text-align: center;
-  color: black;
-}
-
-.top-button {
-  display: flex;
-  flex-direction: row;
-  padding-top: 40px;
   padding-bottom: 10px;
-  justify-content: space-around;
+  border: solid 3px #c4d696;
 }
 
-.bottom-button {
-  padding-top: 40px;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  padding-bottom: 20px;
+.button-main a {
+  color: black;
+  font-family: bio-sans-bold;
+  font-size: 20px;
+}
+
+.button-container {
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 .about {
@@ -134,8 +83,13 @@ header {
   border-radius: 20px;
   font-family: "bio-sans-default";
   text-align: center;
-  margin-left: 5px;
-  margin-right: 5px;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.about p {
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 img {
@@ -170,34 +124,6 @@ h1 {
   background-position: center;
 }
 
-.location h1 {
-  color: white;
-  background-color: #dc953e;
-  border-radius: 12px;
-  padding-bottom: 12px;
-  padding-top: 10px;
-  margin-left: 10px;
-  margin-right: 12px;
-}
-
-
-.location-info {
-  background-color: white;
-  border-radius: 12px;
-  padding: 6px 9px;
-  padding-left: 10px;
-  padding-right: 10px;
-  margin-left: 10px;
-  margin-right: 10px;
-}
-
-.map {
-  padding-bottom: 40px;
-  padding-top: 30px;
-  max-width: 300px;
-  margin: auto;
-}
-
 .product-section img {
   display: flex;
   max-width: 330px;
@@ -216,17 +142,76 @@ h1 {
 }
 
 .bleuet {
-  padding-top: 300px;
 }
 
-footer {
-  background-color: #414141;
-  padding-bottom: 200px;
+.title-product h1 {
+  color: white;
+  background-color: #dc953e;
+  border-radius: 12px;
+  padding-bottom: 12px;
+  padding-top: 10px;
+  margin-left: 10px;
+  margin-right: 12px;
 }
 
-footer h1 {
-  color: azure;
-  font-size: 28px;
+.shop-button-blue {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: #2D326D;
+  max-width: 90px;
+  border-radius: 27px;
+  text-align: center;
+  margin: auto;
+  font-family: "somatic";
+}
+
+.shop-button-orange {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: #7C3F33;
+  max-width: 90px;
+  border-radius: 27px;
+  text-align: center;
+  margin: auto;
+  font-family: "somatic";
+}
+
+.shop-button-red {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: #442727;
+  max-width: 90px;
+  border-radius: 27px;
+  text-align: center;
+  margin: auto;
+  font-family: "somatic";
+}
+
+.location h1 {
+  color: white;
+  background-color: #dc953e;
+  border-radius: 12px;
+  padding-bottom: 12px;
+  padding-top: 10px;
+  margin-left: 10px;
+  margin-right: 12px;
+}
+
+.location-info {
+  background-color: white;
+  border-radius: 12px;
+  padding: 6px 9px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.map {
+  padding-bottom: 40px;
+  padding-top: 30px;
+  max-width: 300px;
+  margin: auto;
 }
 
 .location-info {
@@ -286,63 +271,28 @@ footer h1 {
   max-width: 60px;
 }
 
-a {
-  color: white;
-  text-decoration: none;
-}
-
 .shovel-container {
   display: flex;
   flex-direction: row;
   margin: auto;
   max-width: 35px;
   z-index: 1;
-  padding-bottom: 60px;
   position: relative;
 }
 
-.shop-button-blue {
-  padding-top: 10px;
-  padding-bottom: 10px;
-  background-color: #2D326D;
-  max-width: 90px;
-  border-radius: 27px;
-  text-align: center;
-  margin: auto;
-}
-
-.title-product {
-  padding-top: 30px;
-}
-
-.title-product h1 {
+a {
   color: white;
-  background-color: #dc953e;
-  border-radius: 12px;
-  padding-bottom: 12px;
-  padding-top: 10px;
-  margin-left: 10px;
-  margin-right: 12px;
+  text-decoration: none;
 }
 
-.shop-button-orange {
-  padding-top: 10px;
-  padding-bottom: 10px;
-  background-color: #7C3F33;
-  max-width: 90px;
-  border-radius: 27px;
-  text-align: center;
-  margin: auto;
+footer {
+  background-color: #414141;
+  padding-bottom: 200px;
 }
 
-.shop-button-red {
-  padding-top: 10px;
-  padding-bottom: 10px;
-  background-color: #442727;
-  max-width: 90px;
-  border-radius: 27px;
-  text-align: center;
-  margin: auto;
+footer h1 {
+  color: azure;
+  font-size: 28px;
 }
 
 footer p {
@@ -351,11 +301,16 @@ footer p {
   font-family: "bio-sans-default";
   padding-top: 40px;
   font-size: 20px;
+  border: solid;
+  padding-bottom: 40px;
+}
+
+.e-mail a {
+  color: #dc953e;
+  font-family: "bio-sans-default";
+  font-size: 20px;
 }
 
 .e-mail {
   text-align: center;
-  color: #dc953e;
-  font-family: "bio-sans-default";
-  font-size: 20px;
 }
