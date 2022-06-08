@@ -7,10 +7,13 @@
     src: url('../fonts/NewYork.woff') format('woff');
 }
 :root {
-
+--green: #999966b6 ;
+--beige:beige;
+--Title:'NewYork';
+--text:'Argue-DEMO';
 }
 body {
-background-color: beige;
+background-color: var(--green);
 margin: auto;
 max-width: 375px;
 }
@@ -19,7 +22,7 @@ ul {
     margin: 10;
     padding: 0px;
     width: 380px;
-    background-color: beige;
+    background-color: var(--beige);
   }
   li a {
     display: block;
@@ -27,9 +30,10 @@ ul {
     padding: 8px 16px;
     text-decoration: none;
     border-bottom: black 1px solid;
+    font-family: var(--Title);
   }
   li a:hover {
-    background-color: bisque;
+    background-color: var(--green);
     color: white;
   }
   img {
@@ -37,8 +41,9 @@ ul {
       width: 100%;
   }
 p {
-    font-family: 'Argue-DEMO';
+    font-family: var(--text);
     font-size: 14px;
+    margin: 0 9px;
     
 
 }
@@ -53,6 +58,7 @@ p {
     white-space: nowrap;
     font-size: 14mm; 
     animation: scrollTxt 10s linear infinite;
+    font-family: var(--Title);
 }
 @keyframes scrollTxt {
     0% {
@@ -77,10 +83,11 @@ p {
     text-align:left ;
 }
 footer {
-    border: 1px solid black;
-    margin: 0 0px 35px 0;
+   background-color: var(--beige);
+    margin: 14px 0 50px 0;
     padding: 5px 5px;
     text-align: right;
+    font-family: var(--text);
 
 }
 .logo_about {
@@ -90,9 +97,12 @@ footer {
 .location {
  padding: 0 0 0 70px;
  font-size: 14px;
+ 
 }
 h1 {
     font-size: 16px;
+    padding: 0 9px;
+    font-family: var(--Title);
 }
 .product-slider {
     height: auto;
@@ -108,13 +118,14 @@ h1 {
   width: 0px;
 }
 .button-shop {
-    background-color: chocolate;
+    background-color: beige;
     border-radius: 6px;
     position: absolute;
     bottom: 40px;
     right: 10px;
     transform: translate(-50, 50);
     padding: 5px 15px; 
+    font-family: var(--text);
 }
 .container-product {
     position: relative;
@@ -123,4 +134,8 @@ h1 {
     width: 100%;
     scroll-snap-align: start ;
 
+}
+.logo_semence {
+    width: 90%;
+    padding: 15px;
 }
