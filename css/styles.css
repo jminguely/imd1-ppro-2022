@@ -16,7 +16,6 @@ font-style: normal;
 
 /* base ↓ */
 
-
 html {
   scroll-behavior: smooth;
 }
@@ -39,11 +38,11 @@ body {
 
 :root {
   --main-color: #064534;
-  --secondary-color: #28906F;
-  --third-color: #FFF;
-  --background-color: #FFF8F0;
-  --title-font: "tomarik-display",sans-serif;
-  --text-font: "tablet-gothic",sans-serif;
+  --secondary-color: #28906f;
+  --third-color: #fff;
+  --background-color: #fff8f0;
+  --title-font: "tomarik-display", sans-serif;
+  --text-font: "tablet-gothic", sans-serif;
 }
 
 a {
@@ -64,7 +63,8 @@ img {
   user-select: none;
 }
 
-h1, h2 {
+h1,
+h2 {
   font-family: var(--title-font);
   font-size: 17px;
   z-index: 10;
@@ -121,19 +121,18 @@ header .decoration img {
   color: var(--third-color);
 }
 
-  /* main about-us ↓ */
+/* main about-us ↓ */
 
-
-main .decoration img{
+main .decoration img {
   max-width: 240px;
   padding: 28px 43px;
 }
 
-  /* main products ↓ */
+/* main products ↓ */
 
 .products img {
-    max-width: 250px;
-  }
+  max-width: 250px;
+}
 
 .products .illustration {
   max-width: 85px;
@@ -160,11 +159,10 @@ main .decoration img{
   z-index: 2;
 }
 
-
 /* footer ↓ */
 
 footer {
-  padding: 15px 0 ;
+  padding: 15px 0;
   position: relative;
 }
 
@@ -185,4 +183,3 @@ footer a {
 footer .decoration img {
   position: relative;
 }
-
