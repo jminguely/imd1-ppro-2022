@@ -62,7 +62,7 @@ header {
   padding: 9px 9px;
   padding-left: 10px;
   padding-right: 10px;
-  width: 120px;
+  width: 150px;
   text-decoration: none;
   font-family: "somatic";
   font-size: 12px;
@@ -74,7 +74,7 @@ header {
   background-color: white;
   border-radius: 12px;
   padding: 9px 9px;
-  width: 120px;
+  width: 150px;
   padding-left: 10px;
   padding-right: 10px;
   text-decoration: none;
@@ -88,7 +88,7 @@ header {
   background-color: white;
   border-radius: 12px;
   padding: 9px 9px;
-  width: 120px;
+  width: 150px;
   padding-left: 10px;
   padding-right: 10px;
   text-decoration: none;
@@ -102,7 +102,7 @@ header {
   background-color: white;
   border-radius: 12px;
   padding: 9px 9px;
-  width: 120px;
+  width: 150px;
   padding-left: 10px;
   padding-right: 10px;
   text-decoration: none;
@@ -115,13 +115,13 @@ header {
 .top-button {
   display: flex;
   flex-direction: row;
-  padding-top: 20px;
+  padding-top: 40px;
   padding-bottom: 10px;
   justify-content: space-around;
 }
 
 .bottom-button {
-  padding-top: 10px;
+  padding-top: 40px;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -130,7 +130,7 @@ header {
 
 .about {
   background-color: aliceblue;
-  padding-bottom: 100px;
+  padding-bottom: 70px;
   border-radius: 20px;
   font-family: "bio-sans-default";
   text-align: center;
@@ -141,12 +141,15 @@ header {
 img {
   max-width: 300px;
   justify-content: center;
+  padding-bottom: 20px;
 }
 
 h1 {
   font-family: "somatic";
   text-align: center;
-  padding-top: 20px;
+  font-size: 20px;
+  padding-top: 40px;
+  padding-bottom: 40px;
 }
 
 .product h1 {
@@ -177,6 +180,7 @@ h1 {
   margin-right: 12px;
 }
 
+
 .location-info {
   background-color: white;
   border-radius: 12px;
@@ -188,9 +192,9 @@ h1 {
 }
 
 .map {
-  padding-bottom: 30px;
+  padding-bottom: 40px;
   padding-top: 30px;
-  max-width: 270px;
+  max-width: 300px;
   margin: auto;
 }
 
@@ -227,6 +231,7 @@ footer h1 {
 
 .location-info {
   font-family: "bio-sans-default";
+  font-size: 20px;
 }
 
 .first-location {
@@ -345,10 +350,12 @@ footer p {
   color: white;
   font-family: "bio-sans-default";
   padding-top: 40px;
+  font-size: 20px;
 }
 
 .e-mail {
   text-align: center;
   color: #dc953e;
   font-family: "bio-sans-default";
+  font-size: 20px;
 }
