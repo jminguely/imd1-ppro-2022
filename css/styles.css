@@ -1,4 +1,7 @@
+
+
 body {
+  background-color: #e5f5ca;
   max-width: 375px;
 margin: auto;
 }
@@ -140,6 +143,7 @@ main {
 }
 
 .picture-semence {
+  position: relative;
   margin-top: -200px;
   display: flex;
   overflow-x: scroll;
@@ -150,10 +154,15 @@ main {
   padding: 15px;
 }
 
-footer {
-  padding: 20px;
-  background-color: #9fb084;
+figure {
+  font-family: old-man-eloquent, sans-serif;
+  padding: 10px;
+  background-color: rgba(255, 255, 255, .5);
+  position:absolute;
+  top: 209px;
+  right: 64px;
 }
+
 h2 {
   color: #5b4b38;
   font-family: old-man-eloquent, sans-serif;
@@ -174,7 +183,50 @@ top:-156px ;
 }
 
 .point-de-vente {
-  padding: 0 200px 10px 50px;
+  color: white;
+  position: relative;
+  background-color: #9fb084;
+  padding: 10px 200px 10px 10px;
 }
 
-.ep
+.epingle {
+position: relative;
+}
+
+.epingle-blanc {
+  position: absolute;
+  top: 366px;
+  right: 158px;
+}
+
+.epingle-rouge {
+  position: absolute;
+  top: 200px;
+  right: 158px;
+}
+
+.epingle-bleu {
+  position: absolute;
+  top: 120px;
+  right: 158px;
+}
+
+.epingle-violet {
+  position: absolute;
+  top: 37px;
+  right: 158px;
+}
+
+.epingle-orange {
+  position: absolute;
+  top: 284px;
+  right: 158px;
+}
+
+footer {
+  background-image: url("../img/fleur-violette.webp");
+  padding: 50px;
+  text-align: center;
+  font-family: old-man-eloquent, sans-serif;
+  padding: 20px;
+}
