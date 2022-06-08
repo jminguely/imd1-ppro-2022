@@ -184,3 +184,18 @@ h3 {
   padding: 15px 20px;
   color: rgba(0, 0, 0, 0.8);
 }
+
+.buy-container {
+  background-color: hsla(0, 0%, 100%, 0.8);
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 18px;
+}
+
+.buy-container h1 {
+  margin-top: 18px;
+}
+
+.buy-container img {
+  margin: 30px 30px 0 10px;
+}
