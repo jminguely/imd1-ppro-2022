@@ -54,16 +54,18 @@ h2{
   right: 0px;
 }
 .small{
-  width: 200px;
+  width: 250px;
   height: auto;
   margin-top: 100px;
   padding-top: 60px;
 }
 .small-middle{
-  width: 200px;
+  width: 250px;
   height: auto;
   margin-top: 100px;
   padding-top: 30px;
+  position: absolute;
+  right: 0px;
 }
 .logo{
   margin: 15px;
@@ -86,13 +88,13 @@ p{
   height: auto;
   position: absolute;
   left: 0px;
-  bottom: 250px;
+  bottom: 150px;
 }
 .packaging{
   width: 150px;
   height: auto;
   position: absolute;
-  bottom: 70px;
+  bottom: 10px;
   right: 10px;
 }
 .acheter{
