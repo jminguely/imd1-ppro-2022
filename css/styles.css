@@ -1,0 +1,89 @@
+@font-face {
+  font-family: "reality";
+  src: url(../fonts/KindestReality_DEMO.woff2);
+}
+
+@font-face {
+  font-family: "helveticat";
+  src: url(../fonts/Helvetica\ Light\ Regular.woff);
+  src: url(../fonts/KindestReality_DEMO.woff2) format(woff2);
+}
+
+body {
+  margin: auto;
+  width: 375px;
+}
+
+header {
+  margin: 0;
+  height: 692px;
+  background-image: url(../img/fond.jpg);
+  background-size: cover;
+}
+
+.logo-semences {
+  width: 172px;
+  padding: 0 100px 0 100px;
+  margin-bottom: 268px;
+}
+
+header nav {
+  background-color: #9894a3;
+  padding: 5px 7px 5px 328px ;
+  margin: 0 0 88px 0;
+  width: 40px;
+}
+ header p {
+  text-align: center;
+  font-family: "helveticat";
+  font-size: 12px;
+  color: #142241;
+  margin:0 0 188px 0;
+ }
+
+.fleche-ancres span img {
+  width: 375px;
+  position: absolute;
+  z-index: -1;
+}
+
+.fleche-fabacees {
+  width: 112px;
+  padding: 64px 132px 70px;
+  display: block;
+}
+
+.liens-article-semences {
+  background-color: #1e335a;
+  padding: 14px 111px 14px 110px;
+  display: block;
+}
+
+.liens-point-ventes {
+  background-color: #fdcdd8;
+  padding: 0 60px 0 110px;
+  display: block;
+}
+
+.liens-contacts {
+  background-color: #89a590;
+  padding: 23px 105px 19px 109px;
+  display: block;
+}
+
+.fleche-articles p {
+ text-align: center;
+ font-family: "helveticat";
+ font-size: 13px;
+ margin: 0;
+ padding: 38px ;
+}
+
+.fleche-articles img {
+  width: 126px;
+ padding: 0 0 41px 118px;
+ }
+
+ .fleche-articles {
+  background-color: #becec1;
+ }
