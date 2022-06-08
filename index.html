@@ -5,46 +5,44 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="https://use.typekit.net/hhl2uil.css">
-    <script src="js/script.js"></script>
     <title>Semences de Pays</title>
   </head>
   <body>
     <header>
       <nav>
-        <img src="" alt="logo semences de pays">
-        <a href="#" class="menu-bgr" onclick="menuOpen()">
+        <img src="img/logo-semence.svg" alt="logo semences de pays">
+        <a class="menu-bgr" onclick="menuOpen()">
           <img src="img/menu-burger.svg" alt="menu burger" class="menu-bgr-img">
         </a>
-        <div class="menu">
-          <a href="" class="menu-link">Semences de pays</a>
-          <a href="" class="menu-link">Nos semences</a>
-          <a href="" class="menu-link">Points de ventes</a>
-          <a href="" class="menu-link">Contact</a>
-        </div>
       </nav>
+      <div class="menu">
+        <a href="#intro" class="menu-link">Semences de pays</a>
+        <a href="#products" class="menu-link">Nos semences</a>
+        <a href="#retailers" class="menu-link">Points de ventes</a>
+        <a href="#contact" class="menu-link">Contact</a>
+      </div>
     </header>
     <main>
-      <div class="card-img" id="top">
-        <img src="img/all-in-one-sac.jpg" alt="plantes">
+      <div class="card-intro" id="top">
         <h1>Commander simplement et maintenant</h1>
-        <a href="#semences">
+        <a href="#products">
           <img src="img/arrow.svg" alt="flèche vers le bas">
         </a>
       </div>
-      <div class="main-container">
-        <div class="card">
-          <h3>Qui nous sommes ?</h3>
-          <p>
+      <div class="main-content">
+        <div class="card" id="intro">
+          <h3>Qui sommes nous ?</h3>
+          <p class="each-word">
             Semences de pays développe une production de semences reproductibles
             , rustiques et adaptées à une agriculture biologique proche des 
             cycles de la nature, en collaboration avec les iinitiatives 
             nourricières de proximité.
           </p>
         </div>
-        <h2 id="semences">Nos semences</h2>
+        <h2 id="products">Nos semences</h2>
         <div class="product-card potimarron">
           <h3>potimarron français</h3>
-          <span>Cucurbita maxima</span>
+          <span>cucurbita maxima</span>
           <img src="img/sac-O.webp" alt="paquet de graines">
           <p>
             Potimarron orange en forme de toupie au caractéristique gout de 
@@ -65,7 +63,7 @@
         </div>
         <div class="product-card bleut">
           <h3>bleuet blauer junge</h3>
-          <span>Centaurea cyanus</span>
+          <span>centaurea cyanus</span>
           <img src="img/sac-B.webp" alt="paquet de graines">
           <p>
             Les délicats pétales de cette magnifique fleur des champs 
@@ -85,7 +83,7 @@
         </div>
         <div class="product-card haricot">
           <h3>haricot à rames borlotto</h3>
-          <span>Phaseolus vulgaris</span>
+          <span>phaseolus vulgaris</span>
           <img src="img/sac-C.webp" alt="paquet de graines">
           <p>
             Cette variété traditionnelle italienne de haricots à écosser. 
@@ -114,7 +112,7 @@
         </div>
         <h2 id="retailers">Nos points de ventes</h2>
         <img src="img/map.svg" alt="carte de la suisse romande">
-        <div class="retailers">
+        <div class="retailers">¨
           <div class="data-adress">
             <h3 class="retailers-name">Chez Mamie</h3>
             <span>
@@ -123,7 +121,9 @@
               1204 Genève
             </span>
           </div>
-          <img src="img/arrow.svg" alt="fleche vers la droite">
+          <a href="">
+            <img src="img/arrow.svg" alt="fleche vers la droite">
+          </a>
         </div>
         <hr>
         <div class="retailers">
@@ -135,7 +135,9 @@
               1006 Lausanne
             </span>
           </div>
-          <img src="img/arrow.svg" alt="fleche vers la droite">
+          <a href="">
+            <img src="img/arrow.svg" alt="fleche vers la droite">
+          </a>
         </div>
         <hr>
         <div class="retailers">
@@ -147,7 +149,9 @@
               1350 Orbe
             </span>
           </div>
-          <img src="img/arrow.svg" alt="fleche vers la droite">
+          <a href="">
+            <img src="img/arrow.svg" alt="fleche vers la droite">
+          </a>
         </div>
         <hr>
         <div class="retailers">
@@ -159,7 +163,9 @@
               1880 Bex
             </span>
           </div>
-          <img src="img/arrow.svg" alt="fleche vers la droite">
+          <a href="">
+            <img src="img/arrow.svg" alt="fleche vers la droite">
+          </a>
         </div>
         <hr>
         <div class="retailers">
@@ -171,11 +177,13 @@
               1920 Martigny
             </span>
           </div>
-          <img src="img/arrow.svg" alt="fleche vers la droite">
+          <a href="">
+            <img src="img/arrow.svg" alt="fleche vers la droite">
+          </a>
         </div>
       </div>
     </main>
-    <footer>
+    <footer id="contact">
       <h2>Contact</h2>
       <h3>
         <a href="https://semencesdepays.ch/">

@@ -26,6 +26,118 @@ body {
 /*for the header ↓*/
 
 header {
-  
+  background-color: var(--color-main);
+  font-family: var(--font-text);
+  box-shadow: 0 3px 5px #11160e15;
+  z-index: 1000;
+  position: sticky;
+  top: 0;
 }
 
+header nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+}
+
+.menu {
+  display: none;
+}
+
+.open .menu {
+  position: absolute;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  background-color: var(--color-secondary);
+  padding: 15px;
+  font-size: 12px;
+}
+
+.open .menu a {
+  color: var(--color-main);
+  text-decoration: none;
+}
+
+.card-intro {
+  background-image: url(../img/all-in-one-sac.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 40px 85px 60px;
+  height: 250px;
+  font-family: var(--font-text);
+  text-align: center;
+  font-weight: 600;
+  text-shadow: 3px 3px 5px #11160e15;
+}
+
+.main-content {
+  padding: 40px 20px;
+}
+
+.card {
+  background-color: var(--color-main);
+  padding: 20px;
+  border-radius: 20px;
+  margin-bottom: 50px;
+}
+
+.card h3 {
+  font-family: var(--font-title);
+  font-size: 28px;
+  margin-bottom: 15px;
+}
+
+.card p {
+  font-family: var(--font-text);
+  font-size: 21px;
+}
+
+.first-letter  {
+  font-weight: 800;
+}
+
+h2 {
+  font-family: var(--font-title);
+  font-size: 40px;
+}
+
+.product-card {
+  background-color: var(--color-main);
+  border-radius: 20px;
+  padding: 30px 50px;
+  margin: 30px 0 50px;
+  text-align: center;
+  box-shadow: 3px 3px 10px #11160e40;
+  font-family: var(--font-text);
+}
+
+.product-card h3 {
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  font-size: 30px;
+}
+
+.product-card span {
+  font-weight: 100;
+  font-style: italic;
+  margin-bottom: 40px;
+}
+
+.product-card img {
+  margin: 20px 0;
+  width: 100%;
+  box-shadow: 3px 3px 10px #11160e40;
+}
+
+.product-card p {
+
+}
+
+.product-card a img {
+  width: auto;
+  box-shadow: none;
+}
