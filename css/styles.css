@@ -55,7 +55,7 @@ nav {
 nav a {
   color: #FEFEF8;
   text-decoration: none;
-  font-size: 10px;
+  font-size: 11px;
   font-family: acumin-pro, sans-serif;
   font-weight: 300;
   font-style: normal;
@@ -87,7 +87,7 @@ h1 {
 }
 
 .presentation-potimarron {
-  margin-bottom: 100px;
+  margin-bottom: 90px;
   background-image: url(../img/potimarron.svg);
   background-repeat: no-repeat;
   background-position: center;
@@ -95,7 +95,7 @@ h1 {
 }
 
 .presentation-haricot {
-  margin-bottom: 100px;
+  margin-bottom: 90px;
   background-image: url(../img/haricot.svg);
   background-repeat: no-repeat;
   background-position: center;
@@ -192,13 +192,16 @@ footer p {
   font-family: "acumin-pro", sans-serif;
   font-weight: 300;
   font-style: normal;
-  background-color: #232823;
+  font-size: 14px;
 }
 
 .bouton-shop {
   margin: 0px 55px;
   text-align: center;
   margin-bottom: 60px;
+  background-color: #232823;
+  padding: 10px 10px;
+  border-radius: 15px;
 }
 
 .filler-photo {
@@ -234,6 +237,12 @@ footer p {
   padding-right: 21px;
 }
 
+.text-carte-titre-bleu {
+  padding-right: 50px;
+  margin-bottom: 40px;
+}
+
+
 .carte {
   margin-bottom: 60px;
 }
@@ -248,4 +257,16 @@ footer p {
 
 .email {
   transform: translateX(125px);
+}
+
+.text-carte {
+  padding: 0px 20px 0px 20px;
+}
+
+.text-carte-titre {
+  transform: translateY(20px);
+}
+
+.text-carte-titre-bleu {
+  transform: translateY(40px);
 }
