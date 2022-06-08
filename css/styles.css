@@ -16,7 +16,7 @@ body {
 
 header {
   margin: 0;
-  height: 692px;
+  height: 668px;
   background-image: url(../img/fond.jpg);
   background-size: cover;
 }
@@ -32,6 +32,8 @@ header nav {
   padding: 5px 7px 5px 328px ;
   margin: 0 0 88px 0;
   width: 40px;
+  position: sticky;
+  top: 0px;
 }
  header p {
   text-align: center;
@@ -87,3 +89,50 @@ header nav {
  .fleche-articles {
   background-color: #becec1;
  }
+
+.model-3 {
+  width: 375px;
+  display: block;
+}
+
+.semences-card h3{
+  text-align: center;
+  padding: 30px 0;
+  margin: 0;
+  font-family: "helveticat";
+  font-size: 30px;
+}
+
+.semences-card img{
+  width: 375px;
+}
+
+.card-1 {
+  background-color: #365484;
+  color: #ced7cf;
+}
+
+.card-2 {
+  background-color: #fdcdd8;
+  color: #f286aa;
+}
+
+.card-3 {
+  background-color: #89a590;
+  color: #606060;
+}
+
+footer img {
+  width: 375px;
+}
+
+.shop span img {
+  width: 375px;
+  position: absolute;
+  z-index: -1;
+}
+
+.bouton-shop {
+  display: block;
+  padding: 46px 106px 0 109px;
+}
