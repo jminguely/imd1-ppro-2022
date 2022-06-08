@@ -38,8 +38,8 @@ img {
 }
 
 .button {
-  font-family: 'Avenir';
-  font-weight: 800;
+  font-family: 'Paragon';
+  font-weight: 400;
   font-style: normal;
   font-size: 21px;
   text-decoration: none;
@@ -69,8 +69,8 @@ header div {
 }
 
 h1 {
-  font-family: 'Avenir';
-  font-weight: 600;
+  font-family: 'Paragon';
+  font-weight: 400;
   font-style: normal;
   font-size: 21px;
   margin: 15px 15px 0px 15px;
@@ -120,8 +120,8 @@ figcaption {
 }
 
 span {
-  font-family: 'Avenir';
-  font-weight: 600;
+  font-family: 'Paragon';
+  font-weight: 400;
   font-style: normal;
   font-size: 18px;
 }

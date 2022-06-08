@@ -1,23 +1,17 @@
 @font-face {
   font-family: 'Avenir';
-  src: url(../fonts/AvenirLTStd-Roman.woff) 
-  url(../fonts/AvenirLTStd-Roman.woff2);
+  src: url(../fonts/AvenirLTStd-Roman.woff) format('woff')
+  url(../fonts/AvenirLTStd-Roman.woff2) format('woff2');
   font-weight: 400;
   font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
-  font-family: 'Avenir';
-  src: url(../fonts/AvenirLTStd-Medium.woff) 
-  url(../fonts/AvenirLTStd-Medium.woff2);
-  font-weight: 600;
+  font-family: 'Paragon';
+  src: url(../fonts/Paragon-Regular.woff) format('woff') 
+  url(../fonts/Paragon-Regular.woff2) format('woff2');
+  font-weight: 400;
   font-style: normal;
-}
-
-@font-face {
-  font-family: 'Avenir';
-  src: url(../fonts/AvenirLTStd-Heavy.woff) 
-  url(../fonts/AvenirLTStd-Heavy.woff2);
-  font-weight: 800;
-  font-style: normal;
+  font-display: swap;
 }
