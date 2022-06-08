@@ -1,4 +1,6 @@
 
+/* font-family: 'Manrope', sans-serif;*/
+
 @font-face {
   font-family: 'HappyCamper';
 
@@ -6,6 +8,10 @@
         url('../fonts/HappyCamper-Regular.woff') format('woff');
   font-style: bold;
   font-display: swap;
+}
+
+img {
+  max-width: 375px;
 }
 
 html {
@@ -16,18 +22,39 @@ body {
   max-width: 375px;
   box-shadow: 0 0 20px rgb(0 0 0 / 30%);
   text-align: left;
+  word-break: initial;
   margin: auto;
+  font-family: manrope;
 }
 
 ul {
   list-style: none;
+  padding: 0px;
+}
+
+.category {
 }
 
 /* Header */
 
+.header-intro {
+  background-image: url(../img/people_wrinting_pumpkin_header.webp);
+  background-repeat: no-repeat;
+  background-size: 375px;
+  height: 650px;
+}
+
 header {
   width: 375px;
   top: 0;
+  background-color: black;
+}
+
+.text-card {
+  background-color: white;
+  margin: 35px;
+  padding: 8px 0 25px;
+  color: black;
 }
 
 h1 {
@@ -43,12 +70,14 @@ span {
 }
 
 main {
+  margin-top: 0px;
 }
 
 .product-card {
   background-color: black;
   color: white;
   padding: 0px;
+  padding: 20px;
 }
 /* Footer */
 
