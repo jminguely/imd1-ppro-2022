@@ -71,6 +71,9 @@ header .go-buy {
   align-items: center;
   padding: 20px;
   margin: 5px 0;
+}
+
+.menu-container a p {
   font-weight: 700;
   font-family: 'Satoshi';
   font-size: 18px;
@@ -161,4 +164,23 @@ h3 {
 .sell-container p {
   padding-bottom: 35px;
   margin-right: 20px;
+}
+
+.go-shopping {
+  text-align: center;
+  margin-top: 45px;
+}
+
+.go-shopping a {
+  font-family: 'Satoshi';
+  font-weight: 800;
+  font-size: 48px; 
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+  background-color: #f0f0f01d;
+  padding: 10px 73px;
+}
+
+.go-shopping p {
+  padding: 15px 20px;
+  color: rgba(0, 0, 0, 0.8);
 }
