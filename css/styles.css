@@ -231,3 +231,7 @@ article img{
   border: none;
   border-right: 0.5px solid #111111;
 }
+
+.flowers-product{
+  border-bottom: none;
+}
