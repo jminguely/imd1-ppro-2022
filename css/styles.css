@@ -39,3 +39,37 @@ a:hover {
   margin-bottom: 40px;
   margin-left: 19px;
 }
+
+/* main presentation */
+
+.presentation h1 {
+  margin: 50px 0px 30px 0px;
+}
+
+.presentation p {
+  margin-bottom: 30px;
+}
+
+#caroussel {
+  overflow: hidden;
+}
+
+.images {
+  display: flex;
+  animation-duration: 5s;
+  animation-name: ExpoSemences;
+  animation-iteration-count: infinite;
+}
+
+@keyframes ExpoSemences {
+  0% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(-380px);
+  }
+  100% {
+    transform: translateX(-760px);
+  }
+}
+
