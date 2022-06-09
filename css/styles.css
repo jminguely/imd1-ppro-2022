@@ -66,7 +66,7 @@ main span{
   font-family: HappyCamper;
   text-align: center;
   border-top: solid;
-  border-color: white;
+  border-bottom: solid 1px white;
 }
 
 /* Main */
@@ -165,15 +165,13 @@ footer {
   color: white;
 }
 
-a:link {
-  color: white;
+a:link, a:visited {
+  color: black;
   text-decoration: none;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
 }
 
-a:visited {
-  color: #487D81;
-  text-decoration: none;
-}
 
 .footer-text {
 padding: 40px;
