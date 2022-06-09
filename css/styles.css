@@ -4,6 +4,7 @@ html {
 
 body {
   max-width: 375px;
+  height: auto;
 }
 
 .m-plus-font {
@@ -12,6 +13,20 @@ body {
 
 .kaisei-font {
   font-family: "Kaisei Opti", serif;
+}
+
+header img{
+  margin-top: 50px;
+  margin-left: 27px;
+  margin-right: 27px;
+}
+
+nav {
+  margin: 27px 57px 0px 57px;
+}
+
+nav p {
+  padding: 20px 29px;
 }
 
 p {
@@ -46,6 +61,12 @@ main {
 .intro-text {
   text-align: center;
   font-size: 17px;
+  margin: 42px 43px 64px 43px;
+}
+
+main h1, h2 {
+  font-size: 34px;
+  text-align: center;
 }
 
 .potimarron-section {
@@ -62,14 +83,17 @@ main {
 
 .text-orange {
   color: #e97833;
+  font-size: 17px;
 }
 
 .text-red {
   color: #a14750;
+  font-size: 17px;
 }
 
 .text-blue {
   color: #313988;
+  font-size: 17px;
 }
 
 .quote-shop {
@@ -102,8 +126,7 @@ main {
 }
 
 .photo-sdp {
-  width: 300px;
-  height: auto;
+  width: 375px;
 }
 
 .reseller-cards {
@@ -122,4 +145,8 @@ main {
 
 footer {
   background: #ffffff;
+}
+
+.footer-contact {
+  font-size: 22px;
 }
