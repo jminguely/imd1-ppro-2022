@@ -130,6 +130,20 @@ header h1 img{
   left: 20px;
 }
 
+footer h2{
+  width: 100%;
+}
+
+footer p{
+  font-family: 'SuisseIntl'; 
+  font-weight: lighter; 
+  font-style: normal; 
+}
+
+footer img{
+  max-height: 234px;
+}
+
 article h1{
   font-family: 'SuisseIntl'; 
   font-weight: 100; 
@@ -311,4 +325,28 @@ article img{
 
 .fake-carrousel-visual{
   border-right: 0.5px solid #111111;
+}
+
+footer{
+  display: flex;
+  flex-flow: row-reverse nowrap;
+  width: 100%;
+  border-top: 0.5px solid #111111;
+  border-bottom: 0.5px solid #111111;
+}
+
+.contact-information{
+  display: flex;
+  flex-flow: column wrap;
+  align-items: flex-start;
+  border: none;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  padding-left: 20px;
+  border-left: 0.5px solid #111111;
+}
+
+.contact-information h2{
+  padding-left: 0;
 }
