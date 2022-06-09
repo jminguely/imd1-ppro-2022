@@ -68,6 +68,22 @@ main {
 .bleuet-section {
   background: #313988;
 }
+
+.quote-shop {
+  font-size: 30px;
+  text-align: center;
+}
+
+.button-shop {
+  color: white;
+  border-style: solid;
+  background: black;
+  border-radius: 40px;
+  text-align: center;
+  font-size: 22px;
+  text-decoration: none;
+}
+
 .gif {
   width: 100%;
   height: auto;
