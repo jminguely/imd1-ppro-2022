@@ -6,37 +6,62 @@ body {
   max-width: 375px;
 }
 
-
 .m-plus-font {
-  font-family: 'M PLUS 2', sans-serif;
+  font-family: "M PLUS 2", sans-serif;
 }
 
 .kaisei-font {
-  font-family: 'Kaisei Opti', serif;
+  font-family: "Kaisei Opti", serif;
 }
 
 p {
-  font-family: 'Kaisei Opti', serif;
+  font-family: "Kaisei Opti", serif;
   font-weight: Medium 500px;
 }
 
-h1, h2, h3, a {
-  font-family: 'M PLUS 2', sans-serif;
+h1,
+h2,
+h3,
+a {
+  font-family: "M PLUS 2", sans-serif;
   font-weight: Bold 700px;
 }
 
 .kaisei-font-regular {
-  font-family: 'Kaisei Opti', serif;
+  font-family: "Kaisei Opti", serif;
   font-weight: Regular 400px;
 }
 
 .kaisei-font-bold {
-  font-family: 'Kaisei Opti', serif;
+  font-family: "Kaisei Opti", serif;
   font-weight: Bold 700px;
 }
 
+.button-menu {
+  color: white;
+  background-color: black;
+  text-align: center;
+  font-size: 22px;
+}
+
+.intro-text {
+  text-align: center;
+  font-size: 17px;
+}
+
+.gif {
+  width: 100%;
+  height: auto;
+}
+
 .sachet-photo {
-  width: 90%;
+  width: 100%;
+  height: auto;
+}
+
+.photo-sdp {
+  width: 100%;
+  height: auto;
 }
 
 main {
