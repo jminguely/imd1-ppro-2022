@@ -5,25 +5,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="https://use.typekit.net/lon6bsu.css">
     <link rel="stylesheet" href="css/styles.css"/>
+    <script type="text/javascript" src="script.js"></script>
     <title>Semences de Pays</title>
   </head>
   <body>
     <header>
       <nav class="nav-container">
         <h4 class="nav-element">Semences <br/>de Pays</h4>
-        <img class="nav-element" src="img/menu.svg" alt="menu hamburger">
+        <a class="element" href="#semences-de-pays">Semences<br/> de Pays</a>
+        <a class="element" href="#nos-semences">Nos<br/> Semences</a>
+        <a class="element" href="#points-de-vente">Points<br/> de vente</a>
+        <a class="element" href="#contact">Contacte<br/> nous</a>
       </nav>
       <div class="header-container"> 
-        <h1>Vos semences préférés </h1>
+        <h1>Vos semences préférés</h1>
         <h2>Maintenant en vente à partir de 3,50 .-</h2>
+        <h1 class="brand-right">Semences de Pays</h1>
         <img class="big-element" src="img/fleur_violette.webp" alt="fleurs">
         <img class="small-element" src="img/legumes.webp" alt="récoltes">
-        <a class="button element" href="#nos-semences">Nos Semences</a>
-        <p class="text-element"><em class="text-header">Semences de pays
-        </em> développe une production de semences reproductibles, 
-          rustiques et adaptées à une <em class="text-header">agriculture 
-          biologique</em> proche des cycles de la nature, en collaboration 
-          avec les initiatives nourricières de proximité.</p>
+        <p id="semences-de-pays" class="text-element"><em class="text-header">
+          Semences de pays</em> développe une production de semences 
+          reproductibles, rustiques et adaptées à une <em class="text-header">
+          agriculture biologique</em> proche des cycles de la nature, en 
+          collaboration avec les initiatives nourricières de proximité.</p>
       </div>
     </header>
     <main>
@@ -66,7 +70,7 @@
       <img class="man" src="img/un_homme.webp" alt="un homme qui travaille">
       <div class="end-container">
         <h1 class="end-title">Nos semences sont de variétés maraîchères issues 
-          de sélec- tions paysannes locales. </h1>
+          de sélections paysannes locales. </h1>
         <h1 class="end-title">Toutes nos semences sont produites à Genève et 
           certifiées BioSuisse. </h1>
         <h2 class="end-text">Ou nous retrouver ?!</h2>
@@ -74,10 +78,11 @@
         <img class="small-element" src="img/pollen.webp" alt="pollen">
         <img class="big-element" src="img/batiment.webp" alt="bâtiment">
       </div>
-      <img class="map" src="img/carte.webp" alt="carte de la Suisse romande">
+      <img id ="points-de-vente" class="map" src="img/carte.webp" alt="carte de 
+          la Suisse romande">
     </main>
     <footer>
-      <h3>Contact</h3>
+      <h3 id="contact">Contact</h3>
       <div class="address">
         <p><em class="title">Chez Mamie</em><br/>
         Rue des Rois 17<br/>
@@ -105,8 +110,8 @@
         info@semencesdepays.ch</a>
       <div class="logo-container">
         <img class="logo-bio" src="img/bio_logo.svg" alt="logo bio">
-        <img class="logo-sprout" src="img/pousse_logo.svg" alt="logo d'une semence 
-        qui pousse">
+        <img class="logo-sprout" src="img/pousse_logo.svg" alt="logo d'une 
+        semence qui pousse">
       </div>
     </footer>
   </body>
