@@ -9,6 +9,16 @@ h1 {
   font-family: 'canto';
 }
 
+h2 {
+  font-size: 20px;
+  font-family: 'canto';
+}
+
+h3 {
+  font-size: 14px;
+  font-family: 'canto';
+}
+
 p {
   font-size: 16px;
   font-family: 'cochin';
@@ -73,3 +83,8 @@ a:hover {
   }
 }
 
+/* main produits */
+
+.icone {
+  width: 95px;
+}
