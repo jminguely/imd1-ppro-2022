@@ -113,6 +113,11 @@ main h1, h2 {
 
 .sachet-white-card {
   background: white;
+  padding: 30px 10px 40px 22px;
+}
+
+.name-plant {
+  text-align: center;
 }
 
 .gif {
