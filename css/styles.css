@@ -69,6 +69,18 @@ main {
   background: #313988;
 }
 
+.text-orange {
+  color: #e97833;
+}
+
+.text-red {
+  color: #a14750;
+}
+
+.text-blue {
+  color: #313988;
+}
+
 .quote-shop {
   font-size: 30px;
   text-align: center;
@@ -82,6 +94,10 @@ main {
   text-align: center;
   font-size: 22px;
   text-decoration: none;
+}
+
+.sachet-white-card {
+  background: white;
 }
 
 .gif {
