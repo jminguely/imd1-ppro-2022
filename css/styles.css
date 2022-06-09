@@ -48,6 +48,7 @@ html,body {
   top:0;
   z-index: 3;
   width: 365px;
+  height: 80px;
 }
 
 h4 {
