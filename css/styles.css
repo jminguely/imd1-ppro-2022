@@ -120,7 +120,6 @@ h1 {
   position: absolute;
   bottom: 40px;
   right: 10px;
-  transform: translate(-50, 50);
   padding: 5px 15px;
   font-family: var(--text);
 }
@@ -144,4 +143,7 @@ h1 {
 .logo_semence {
   width: 90%;
   padding: 15px;
+}
+html {
+  scroll-behavior: smooth;
 }
