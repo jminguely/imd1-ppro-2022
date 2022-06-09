@@ -31,6 +31,14 @@ rouge : #de473f */
     font-display: swap;
 }
 
+@font-face {
+    font-family: 'Zighead';
+    src: url('ZigheadRegular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
 strong {
     font-weight: 700;
 }
