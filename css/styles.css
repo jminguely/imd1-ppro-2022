@@ -28,15 +28,15 @@ img {
   width: 380px;
 }
 
-/* header */
-
-nav a {
+a {
   color: #000000;
 }
 
 a:hover {
   color: #FFFFFF;
 }
+
+/* header */
 
 .site-header nav {
   margin: 20px;
@@ -87,4 +87,11 @@ a:hover {
 
 .icone {
   width: 95px;
+  display: flex;
+  transform: translate(200px, -100px);
+  margin: 20px;
+}
+
+.shop {
+  text-align: center;
 }
