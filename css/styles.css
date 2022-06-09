@@ -33,7 +33,7 @@ body {
 .header-intro {
   background-image: url(../img/people_wrinting_pumpkin_header.webp);
   background-repeat: no-repeat;
-  height: 650px;
+  height: 550px;
   width: auto;
   padding-top: 0px;
   background-size: contain;
@@ -44,6 +44,10 @@ header {
   top: 0;
   background-color: black;
   z-index: 1;
+}
+
+.text-card em {
+  font-family: HappyCamper;
 }
 
 
@@ -68,6 +72,15 @@ main span{
 
 /* Main */
 
+.button-shop {
+  background-color: white;
+  margin-top: 30px;
+}
+
+main img {
+  border-top: black solid thin;
+}
+
 main {
   margin-top: 0px;
 }
@@ -83,6 +96,7 @@ h2 {
   padding-left: 18px;
   font-size: 18px;
   margin: 20px;
+  background-color: white;
 }
 
 /* card */
