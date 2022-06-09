@@ -57,12 +57,36 @@ h4 {
   margin: 15px;
 }
 
+.header-container .element {
+  position: absolute;
+  top: 380px;
+  right: 0px;
+  margin-right: 50px;
+}
+
 .element {
-  font-size: 12px;
+  font-size: 15px;
   font-family: var(--text-font);
   color: var(--logo-color);
   text-decoration: none;
   text-align: center;
+}
+
+.element-border {
+  border-left: 2px solid #949c72;
+  border-right: 2px solid #949c72;
+  padding: 3% 5px 10px;
+}
+
+.header-container .brand-right {
+  text-align: right;
+  padding-right: 30px;
+  width: 150px;
+  position: absolute;
+  right: 0;
+  top: 380px;
+  margin: 0 30px 70px 0;
+  padding: 0;
 }
 
 h1 {
@@ -128,13 +152,6 @@ p {
 
 .header-container .small-element{
   width: 145px;
-}
-
-.header-container .element {
-  position: absolute;
-  top: 380px;
-  right: 0px;
-  margin-right: 50px;
 }
 
 .article {
