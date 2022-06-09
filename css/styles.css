@@ -299,3 +299,16 @@ article img{
   border: none;
   border-left: 0.5px solid #111111;
 }
+
+.fake-carrousel{
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+.fake-carrousel img{
+  max-width: 189px;
+}
+
+.fake-carrousel-visual{
+  border-right: 0.5px solid #111111;
+}
