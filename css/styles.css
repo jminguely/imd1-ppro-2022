@@ -25,6 +25,7 @@ h3,
 a {
   font-family: "M PLUS 2", sans-serif;
   font-weight: Bold 700px;
+  text-align: center;
 }
 
 .kaisei-font-regular {
@@ -42,6 +43,9 @@ a {
   background-color: black;
   text-align: center;
   font-size: 22px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
 }
 
 .intro-text {
