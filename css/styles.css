@@ -72,6 +72,7 @@ a {
     justify-content: space-around;
     margin: 30px 20px;
     border: 2px solid black;
+    box-shadow: -10px 10px white, -10px 10px 0px 2px black;
 }
 
 .container-logo {
@@ -192,6 +193,8 @@ footer {
     border-bottom: none;
     border-top-left-radius: 50px;
     border-top-right-radius: 50px;
+    margin-left: 15px;
+    box-shadow: -13px 10px white, -13px 10px 0px 2px black;
 }
 
 .logo-footer {
