@@ -24,15 +24,15 @@
       <a class="button-menu" href="#contact-footer">Contact</a>
     </nav>
     <figure>
-    <img class="photo-sdp" src="img/intro-photo.webp" alt="photo-intro">
-    <figcaption></figcaption>
-  </figure>
+      <img class="photo-sdp" src="img/intro-photo.webp" alt="photo-intro">
+      <figcaption></figcaption>
+    </figure>
     <p class="intro-text">Semences de pays développe une production de semences reproductibles,
       rustiques et adaptées à une agriculture biologique proche des cycles
       de la nature, en collaboration avec les initiatives nourricières
       de proximité.</p>
-    <div>
-      <h1 id="les-semences">Nos semences</h1>
+    <h1 id="les-semences">Nos semences</h1>
+    <div class="potimarron-section">
       <h2>Potimarron français</h2>
       <img class="sachet-photo" src="img/sachet-poti.webp" alt="sachet-potimarron">
       <p><span class="kaisei-font-bold">Cucurbitacées</span><br>
@@ -46,7 +46,7 @@
         <span class="kaisei-font-bold">Distance</span>: 100 x100 cm
       </p>
     </div>
-    <div>
+    <div class="haricot-section">
       <h2>Haricot à rames Borlotto</h2>
       <img class="sachet-photo" src="img/sachet-hari.webp" alt="sachet-fabacées">
       <p><span class="kaisei-font-regular">Fabacées</span><br>
@@ -60,7 +60,7 @@
         <span class="kaisei-font-bold">>Profondeur</span>: 2 cm
       </p>
     </div>
-    <div>
+    <div class="bleuet-section">
       <h2>Bleuet Blauer Junge</h2>
       <img class="sachet-photo" src="img/sachet-bleu.webp" alt="sachet-fleur">
       <p><span class="kaisei-font-regular">Fleurs</span><br>
@@ -73,42 +73,44 @@
         <span class="kaisei-font-bold">Floraison</span>: de juin à août
       </p>
     </div>
-  <figure id="shopping">
-    <img class="photo-sdp" src="img/shop-photo.webp" alt="photo-shop">
-    <figcaption></figcaption>
-  </figure>
+    <figure id="shopping">
+      <img class="photo-sdp" src="img/shop-photo.webp" alt="photo-shop">
+      <figcaption></figcaption>
+    </figure>
     <p>Découvrez nos trésors de biodiversité sur le shop!</p>
     <a href="https://shop.semencesdepays.ch" target="_blank">acheter</a>
     <img class="gif" src="img/Carte-suisseromande-animationi.gif" alt="carte_de_la_Suisse_romande">
-    <div>
-      <p class="kaisei-font-bold">Chez Mamie</p>
-      <p>Rue des Rois 17</p>
-      <p>1204 Genève</p>
-      <a href="https://www.chezmamie-biovrac.ch/magasins/geneve" target="_blank">voir</a>
-    </div>
-    <div>
-      <p class="kaisei-font-bold">Le Topinambour</p>
-      <p>Avenue William-Fraisse 9</p>
-      <p>1006 Lausanne</p>
-      <a href="https://topinambour.ch/" target="_blank">voir</a>
-    </div>
-    <div>
-      <p class="kaisei-font-bold">Ferme du Joran</p>
-      <p>Chemin des Philosophes 15</p>
-      <p>1350 Orbe</p>
-      <a href="https://www.green-list.ch/ferme-du-joran" target="_blank">voir</a>
-    </div>
-    <div>
-      <p class="kaisei-font-bold">Le Grainier</p>
-      <p>Route des Mines de Sel</p>
-      <p>1880 Bex</p>
-      <a href="https://www.legrainier.com/" target="_blank">voir</a>
-    </div>
-    <div>
-      <p class="kaisei-font-bold">Nouvelle Terre</p>
-      <p>Rue du Grand-Verger 12</p>
-      <p>1920 Martigny</p>
-      <a href="https://www.nouvelleterre.net/" target="_blank">voir</a>
+    <div class="reseller-cards">
+      <div>
+        <p class="kaisei-font-bold">Chez Mamie</p>
+        <p>Rue des Rois 17</p>
+        <p>1204 Genève</p>
+        <a class="button-voir" href="https://www.chezmamie-biovrac.ch/magasins/geneve" target="_blank">voir</a>
+      </div>
+      <div>
+        <p class="kaisei-font-bold">Le Topinambour</p>
+        <p>Avenue William-Fraisse 9</p>
+        <p>1006 Lausanne</p>
+        <a class="button-voir" href="https://topinambour.ch/" target="_blank">voir</a>
+      </div>
+      <div>
+        <p class="kaisei-font-bold">Ferme du Joran</p>
+        <p>Chemin des Philosophes 15</p>
+        <p>1350 Orbe</p>
+        <a class="button-voir" href="https://www.green-list.ch/ferme-du-joran" target="_blank">voir</a>
+      </div>
+      <div>
+        <p class="kaisei-font-bold">Le Grainier</p>
+        <p>Route des Mines de Sel</p>
+        <p>1880 Bex</p>
+        <a class="button-voir" href="https://www.legrainier.com/" target="_blank">voir</a>
+      </div>
+      <div>
+        <p class="kaisei-font-bold">Nouvelle Terre</p>
+        <p>Rue du Grand-Verger 12</p>
+        <p>1920 Martigny</p>
+        <a class="button-voir" href="https://www.nouvelleterre.net/" target="_blank">voir</a>
+      </div>
     </div>
   </main>
   <footer">
@@ -118,10 +120,10 @@
     <p>Chemin du Petit-Bel-Air 2</p>
     <p>1225 Chêne-Bourg</p>
     <p>info@semencesdepays.ch</p>
-  <figure>
-    <img class="photo-sdp" src="img/location-photo.webp" alt="photo-footer">
-    <figcaption></figcaption>
-  </figure>
+    <figure>
+      <img class="photo-sdp" src="img/location-photo.webp" alt="photo-footer">
+      <figcaption></figcaption>
+    </figure>
     </footer>
 </body>
 

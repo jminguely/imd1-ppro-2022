@@ -25,7 +25,6 @@ h3,
 a {
   font-family: "M PLUS 2", sans-serif;
   font-weight: Bold 700px;
-  text-align: center;
 }
 
 .kaisei-font-regular {
@@ -38,14 +37,19 @@ a {
   font-weight: Bold 700px;
 }
 
+main {
+  background: #eaeaea;
+}
+
 .button-menu {
   color: white;
-  background-color: black;
+  border-style: solid;
+  background: black;
   text-align: center;
   font-size: 22px;
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  text-decoration: none;
 }
 
 .intro-text {
@@ -53,6 +57,17 @@ a {
   font-size: 17px;
 }
 
+.potimarron-section {
+  background: #e97833;
+}
+
+.haricot-section {
+  background: #a14750;
+}
+
+.bleuet-section {
+  background: #313988;
+}
 .gif {
   width: 100%;
   height: auto;
@@ -64,12 +79,22 @@ a {
 }
 
 .photo-sdp {
-  width: 100%;
+  width: 300px;
   height: auto;
 }
 
-main {
-  background: #eaeaea;
+.reseller-cards {
+  display: flex;
+  flex-direction: column;
+}
+
+.button-voir {
+  color: white;
+  border-style: solid;
+  background: black;
+  border-radius: 33px;
+  font-size: 22px;
+  text-decoration: none;
 }
 
 footer {
