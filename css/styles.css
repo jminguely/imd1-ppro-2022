@@ -28,6 +28,13 @@
 
 @font-face { 
   font-family: 'SuisseIntl'; 
+  src:  url('../fonts/SuisseIntl-Light.woff2') format('woff2'); 
+  font-weight: lighter; 
+  font-style: normal; 
+}
+
+@font-face { 
+  font-family: 'SuisseIntl'; 
   src:  url('../fonts/SuisseIntl-Book.woff2') format('woff2'); 
   font-weight: 200; 
   font-style: normal; 
@@ -234,4 +241,62 @@ article img{
 
 .flowers-product{
   border-bottom: none;
+}
+
+
+.resellers{
+  text-align: center;
+}
+
+.resellers h2{
+  text-align: left;
+  margin: 0;
+}
+
+.resellers img{
+  max-width: 310px;
+  padding: 20px 0 20px;
+}
+
+.resellers-focus{
+  margin: 0;
+  border-bottom: none;
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+.resellers-focus img{
+  max-height: 130px;
+  padding: 0;
+}
+
+.resellers-address{
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  border: none;
+  text-align: center;
+  height: 130px;
+  width: 100%;
+  border-right: 0.5px solid #111111;
+}
+
+.resellers-address p{
+  margin: 1px 0 0 0; 
+  padding: 0;
+  font-family: 'SuisseIntl'; 
+  font-weight: lighter; 
+  font-style: normal;
+  text-align: center;
+}
+
+.resellers-focus-other-view{
+  flex-flow: row-reverse nowrap;
+}
+
+.resellers-focus-other-view .resellers-address{
+  border: none;
+  border-left: 0.5px solid #111111;
 }
