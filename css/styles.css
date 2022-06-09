@@ -60,21 +60,20 @@ main span{
   color: white;
   background-color: black;
   font-size: 30px;
-  padding: 20px;
+  padding: 20px 38px;
   display: flex;
   align-content: stretch;
   font-family: HappyCamper;
   text-align: center;
   border-top: solid;
   border-color: white;
-  text-align: center;
 }
 
 /* Main */
 
 .button-shop {
   background-color: white;
-  margin-top: 30px;
+  padding: 5px;
 }
 
 main img {
@@ -103,6 +102,10 @@ h2 {
 
 .text-card-packaging {
   padding: 40px;
+}
+
+.text-card-packaging ul {
+  padding-bottom: 20px;
 }
 
 .product-card {
@@ -145,7 +148,7 @@ em {
 }
 
 .card-text {
-  margin: 0 40px 50px ;
+  margin: 0 30px 30px ;
   padding: 20px;
 }
 
@@ -160,7 +163,25 @@ em {
 footer {
   background-color: black;
   color: white;
-  padding-bottom: 60px;
+}
+
+a:link {
+  color: white;
+  text-decoration: none;
+}
+
+a:visited {
+  color: green;
+  text-decoration: none;
+}
+
+.footer-text {
+padding: 40px;
+}
+
+.footer-text img {
+  margin: 0px;
+  margin-top: 30px;
 }
 
 .logo {
@@ -201,7 +222,7 @@ main {
 
 .navbar-links ul {
   margin: 0;
-  padding: 0;
+  padding-top: 20px;
 }
 
 .navbar-links li {
@@ -216,6 +237,7 @@ main {
   width: 375px;
   font-family: HappyCamper;
   font-size: 16px;
+  border-top: black thin solid;
 }
 
 .toggle-button {
