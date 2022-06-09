@@ -48,9 +48,9 @@ main {
 }
 
 .button-menu {
+  background-color: black;
+  border: none;
   color: white;
-  border-style: solid;
-  background: black;
   text-align: center;
   font-size: 22px;
   display: flex;
@@ -99,22 +99,18 @@ main h1, h2 {
 .quote-shop {
   font-size: 30px;
   text-align: center;
+  margin-bottom: 36px;
 }
 
 .button-shop {
+  background-color: black;
+  border: none;
   color: white;
-  border-style: solid;
-  background: black;
   border-radius: 40px;
   text-align: center;
   font-size: 22px;
   text-decoration: none;
-  margin-top: 36px;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 219px;
   padding: 28px 53px;
-  margin: auto;
 }
 
 .sachet-white-card {
@@ -129,6 +125,9 @@ main h1, h2 {
 .gif {
   width: 100%;
   height: auto;
+  display: block;
+  margin-top: 219px;
+  margin-bottom: 150px;
 }
 
 .sachet-photo {
@@ -138,6 +137,7 @@ main h1, h2 {
 
 .photo-sdp {
   width: 375px;
+  margin: 40px 30px;
 }
 
 .reseller-cards {
@@ -146,12 +146,13 @@ main h1, h2 {
 }
 
 .button-voir {
+  background-color: black;
+  border: none;
   color: white;
-  border-style: solid;
-  background: black;
   border-radius: 33px;
   font-size: 22px;
   text-decoration: none;
+  padding: 25px 39px;
 }
 
 footer {
