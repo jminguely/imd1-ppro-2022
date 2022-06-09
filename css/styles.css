@@ -27,7 +27,7 @@ img {
 
 .button-shop-container .button {
   width: 79px;
-  margin: 15px;
+  margin: 6px 15px 10px 5px;
 }
 
 .button-shop-container {
@@ -72,15 +72,23 @@ h1 {
   font-family: 'Paragon';
   font-weight: 400;
   font-style: normal;
-  font-size: 21px;
+  font-size: 30px;
   margin: 15px 15px 0px 15px;
+}
+
+h2 {
+  font-family: 'Paragon';
+  font-weight: 400;
+  font-style: normal;
+  font-size: 24px;
+  margin: 5px 15px 0px 15px;
 }
 
 p {
   font-family: 'Avenir';
   font-weight: 400;
   font-style: normal;
-  font-size: 12px;
+  font-size: 14px;
   margin: 5px 15px 60px 15px;
 }
 
@@ -106,12 +114,19 @@ figcaption {
 
 .semence-card {
   background-color: #CFAC8A;
-  height: 490px;
+  height: 1938px;
 }
 
 .semence-card p {
-  font-size: 18px;
-  margin: 5px 15px 5px 15px
+  font-size: 19px;
+  margin: 5px 15px 25px 15px
+}
+
+.semence-card-discover {
+  font-family: 'Paragon';
+  font-weight: 400;
+  font-style: normal;
+  width: 250px;
 }
 
 .image-carte-posittion {
