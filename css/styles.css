@@ -1,0 +1,301 @@
+:root {
+  --title-font: 'quincy-cf', serif;
+  --text-font: 'quicksand', sans-serif;
+  --text-color: #666666;
+  --text-important-color: #334D51;
+  --background-color: #CFD7AE;
+  --logo-color: #333333; 
+  --padding: 0 30px;
+  --footer-background-color: #c2a08980;
+}
+
+html, body {
+  max-width: 375px;
+  margin: auto;
+  box-sizing: border-box;
+  background-color: var(--background-color);
+}
+
+.nav-container {
+  background-image: url(../img/herbe_texte.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  gap: 5px;
+  padding: 0 10px 0 0;
+  position: fixed;
+  top:0;
+  z-index: 3;
+  width: 365px;
+  height: 80px;
+}
+
+h4 {
+  color: var(--logo-color);
+  font-size: 20px;
+  font-family: var(--title-font);
+}
+
+.nav-element {
+  width: 70px;
+  margin: 15px;
+}
+
+.header-container .element {
+  position: absolute;
+  top: 420px;
+  right: 0px;
+  margin-right: 50px;
+}
+
+.element {
+  font-size: 15px;
+  font-family: var(--text-font);
+  color: var(--logo-color);
+  text-decoration: none;
+  text-align: center;
+}
+
+.element-border {
+  border-left: 2px solid #949c72;
+  border-right: 2px solid #949c72;
+  padding: 3% 5px 10px;
+}
+
+.header-container .brand-right {
+  text-align: right;
+  padding-right: 30px;
+  width: 150px;
+  position: absolute;
+  right: 0;
+  top: 380px;
+  margin: 0 30px 70px 0;
+  padding: 0;
+}
+
+h1 {
+  color: var(--text-important-color);
+  font-size: 30px;
+  font-family: var(--title-font);
+  font-weight: 400;
+  font-style: normal;
+  padding: var(--padding);
+  padding: 60px 150px 0 30px; 
+  margin: 55px 0 15px;
+}
+
+h2 {
+  color: var(--text-color);
+  font-size: 25px;
+  font-family: var(--text-font);
+  font-weight: 300;
+  font-style: normal;
+  padding: var(--padding); 
+  padding: 10px 220px 40px 30px; 
+  line-height: 30px;
+}
+
+.button {
+  color: var(--text-important-color);
+  font-family: var(--title-font);
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
+  border: solid 2px #fff;
+  text-decoration: none;
+  padding: 8px;
+}
+
+p {
+  color: var(--text-color);
+  font-family: var(--text-font);
+  font-size: 15px;
+  font-weight: 300;
+  font-style: normal;
+  line-height: 20px;
+  padding: 0 80px;
+  margin: 40px 0;
+}
+
+.text-header {
+  color: var(--text-important-color);
+  font-weight: 500;
+  font-style: normal;
+}
+
+.header-container {
+  position: relative;
+}
+
+.header-container .big-element {
+  position: absolute;
+  top: 80px;
+  right: 0px;
+  width: 190px;
+}
+
+.header-container .big-element:hover {
+  mask-image: url(../img/fleur_violette_texte.webp);
+  background-repeat: no-repeat;
+  background-position: absolute;
+  top: 80px;
+  right: 0px;
+  width: 190px;
+  z-index: 3;
+}
+
+.header-container .small-element {
+  width: 145px;
+}
+
+.article {
+  margin: 0 35px;
+  width: 300px;
+}
+
+h3 {
+  color: var(--text-important-color);
+  font-size: 30px;
+  font-family: var(--title-font);
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
+  padding: 30px 0 0 0;
+  margin: 0;
+}
+
+.infos {
+  margin: 0;
+}
+
+.text-infos {
+  margin: 15px 0 40px;
+}
+
+main {
+  position: relative;
+}
+
+.buy {
+  position: absolute;
+  left: 50%;
+  transform: translate(-47px, 0px);
+}
+
+.pumpkin, .bean {
+  margin-top: 50px;
+}
+
+.man {
+  margin-top: 120px;
+}
+
+.end-title {
+  padding: 0 130px 0 30px; 
+  line-height: 27px;
+  font-size: 23px;
+  margin: 30px 0 0 0;
+}
+
+.end-text {
+  text-align: right;
+  padding: 30px 30px 0 200px; 
+}
+
+.map {
+  margin: 60px 15px 80px;
+  width: 340px;
+}
+
+.end-container {
+  position: relative;
+}
+
+.end-container .small-element {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 115px;
+}
+
+.end-container .big-element {
+  position: absolute;
+  top: 250px;
+  left: 0;
+  width: 180px;
+}
+
+footer {
+  background-color: var(--footer-background-color);
+  position: relative;
+  height: 800px;
+}
+
+img {
+  width: 375px;
+}
+
+footer p {
+  color: #fff;
+  padding: 0;
+  margin: 0;
+  font-size: 15px;
+}
+
+.address {
+  padding: 30px;
+}
+
+.title {
+  font-family: var(--title-font);
+  font-weight: 400;
+  font-style: normal;
+  color: var(--text-important-color);
+  font-size: 20px;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.brand {
+  text-align: left;
+  padding: 30px 30px 0 30px;
+}
+
+.logo-container {
+  padding: 0 30px 30px 30px;
+}
+
+.logo-bio {
+  width: 25px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  padding: 30px;
+}
+
+.logo-sprout {
+  width: 125px;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  padding: 30px;
+}
+
+.link {
+  padding: 0 30px;
+  color: #fff;
+  text-decoration: none;
+  position: absolute;
+  left: 0;
+  bottom: 120px;
+  font-size: 15px;
+}
+
+.our-address {
+  padding: 40px 30px 20px;
+}
