@@ -72,9 +72,30 @@ h2 {
   text-align: center;
 }
 
+
+.plant-title {
+  position: absolute;
+  top: 0;
+  z-index: 3;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+
+.name-plant {
+  text-align: center;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%, 0);
+  width: 315px;
+  margin-bottom: 30px;
+}
 .potimarron-section {
   background: #e97833;
+  position: relative;
+  height: 550px;
 }
+
 
 .haricot-section {
   background: #a14750;
@@ -113,7 +134,10 @@ h2 {
   text-align: center;
   font-size: 22px;
   text-decoration: none;
-  padding: 28px 53px;
+  display: flex;
+  justify-content: center;
+  padding: 25px 50px;
+  width: 188px;
 }
 
 .sachet-white-card {
@@ -121,9 +145,6 @@ h2 {
   padding: 30px 10px 40px 22px;
 }
 
-.name-plant {
-  text-align: center;
-}
 
 .gif {
   width: 100%;
@@ -136,6 +157,8 @@ h2 {
 .sachet-photo {
   width: 100%;
   height: auto;
+  position: absolute;
+  bottom: 0;
 }
 
 .photo-sdp {
@@ -155,10 +178,12 @@ h2 {
   background-color: black;
   border: none;
   color: white;
-  border-radius: 35px;
+  border-radius: 40px;
   font-size: 22px;
   text-decoration: none;
-  padding: 25px 39px;
+  padding: 20px 30px;
+  width: 60px;
+  margin-top: 23px;
 }
 
 figcaption {
