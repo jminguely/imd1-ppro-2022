@@ -176,3 +176,10 @@ footer {
 .footer-contact {
   font-size: 22px;
 }
+
+.logo-small {
+  width: 160px;
+}
+footer a {
+text-decoration: none;
+}
