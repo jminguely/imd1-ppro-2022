@@ -56,6 +56,7 @@ main {
   display: flex;
   flex-direction: column;
   text-decoration: none;
+  padding: 14px 29px;
   margin-bottom: 27px;
 }
 
@@ -139,6 +140,7 @@ main h1, h2 {
 
 .photo-sdp {
   max-width: 100%;
+  margin-top: 65px;
 }
 
 .reseller-cards {
@@ -159,6 +161,13 @@ main h1, h2 {
   padding: 25px 39px;
 }
 
+figcaption {
+  font-family: "Kaisei Opti", serif;
+  font-weight: Medium 500px;
+  opacity: 50%;
+  font-size: 7px;
+  text-align: center;
+}
 
 footer {
   background: #ffffff;
