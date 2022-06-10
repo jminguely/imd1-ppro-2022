@@ -234,6 +234,9 @@ figure .photo-sdp {
 .container-rs {
   font-size: 25px;
   margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  margin-left: 27px;
 }
 
 .button-voir {
@@ -247,6 +250,7 @@ figure .photo-sdp {
   width: 60px;
   margin-top: 20px;
   margin-bottom: 50px;
+  margin-left: 27px;
 }
 
 figcaption {
@@ -265,6 +269,9 @@ footer {
 
 .footer-contact {
   font-size: 22px;
+  display: flex;
+  flex-direction: column;
+  margin-left: 27px;
 }
 
 .logo-small {
