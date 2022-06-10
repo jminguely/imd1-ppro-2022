@@ -112,7 +112,7 @@ span {
 
 
 .sachet {
-  width: 80%;
+  margin: 30px 0;
 }
 
 .adress {
@@ -125,4 +125,8 @@ span {
   width: 60%;
   margin-left: 75px;
   margin-bottom: 0;
+}
+
+.titre-footer {
+  font-family: 'Compagnon';
 }
