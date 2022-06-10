@@ -176,6 +176,18 @@ article img{
   margin: 0;
 }
 
+footer{
+  display: flex;
+  flex-flow: row-reverse nowrap;
+  width: 100%;
+  border-top: 0.5px solid #111111;
+  border-bottom: 0.5px solid #111111;
+}
+
+footer .img-caption{
+  border: none;
+  padding-left: 0;
+}
 .img-caption{
   font-family: 'SuisseIntl'; 
   font-weight: lighter; 
@@ -210,7 +222,7 @@ article img{
 .brand-information .img-caption{
   text-align: right;
   border: none;
-  margin: 0;
+  margin: 0 0 0 175px;
   position: absolute;
   right: 0;
 }
@@ -409,19 +421,6 @@ article img{
   border-right: 0.5px solid #111111;
 }
 
-footer{
-  display: flex;
-  flex-flow: row-reverse nowrap;
-  width: 100%;
-  border-top: 0.5px solid #111111;
-  border-bottom: 0.5px solid #111111;
-}
-
-footer .img-caption{
-  border: none;
-  padding-left: 0;
-}
-
 .contact-information{
   display: flex;
   flex-flow: column wrap;
@@ -430,10 +429,14 @@ footer .img-caption{
   padding: 0;
   margin: 0;
   width: 100%;
-  padding-left: 20px;
   border-left: 0.5px solid #111111;
 }
 
-.contact-information h2{
-  padding-left: 0;
+.contact-information h2,
+.contact-information p{
+  padding-left: 20px;
+}
+
+.contact-information a{
+  margin-left: 20px;
 }
