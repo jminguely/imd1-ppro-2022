@@ -1,0 +1,145 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  max-width: 375px;
+  margin: auto;
+  font-family: roc-grotesk, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+header {
+  background-image: url(../img/img_association_header.webp);
+  background-size: cover;
+}
+
+.glass-card,
+.button,
+.card-map {
+  background-color: rgba(255,255,255,0.06);
+  border: 1px solid rgba(255,255,255,0.1);
+}
+
+.glass-card {
+  backdrop-filter: blur(10px);
+  padding: 30px;
+}
+
+.card {
+  background-color: #ff1fb3;
+  padding: 36px 20px;
+}
+
+.card img {
+  max-width: 150px;
+  margin: 0 60px;
+}
+
+.card a {
+  font-size: 18px;
+  color: black;
+  font-family: 'General Sans', sans-serif;
+}
+
+.card h2 {
+  margin-top: 70px;
+  font-family: 'General Sans', sans-serif;
+  margin-bottom: 0;
+}
+
+nav {
+  margin-bottom: 70px;
+}
+
+h2 {
+  font-size: 35px;
+}
+
+.products {
+  background-image: url(../img/img_background_produits.svg);
+  background-size: cover;
+  color: #ff1fb3;
+  padding: 20px 0;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.products a {
+  color: #ff1fb3;
+  text-decoration: none;
+}
+
+.products p {
+  font-family: roc-grotesk, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 18px;
+  width: 170px;
+}
+
+.products h2 {
+  font-family: 'General Sans', sans-serif;
+  margin-top: 0;
+  padding-left: 30px;
+}
+
+.products img {
+  width: 170px;
+  margin-bottom: 20px;
+}
+
+.little-img {
+  transform: scale(0.8);
+}
+
+.container-img img {
+  width: 375px;
+}
+
+.container {
+  margin-right: 25px;
+}
+
+.button {
+  backdrop-filter: blur(3px);
+  width: 170px;
+  font-size: 15px;
+  text-align: center;
+  padding: 7px 3px;
+}
+
+.map {
+  background-image: url(../img/img_association.webp);
+  background-size: cover;
+  padding: 30px;
+}
+
+.map h2 {
+  margin-top: 15px;
+}
+
+.card-map {
+  color: black;
+  font-family: 'General Sans', sans-serif;
+  margin: 40px auto;
+  backdrop-filter: blur(10px);
+  padding: 16px;
+}
+
+footer {
+  background-color: #233131;
+  color: #ff1fb3;
+  padding: 31px;
+}
+
+footer h2 {
+  font-family: 'General Sans', sans-serif;
+}
+
+footer img {
+  max-width: 90px;
+}
