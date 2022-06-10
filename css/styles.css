@@ -53,7 +53,7 @@ html{
 
 body{
   width: 375px;
-  margin: 0;
+  margin: 0 auto;
   background-color: #ffffff;
   color: #111111;
   text-align: left;
@@ -84,7 +84,9 @@ div{
 article{
   display: flex;
   flex-flow: row-reverse nowrap;
-  border-bottom: 0.5px #111111 solid;
+  border: none;
+  border-top: 0.5px #111111 solid;
+  width: 100%;
 }
 
 h1{
@@ -199,8 +201,13 @@ article img{
   left: 20px;
 }
 
-.product-introduction img{
-  max-height: 100px;
+.product-presentation{
+  border: none;
+  margin: 0;
+}
+
+.product-presentation h2{
+  margin: 0;
 }
 
 .product-introduction{
@@ -209,52 +216,87 @@ article img{
   margin-top: 0;
   margin-bottom: 0;
   border: none;
-  border-bottom: 0.5px solid #111111;
 }
 
-.product-presentation h2{
-  margin: 0;
-}
 
 .product-introduction p{
   padding: 20px 0 0 10px;
   margin: 0;
 }
 
-.product-information{
-  width: 100%;
+.product-information h1{
+  margin: 20px;
+}
+
+.product-information h2{
   margin: 0;
+  padding: 0 10px;
+}
+
+.product-introduction img{
+  max-height: 100px;
+}
+
+.product-information{
+  display: flex;
+  flex-flow: column wrap;
+  padding: 0;
+  margin: 0;
+  width: 100%;
   border: none;
   border-left: 0.5px solid #111111;
-  padding: 20px 10px;
   position: relative;
 }
 
 .product-information a{
+  align-self: flex-end;
   position: absolute;
-  right: 20px;
   bottom: 20px;
+  right: 10px;
 }
 
 .product-visual {
-  width: 100%;
-  padding: 25px;
+  display: flex;
+  flex-flow: column wrap;
   margin: 0;
+  padding: 0;
+  width: 100%;
   border: none;
 }
 
-.fabacees-product{
-  display: flex;
-  flex-flow: row nowrap;
+.product-visual img{
+  max-width: 231.5px;
 }
 
-.fabacees-product .product-information{
+.small-product-visual{
+  display: flex;
+  flex-flow: row nowrap;
+  margin: 0;
+  padding: 0;
+  border: none;
+  border-top: 0.5px solid #111111;
+}
+
+.small-product-visual-left-one{
+  border-right: 0.5px solid #111111;
+}
+
+.small-product-visual img{
+  max-width: 115.5px;
+}
+
+.fabacee-product{
+  flex-flow: row nowrap;
+  margin: 0;
+}
+
+.fabacee-product .product-information{
   border: none;
   border-right: 0.5px solid #111111;
 }
 
-.flowers-product{
-  border-bottom: none;
+.flower-product{
+  border-bottom: 0.5px solid #111111;
 }
 
 .resellers{
