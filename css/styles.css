@@ -1,0 +1,228 @@
+/* fonts ↓
+
+font-family: tomarik-display, sans-serif;
+
+font-weight: 400;
+
+font-style: normal; 
+
+font-family: tablet-gothic, sans-serif;
+
+font-weight: 400;
+
+font-style: normal;
+
+*/
+
+/* base ↓ */
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  width: 375px;
+  margin: auto;
+  background-color: var(--background-color);
+  box-shadow: 0 0 50px rgb(0 0 0 / 20%);
+  color: var(--main-color);
+  text-align: center;
+}
+
+header,
+main,
+footer {
+  padding: 0 25px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+:root {
+  --main-color: #064534;
+  --secondary-color: #28906f;
+  --third-color: #fff;
+  --background-color: #fff8f0;
+  --title-font: "tomarik-display", sans-serif;
+  --text-font: "tablet-gothic", sans-serif;
+}
+
+a,
+p {
+  text-decoration: none;
+  color: var(--main-color);
+  font-family: var(--text-font);
+  font-size: 15px;
+  z-index: 10;
+}
+
+p {
+  padding: 0 10px 15px;
+}
+
+.packaging p {
+  font-family: var(--title-font);
+}
+
+img {
+  max-width: 325px;
+  -webkit-user-drag: none;
+  user-select: none;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: var(--title-font);
+  font-size: 17px;
+  z-index: 10;
+}
+
+p {
+  font-size: 15px;
+  font-family: var(--text-font);
+  line-height: 17px;
+  z-index: 10;
+}
+
+/* header ↓ */
+
+header h1 {
+  padding: 20px 0 5px;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  padding: 7px;
+  justify-content: space-around;
+}
+
+.gate {
+  background-image: url(../img/grille-nav-vert.webp);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+nav a {
+  line-height: 13px;
+  padding: 9px 8px 11px 12px;
+}
+
+/* main ↓ */
+
+h2 {
+  font-size: 20px;
+}
+
+.shops h2 {
+  padding: 18px;
+}
+
+.about-us h2 {
+  padding: 30px 0 20px;
+}
+
+h3 {
+  font-size: 17px;
+}
+
+.button {
+  background-color: var(--secondary-color);
+  border-radius: 50px;
+  padding: 7px;
+  margin: 20px 95px;
+  max-width: 150px;
+  display: flex;
+  justify-content: center;
+}
+
+.button a {
+  color: var(--third-color);
+}
+
+.title-decoration {
+  background-image: url(../img/ornement-titre.webp);
+  background-size: cover;
+  background-position: center;
+}
+
+.products img {
+  max-width: 250px;
+}
+
+.products .illustration {
+  max-width: 68px;
+}
+
+.packaging {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.packaging-first {
+  position: relative;
+  top: 50px;
+}
+
+.packaging-secondary img {
+  z-index: 1;
+}
+
+.packaging-third img {
+  position: relative;
+  bottom: 40px;
+  z-index: 2;
+}
+
+.packaging img {
+  max-width: 208px;
+}
+
+.description-first {
+  transform: translate(5%, -36%);
+  color: #5b61a6;
+}
+
+.description-middle {
+  color: #c56120;
+}
+
+.description-last {
+  transform: translate(7%, -120%);
+  top: 10%;
+  color: #a9005f;
+}
+
+/* footer ↓ */
+
+footer {
+  position: relative;
+  background-image: url(../img/ornement-footer.webp);
+  background-size: cover;
+  background-position: center;
+}
+
+.contacts {
+  padding: 25px;
+  position: relative;
+  z-index: 10;
+}
+
+.contacts h3 {
+  padding: 0 0 5px;
+}
+
+footer a {
+  text-decoration: underline;
+}
+
+footer p {
+  padding: 10px 0;
+}
