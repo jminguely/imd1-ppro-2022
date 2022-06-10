@@ -1,0 +1,219 @@
+html {
+  background-color: white;
+  scroll-behavior: smooth;
+}
+
+body {
+  max-width: 375px;
+  margin: auto;
+  width: 100%;
+  background-color: #F0E8D5;
+}
+
+img {
+ width: 375px;
+}
+
+.logo-semence {
+  margin: 5px 15px;
+  width: 344px;
+}
+
+.button-shop-container .button {
+  width: 79px;
+  margin: 6px 15px 10px 5px;
+}
+
+.button-shop-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+
+}
+
+.button {
+  font-family: 'Paragon';
+  font-weight: 400;
+  font-style: normal;
+  font-size: 21px;
+  text-decoration: none;
+  color: black;
+  background-color: #C6CCB6;
+  width: 163px;
+  height: 21px;
+}
+
+.button:hover {
+  background-color: #D2D0D0;
+}
+
+a:hover {
+  color: #CFAC8A;
+}
+
+.header-button-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
+
+header div {
+  margin: 3px 15px 17px 15px;
+}
+
+h1 {
+  font-family: 'Paragon';
+  font-weight: 400;
+  font-style: normal;
+  font-size: 30px;
+  margin: 15px 15px 0px 15px;
+}
+
+h2 {
+  font-family: 'Paragon';
+  font-weight: 400;
+  font-style: normal;
+  font-size: 24px;
+  margin: 5px 15px 0px 15px;
+}
+
+p {
+  font-family: 'Avenir';
+  font-weight: 400;
+  font-style: normal;
+  font-size: 14px;
+  margin: 5px 15px 60px 15px;
+}
+
+.button-semence-pays {
+  padding: 5px 15px 5px 5px;
+  height: 53px;
+  width: 148px;
+}
+
+figure {
+  margin: 0px;
+}
+
+figcaption {
+  color: grey;
+  font-family: 'Avenir';
+  font-weight: 400;
+  font-style: normal;
+  font-size: 10px;
+  margin: 0px 15px;
+
+}
+
+.semence-card {
+  background-color: #CFAC8A;
+  height: 1892px;
+}
+
+.semence-card p {
+  font-size: 1zpx;
+  margin: 5px 15px 25px 15px
+}
+
+.semence-card-discover {
+  font-family: 'Paragon';
+  font-weight: 400;
+  font-style: normal;
+  width: 250px;
+}
+
+.image-carte-posittion {
+  width: 272px;
+  margin-left: 27px;
+}
+
+span {
+  font-family: 'Paragon';
+  font-weight: 400;
+  font-style: normal;
+  font-size: 18px;
+}
+
+a {
+  font-family: 'Avenir';
+  font-weight: 400;
+  font-style: normal;
+  font-size: 14px;
+  color: black;
+  text-decoration: none;
+  padding: 18px 0px 24px 5px;
+}
+
+.adresse-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+
+.adresse-mamie {
+  width: 129px;
+  margin-left: 6px;
+}
+
+.adresse-topinambour {
+  width: 160px;
+  margin-left: 28px;
+}
+
+.adresse-joran {
+  width: 176px;
+  margin-left: 13px;
+}
+
+.adresse-grainier {
+  width: 155px;
+  margin-right: 15px;
+}
+
+.adresse-nouvelle-terre {
+  width: 158px;
+}
+
+footer {
+  background-color: #D2D0D0;
+}
+
+footer img {
+  width: 219px;
+  margin: 10px 0px 0px 0px;
+}
+
+.footer-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+footer a {
+  margin: 0px 72px;
+  font-size: 18px;
+}
+
+.adresse-nouvelle-terre-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.adresse-nouvelle-terre-container a {
+  padding: 18px 0px 24px 5px;
+  margin-left: 15px;
+}
+
+.contact-mail {
+  padding: 0px 16px 24px 5px;
+}
+
+.semence-card h1 {
+  padding-top: 15px;
+}
+
+
