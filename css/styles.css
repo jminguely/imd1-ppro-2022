@@ -11,22 +11,36 @@ img {
 }
 
 .logo {
+  display: flex;
   width: 80%;
-  flex
+  
 }
   
 p {
   text-align: center;
+  color: #000;
 }
 
 a {
   text-decoration: none;
+  text-align: center;
+  color: #000;
 }
 
 .button-container {
   display: flex;
   flex-direction: column;
   flex-wrap: nowrap;
-  align-content: center;
+  align-items: center;
+  margin-bottom: 60px;
+}
 
-button
+.button {
+  background-color: white;
+  opacity: 0.5;
+  padding: 15px;
+  width: 50%;
+  display: inline-block;
+  border-radius: 20px;
+}
+
