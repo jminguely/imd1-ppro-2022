@@ -1,3 +1,10 @@
+
+@font-face {
+  font-family: 'cochin';
+  src: url('../fonts/Cochin.woff2');
+  src: url('../fonts/Cochin.woff');
+}
+
 body {
   width: 380px;
   margin: auto;
@@ -90,6 +97,7 @@ a:hover {
   display: flex;
   transform: translate(200px, -100px);
   margin: 20px;
+  position: absolute;
 }
 
 .shop {
