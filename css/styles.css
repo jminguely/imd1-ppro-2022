@@ -256,7 +256,13 @@ footer p {
 }
 
 .email {
-  transform: translateX(125px);
+  display: flex;
+  text-decoration: none;
+  justify-content: flex-end;
+  color: #232823;
+  font-family: "acumin-pro", sans-serif;
+  font-weight: 300;
+  font-style: normal;
 }
 
 .text-carte {
