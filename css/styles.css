@@ -1,0 +1,291 @@
+
+/* font-family: 'Manrope', sans-serif;*/
+
+@font-face {
+  font-family: 'HappyCamper';
+
+  src:  url('../fonts/HappyCamper-Regular.woff2') format('woff2'),
+        url('../fonts/HappyCamper-Regular.woff') format('woff');
+  font-style: bold;
+  font-display: swap;
+}
+
+img {
+  max-width: 375px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  max-width: 375px;
+  box-shadow: 0 0 20px rgb(0 0 0 / 30%);
+  word-break: initial;
+  margin: auto;
+  font-family: manrope, sans-serif;
+  font-weight: lighter;
+}
+
+
+/* Header */
+
+.header-intro {
+  background-image: url(../img/people_wrinting_pumpkin_header.webp);
+  background-repeat: no-repeat;
+  height: 550px;
+  width: auto;
+  padding-top: 0px;
+  background-size: contain;
+}
+
+header {
+  width: 375px;
+  top: 0;
+  background-color: black;
+  z-index: 1;
+}
+
+.text-card em {
+  font-family: HappyCamper;
+}
+
+
+h1 {
+  font-family: HappyCamper;
+  margin: 0px;
+}
+
+main span{
+  color: white;
+  background-color: black;
+  font-size: 30px;
+  padding: 20px 38px;
+  display: flex;
+  align-content: stretch;
+  font-family: HappyCamper;
+  text-align: center;
+  border-top: solid;
+  border-bottom: solid 1px white;
+}
+
+/* Main */
+
+.button-shop {
+  background-color: white;
+  padding: 5px;
+}
+
+main img {
+  border-top: black solid thin;
+}
+
+main {
+  margin-top: 0px;
+}
+
+ul {
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+}
+
+h2 { 
+  font-family: HappyCamper;
+  padding-left: 18px;
+  font-size: 18px;
+  margin: 20px;
+  background-color: white;
+}
+
+/* card */
+
+.text-card-packaging {
+  padding: 40px;
+}
+
+.text-card-packaging ul {
+  padding-bottom: 20px;
+}
+
+.product-card {
+  background-color: black;
+  color: white;
+  padding: 0px;
+}
+
+.text-card-packaging a {
+  font-family: HappyCamper;
+  font-size: 25px;
+  color: black;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #fff;
+
+}
+
+.text-card {
+  background-color: white;
+  margin: 35px;
+  padding: 8px 0 25px;
+  color: black;
+  position: relative;
+  transform: translateY(210px);
+  padding: 20px;
+  box-shadow: 0 0 20px rgb(0 0 0 / 30%);
+}
+
+.text-card-packaging p {
+ border-top: solid;
+ border-color: white;
+ border-width: thin;
+ margin-top: 50px;
+ padding-top: 10px;
+}
+
+em {
+  font-weight: bolder;
+  font-style: normal;
+}
+
+.card-text {
+  margin: 0 30px 30px ;
+  padding: 20px;
+}
+
+.card-text li {
+  margin: 20px 0 20px ;
+  word-break: normal;
+
+}
+
+/* Footer */
+
+footer {
+  background-color: black;
+  color: white;
+}
+
+a:link, a:visited {
+  color: black;
+  text-decoration: none;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+}
+
+.footer-text a {
+  color: white;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: white;
+}
+
+
+.footer-text {
+padding: 40px;
+}
+
+.footer-text img {
+  margin: 0px;
+  margin-top: 30px;
+}
+
+.logo {
+  height: 35px;
+  margin: 20px  20px 0 ;
+  width: 130px;
+
+}
+
+header {
+  width: 375px;
+  position: fixed;
+  top: 0;
+}
+
+main {
+  padding-top: 20px;
+  padding-bottom: 1px;
+}
+
+
+* {
+  box-sizing: border-box;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  padding-bottom: 0px;
+}
+
+.navbar-links {
+  height: 100%;
+  padding-top: 20px;
+}
+
+.navbar-links ul {
+  margin: 0;
+  padding-top: 20px;
+}
+
+.navbar-links li {
+  list-style: none;
+}
+
+.navbar-links li a {
+  display: block;
+  text-decoration: none;
+  color: black;
+  background-color: white;
+  width: 375px;
+  font-family: HappyCamper;
+  font-size: 16px;
+  border-top: black thin solid;
+}
+
+.toggle-button {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  display: none;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 40px;
+  height: 27px;
+}
+
+a {
+  text-align: center;
+}
+
+.toggle-button .bar {
+  height: 3px;
+  width: 100%;
+  background-color: white;
+}
+
+.navbar {
+  flex-direction: column;
+  align-items: flex-start;
+  height: 80px;
+}
+
+.toggle-button {
+  display: flex;
+  margin-top: 5px;
+}
+
+.navbar-links {
+  display: none;
+}
+
+.navbar-links ul li a {
+  padding: 15px 10px;
+}
+
+.navbar-links.active {
+  display: flex;
+  padding-left: 0;
+  padding-top: 0px;
+}
