@@ -44,6 +44,7 @@ a {
 
 main {
   background: #eaeaea;
+  width: 375px;
 }
 
 .button-menu {
@@ -63,7 +64,8 @@ main {
   text-align: center;
   font-size: 17px;
   margin-top: 42px;
-  margin-bottom: 64px;
+  margin-left: 40px;
+  margin-right: 40px;
 }
 
 main h1,
@@ -71,7 +73,9 @@ h2 {
   font-size: 34px;
   text-align: center;
 }
-
+h1 {
+margin-top: 64px;
+}
 
 .plant-title {
   position: absolute;
@@ -90,19 +94,23 @@ h2 {
   width: 315px;
   margin-bottom: 30px;
 }
+
 .potimarron-section {
   background: #e97833;
   position: relative;
   height: 550px;
 }
 
-
 .haricot-section {
   background: #a14750;
+  position: relative;
+  height: 550px;
 }
 
 .bleuet-section {
   background: #313988;
+  position: relative;
+  height: 550px;
 }
 
 .text-orange {
@@ -145,7 +153,6 @@ h2 {
   padding: 30px 10px 40px 22px;
 }
 
-
 .gif {
   width: 100%;
   height: auto;
@@ -161,9 +168,13 @@ h2 {
   bottom: 0;
 }
 
-.photo-sdp {
-  max-width: 100%;
-  margin-top: 65px;
+figure {
+  margin: 0;
+}
+
+figure .photo-sdp {
+  width: 294px;
+  margin: 65px 42px 0px 42px;
 }
 
 .reseller-cards {
