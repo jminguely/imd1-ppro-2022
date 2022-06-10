@@ -12,25 +12,6 @@
   font-style: Black;
 }
 
-
-/*New Farm Medium
-
-font-family: new-farm, sans-serif;
-
-font-weight: 500;
-
-font-style: normal;
-
-
-New Farm Regular
-
-font-family: new-farm, sans-serif;
-
-font-weight: 400;
-
-font-style: normal;*/
-
-
 html {
   scroll-behavior: smooth;
   margin: auto;
@@ -67,6 +48,7 @@ header {
 
 header .go-buy {
   max-width: 70px; 
+  height: 70px;
 }
 
 .menu-container {
