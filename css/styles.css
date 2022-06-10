@@ -172,6 +172,12 @@ a:link, a:visited {
   -webkit-text-stroke-color: black;
 }
 
+.footer-text a {
+  color: white;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: white;
+}
+
 
 .footer-text {
 padding: 40px;
