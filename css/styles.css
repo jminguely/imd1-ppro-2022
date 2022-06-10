@@ -57,6 +57,10 @@ header {
   background-size: cover;
 }
 
+header a {
+  color: black
+}
+
 .button-main {
   background-color: white;
   border-radius: 15px;
@@ -303,6 +307,8 @@ footer p {
   font-size: 20px;
   border: solid;
   padding-bottom: 40px;
+  margin-left: 30px;
+  margin-right: 30px;
 }
 
 .e-mail a {
