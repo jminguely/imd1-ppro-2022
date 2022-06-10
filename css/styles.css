@@ -1,0 +1,224 @@
+@font-face {
+  font-family: "reality";
+  src: url(../fonts/KindestReality_DEMO.woff2);
+}
+
+@font-face {
+  font-family: "helveticat";
+  src: url(../fonts/Helvetica\ Light\ Regular.woff);
+  src: url(../fonts/KindestReality_DEMO.woff2) format(woff2);
+}
+
+body {
+  margin: auto;
+  width: 375px;
+  background-color: #d8ea92;
+}
+
+body img {
+  display: block;
+}
+
+header {
+  margin: 0;
+  height: 668px;
+  background-image: url(../img/fond.jpg);
+  background-size: cover;
+}
+
+.logo-semences {
+  width: 172px;
+  padding: 0 100px 0 100px;
+  margin-bottom: 268px;
+}
+
+header nav {
+  background-color: #9894a3;
+  padding: 5px 7px 5px 328px;
+  margin: 0 0 88px 0;
+  width: 40px;
+  position: sticky;
+  top: 0px;
+}
+
+header p {
+  text-align: center;
+  font-family: "helveticat";
+  font-size: 12px;
+  color: #142241;
+  margin: 0 0 188px 0;
+}
+
+.photo-de-champs img {
+  width: 375px;
+}
+
+.photo-de-champs {
+  background-color: #ffa897;
+}
+
+.photo-de-champs p {
+  text-align: center;
+  font-family: "helveticat";
+  font-size: 6px;
+  margin: 0;
+}
+
+.liens-article-semences {
+  background-color: #1e335a;
+  padding: 14px 111px 14px 110px;
+}
+
+.liens-point-ventes {
+  background-color: #fdcdd8;
+  padding: 0 60px 0 110px;
+}
+
+.liens-contacts {
+  background-color: #89a590;
+  padding: 23px 105px 19px 109px;
+}
+
+.fleche-articles p {
+  text-align: center;
+  font-family: "helveticat";
+  font-size: 13px;
+  margin: 0;
+  padding: 38px;
+}
+
+.fleche-articles img {
+  width: 126px;
+  padding: 0 0 41px 118px;
+}
+
+.fleche-articles {
+  background-color: #9ecee4;
+}
+
+.model-3 {
+  width: 375px;
+}
+
+.semences-card h3 {
+  text-align: center;
+  padding: 30px 0;
+  margin: 0;
+  font-family: "helveticat";
+  font-size: 30px;
+}
+
+.semences-card img {
+  width: 375px;
+}
+
+.card-1 {
+  background-color: #365484;
+  color: #ced7cf;
+}
+
+.card-2 {
+  background-color: #fdcdd8;
+  color: #f286aa;
+}
+
+.card-3 {
+  background-color: #89a590;
+  color: #606060;
+}
+
+footer img {
+  width: 375px;
+}
+
+.shop span img {
+  width: 375px;
+  position: absolute;
+  z-index: -1;
+}
+
+.retour-header {
+  background-color: #d8ea92;
+  width: 215px;
+  margin: auto;
+  padding: 10px 0 0 0;
+}
+
+.bouton-shop {
+  padding: 46px 106px 40px 109px;
+}
+
+.address {
+  display: flex;
+  flex-direction: row;
+}
+
+.Points-de-vente img {
+  width: 28px;
+  padding: 14px 0 19px 27px;
+}
+
+.Points-de-vente a {
+  font-family: "helveticat";
+  font-size: 15px;
+  padding: 22px 0 0 0;
+  color: black;
+}
+
+.un {
+  background-color: #becec1;
+}
+
+.deux {
+  background-color: #ff8964;
+}
+
+.trois {
+  background-color: #ffd575;
+}
+
+.quatre {
+  background-color: #c2e3f4;
+}
+
+.cinq {
+  background-color: #98aef4;
+}
+
+footer {
+  background-color: #819f88;
+}
+
+footer img {
+  width: 176px;
+  margin: auto;
+  padding: 28px 0 58px 0;
+}
+
+.data-adress {
+  padding: 0 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.data-adress a {
+  font-family: "helveticat";
+  font-size: 14px;
+  text-align: center;
+  text-decoration: none;
+  color: black;
+}
+
+.data-gmail {
+  padding: 20px 100px 30px;
+}
+
+.data-gmail a {
+  font-family: "helveticat";
+  font-size: 14px;
+  text-align: center;
+  text-decoration: none;
+  color: black;
+}
