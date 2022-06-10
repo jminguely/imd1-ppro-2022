@@ -1,0 +1,285 @@
+html {
+  scroll-behavior: smooth;
+  background-color: #c3c3c3;
+}
+
+body {
+  max-width: 375px;
+  height: auto;
+}
+
+.m-plus-font {
+  font-family: "M PLUS 2", sans-serif;
+}
+
+.kaisei-font {
+  font-family: "Kaisei Opti", serif;
+}
+
+header {
+  background-color: white;
+  width: 375px;
+  margin-bottom: 0;
+}
+
+header img {
+  margin-top: 50px;
+  margin-left: 27px;
+  margin-right: 27px;
+}
+
+nav {
+  margin: 27px 57px 0px 57px;
+}
+
+nav p {
+  padding: 20px 29px;
+}
+
+p {
+  font-family: "Kaisei Opti", serif;
+  font-weight: Medium 500px;
+}
+
+h1,
+h2,
+h3,
+a {
+  font-family: "M PLUS 2", sans-serif;
+  font-weight: Bold 700px;
+}
+
+main {
+  background: #eaeaea;
+  width: 375px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.button-menu {
+  background-color: black;
+  border: none;
+  color: white;
+  text-align: center;
+  font-size: 22px;
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+  padding: 14px 29px;
+  margin-bottom: 27px;
+}
+
+.button-menu:hover {
+  color: black;
+  background-color: white;
+  transition: background-color 2s ease-out 100ms
+}
+
+
+.button-shop:hover {
+  background-color: #ffffff;
+  color: black;
+  transition: background-color 2s ease-out 100ms
+}
+
+.button-voir:hover {
+  background-color: #ffffff;
+  color: black;
+  transition: background-color 2s ease-out 100ms
+}
+.intro-text {
+  text-align: center;
+  font-size: 17px;
+  margin-top: 42px;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+main h1,
+h2 {
+  font-size: 34px;
+  text-align: center;
+}
+h1 {
+margin-top: 64px;
+margin-bottom: 0;
+}
+
+h2 {
+  margin-top: 0;
+}
+
+.plant-title {
+  position: absolute;
+  top: 0;
+  z-index: 3;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+
+.name-plant {
+  font-size: 15px;
+  text-align: center;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%, 0);
+  width: 345px;
+  margin-bottom: 30px;
+}
+
+.potimarron-section {
+  background: #e97833;
+  position: relative;
+  height: 550px;
+}
+
+
+.graine-right{
+  width: 73px;
+  height: auto;
+  position: absolute;
+  top: 50%;
+  right: 0;
+}
+
+.graine-left{
+  width: 73px;
+  height: auto;
+  position: absolute;
+  top: 50%;
+  left: 0;
+}
+
+.sachet-photo {
+  width: 100%;
+  height: auto;
+  position: absolute;
+  bottom: 0;
+}
+
+.haricot-section {
+  background: #a14750;
+  position: relative;
+  height: 550px;
+}
+
+.bleuet-section {
+  background: #313988;
+  position: relative;
+  height: 550px;
+}
+
+.text-orange {
+  color: #e97833;
+  font-size: 17px;
+}
+
+.text-red {
+  color: #a14750;
+  font-size: 17px;
+}
+
+.text-blue {
+  color: #313988;
+  font-size: 17px;
+}
+
+.quote-shop {
+  font-size: 30px;
+  text-align: center;
+  margin-bottom: 36px;
+}
+
+.button-shop {
+  background-color: black;
+  border: none;
+  color: white;
+  border-radius: 40px;
+  text-align: center;
+  font-size: 22px;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  margin-left: 45px;
+  margin-right: 45px;
+  padding: 25px 50px;
+  width: 188px;
+}
+
+.sachet-white-card {
+  background: white;
+  padding: 30px 10px 40px 22px;
+}
+
+.gif {
+  width: 100%;
+  height: auto;
+  display: block;
+  margin-top: 219px;
+  margin-bottom: 150px;
+}
+
+
+figure {
+  margin: 0;
+}
+
+figure .photo-sdp {
+  width: 294px;
+  margin: 65px 42px 0px 42px;
+}
+
+
+.container-rs {
+  font-size: 25px;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  margin-left: 27px;
+}
+
+.button-voir {
+  background-color: black;
+  border: none;
+  color: white;
+  border-radius: 40px;
+  font-size: 22px;
+  text-decoration: none;
+  padding: 20px 30px;
+  width: 60px;
+  margin-top: 20px;
+  margin-bottom: 50px;
+  margin-left: 27px;
+}
+
+figcaption {
+  font-family: "Kaisei Opti", serif;
+  font-weight: Medium 500px;
+  opacity: 50%;
+  font-size: 7px;
+  text-align: center;
+}
+
+footer {
+  background-color: #ffffff;
+  width: 375px;
+  margin-top: 0;
+}
+
+.footer-contact {
+  font-size: 22px;
+  display: flex;
+  flex-direction: column;
+  margin-left: 27px;
+}
+
+.logo-small {
+  width: 160px;
+}
+
+.mail a {
+  color: black;
+  text-decoration: none;
+  font-family: "Kaisei Opti", serif;
+}
