@@ -1,5 +1,6 @@
 html {
   scroll-behavior: smooth;
+  background-color: #c3c3c3;
 }
 
 body {
@@ -13,6 +14,12 @@ body {
 
 .kaisei-font {
   font-family: "Kaisei Opti", serif;
+}
+
+header {
+  background-color: white;
+  width: 375px;
+  margin-bottom: 0;
 }
 
 header img {
@@ -45,6 +52,8 @@ a {
 main {
   background: #eaeaea;
   width: 375px;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 .button-menu {
@@ -60,6 +69,24 @@ main {
   margin-bottom: 27px;
 }
 
+.button-menu:hover {
+  color: black;
+  background-color: white;
+  transition: background-color 2s ease-out 100ms
+}
+
+
+.button-shop:hover {
+  background-color: #ffffff;
+  color: black;
+  transition: background-color 2s ease-out 100ms
+}
+
+.button-voir:hover {
+  background-color: #ffffff;
+  color: black;
+  transition: background-color 2s ease-out 100ms
+}
 .intro-text {
   text-align: center;
   font-size: 17px;
@@ -75,6 +102,7 @@ h2 {
 }
 h1 {
 margin-top: 64px;
+margin-bottom: 0;
 }
 
 h2 {
@@ -202,13 +230,10 @@ figure .photo-sdp {
   margin: 65px 42px 0px 42px;
 }
 
-.reseller-cards {
-  font-size: 25px;
-}
 
 .container-rs {
-  margin-top: 49px;
   font-size: 25px;
+  margin-top: 50px;
 }
 
 .button-voir {
@@ -220,8 +245,8 @@ figure .photo-sdp {
   text-decoration: none;
   padding: 20px 30px;
   width: 60px;
-  margin-top: 23px;
-  margin-bottom: 44px;
+  margin-top: 20px;
+  margin-bottom: 50px;
 }
 
 figcaption {
@@ -233,7 +258,9 @@ figcaption {
 }
 
 footer {
-  background: #ffffff;
+  background-color: #ffffff;
+  width: 375px;
+  margin-top: 0;
 }
 
 .footer-contact {
