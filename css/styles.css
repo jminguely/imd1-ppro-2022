@@ -1,0 +1,111 @@
+
+@font-face {
+  font-family: 'cochin';
+  src: url('../fonts/Cochin.woff2');
+  src: url('../fonts/Cochin.woff');
+}
+
+body {
+  width: 380px;
+  margin: auto;
+  background-color: #CCBAA2;
+}
+
+h1 {
+  font-size: 24px;
+  font-family: 'canto';
+}
+
+h2 {
+  font-size: 20px;
+  font-family: 'canto';
+}
+
+h3 {
+  font-size: 14px;
+  font-family: 'canto';
+}
+
+p {
+  font-size: 16px;
+  font-family: 'cochin';
+}
+
+img {
+  width: 380px;
+}
+
+a {
+  color: #000000;
+}
+
+a:hover {
+  color: #FFFFFF;
+}
+
+/* header */
+
+.site-header nav {
+  margin: 20px;
+  text-align: right;
+}
+
+.title-container img {
+  width: 190px;
+  margin-top: 10px;
+  margin-bottom: 40px;
+  margin-left: 19px;
+}
+
+/* main presentation */
+
+.presentation h1 {
+  margin: 50px 0px 30px 0px;
+}
+
+.presentation p {
+  margin-bottom: 30px;
+}
+
+#caroussel {
+  overflow: hidden;
+}
+
+.images {
+  display: flex;
+  animation-duration: 5s;
+  animation-name: ExpoSemences;
+  animation-iteration-count: infinite;
+}
+
+@keyframes ExpoSemences {
+  0% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(-380px);
+  }
+  100% {
+    transform: translateX(-760px);
+  }
+}
+
+/* main produits */
+
+.icone {
+  width: 95px;
+  display: flex;
+  transform: translate(200px, -100px);
+  margin: 20px;
+  position: absolute;
+}
+
+.shop {
+  text-align: center;
+}
+
+/* footer */
+
+footer {
+  background-color: #FFFFFF;
+}
