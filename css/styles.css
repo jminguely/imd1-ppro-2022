@@ -1,4 +1,4 @@
-body{
+body {
   margin: auto;
   max-width: 375px;
   scroll-behavior: smooth;
@@ -7,6 +7,7 @@ body{
   font-style: normal;
   position: relative;
 }
+
 nav {
   margin: 5px;
   display: flex;
@@ -16,7 +17,8 @@ nav {
   justify-content: space-between;
   font-size: 13px;
 }
-a{
+
+a {
   color: black;
   text-decoration: none;
   display: inline-block;
@@ -24,25 +26,34 @@ a{
   justify-content: space-between;
   display: block;
 }
-a:hover{
+
+a:hover {
   color: #702a2c;
 }
-h1{
+
+h1 {
   font-family: "termina", sans-serif;
   font-weight: 800;
   font-style: normal;
   writing-mode: vertical-rl;
   text-orientation: sideways;
   position: absolute;
-  right: 90px;
+  right: 100px;
   top: 250px;
 }
-h2{
+.middle {
+  position: absolute;
+  right: 170px;
+  top: 250px;
+}
+
+h2 {
   color: #702a2c;
   position: absolute;
   padding: 15px;
 }
-.sdp{
+
+.sdp {
   color: #702a2c;
   position: absolute;
   font-size: 50px;
@@ -52,17 +63,19 @@ h2{
   margin-right: 0px;
   padding-top: 0px;
   writing-mode: vertical-rl;
-  text-orientation: sideways; 
+  text-orientation: sideways;
   position: absolute;
   right: 0px;
 }
-.small{
+
+.small {
   width: 250px;
   height: auto;
   margin-top: 100px;
   padding-top: 60px;
 }
-.small-middle{
+
+.small-middle {
   width: 250px;
   height: auto;
   margin-top: 100px;
@@ -70,67 +83,84 @@ h2{
   position: absolute;
   right: 0px;
 }
-.logo{
+
+.logo {
   margin: 15px;
 }
-p{
+
+p {
   width: 280px;
   position: absolute;
   padding: 10px;
 }
-.nos-semences p{
+
+.nos-semences p {
   position: absolute;
   top: 50px;
   padding-left: 50px;
 }
-.horizontal{
+
+.horizontal {
   padding-left: 20px;
 }
-.trans{
+
+.trans {
   width: 150px;
   height: auto;
   position: absolute;
   left: 0px;
   bottom: 150px;
 }
-.packaging{
+
+.packaging {
   width: 150px;
   height: auto;
   position: absolute;
   bottom: 10px;
   right: 10px;
 }
-.acheter{
+
+.acheter {
   font-weight: 800;
   width: 150px;
   height: auto;
   position: absolute;
-  bottom: 40px;
-  right: 0px;
+  bottom: 0px;
+  left: 250px;
+  transform: translateY(30px);
 }
-div{
+
+div {
   position: relative;
   height: 1000px;
 }
-.semence-pays{
+
+.semence-pays {
   height: 700px;
 }
-.nos-semences .small{
+
+.nos-semences .small {
   width: 270px;
   height: auto;
 }
-.carte{
+
+.carte {
   position: absolute;
   right: 80px;
   bottom: 100px;
   width: 200px;
   height: auto;
 }
-.lieu{
+
+.lieu {
   position: absolute;
   left: 30px;
   top: 150px;
 }
-.pdv{
+
+.seller{
   padding-top: 70px;
+}
+footer {
+  position: relative;
 }
