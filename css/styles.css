@@ -1,9 +1,25 @@
+html {
+  scroll-behavior: smooth;
+}
+
 body {
+  max-width: 375px;
+  margin: auto;
   background-image: url("../img/background.png");
 }
 
+.logo {
+  margin: 38px ;
+}
 .photo-filter {
   mix-blend-mode: darken;
+}
+
+.photo-header {
+  position: relative;
+  bottom: 150px;
+  display: block;
+  width: 375px;
 }
 
 img {
@@ -13,7 +29,11 @@ img {
 .logo {
   display: flex;
   width: 80%;
-  
+}
+
+header {
+  height: 340px;
+  padding-bottom: 30px;
 }
   
 p {
@@ -44,3 +64,8 @@ a {
   border-radius: 20px;
 }
 
+h1 {
+  font-family: 'real head pro light', 'sans serif';
+  font-size: 24px;
+  text-align: center;
+}
