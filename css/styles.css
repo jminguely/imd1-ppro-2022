@@ -1,3 +1,13 @@
+@font-face {
+  font-family: 'Compagnon';
+  src: url('../font/Compagnon-Bold.woff2') format('woff2'),
+      url('../font/Compagnon-Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+
 html {
   scroll-behavior: smooth;
 }
@@ -6,17 +16,20 @@ body {
   max-width: 375px;
   margin: auto;
   background-image: url("../img/background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-.logo {
-  margin: 38px ;
+.titre {
+  font-family: 'Compagnon';
+  text-align: center;
 }
+
 .photo-filter {
   mix-blend-mode: darken;
 }
 
 .photo-header {
-  position: relative;
   bottom: 190px;
   display: block;
   width: 375px;
@@ -37,11 +50,14 @@ header {
 }
   
 p {
+  font-family: 'real head pro extralight', 'sans serif';
   text-align: center;
+  font-size: 16px;
   color: #000;
 }
 
 a {
+  font-family: 'real head pro extralight', 'sans serif';
   text-decoration: none;
   text-align: center;
   color: #000;
@@ -53,6 +69,7 @@ a {
   flex-wrap: nowrap;
   align-items: center;
   margin-bottom: 60px;
+
 }
 
 .button {
@@ -63,10 +80,11 @@ a {
   border-radius: 20px;
 }
 
-h1 {
+h2 {
   font-family: 'real head pro light', 'sans serif';
   font-size: 24px;
   text-align: center;
+  padding-bottom: 40px;
 }
 
 main {
@@ -78,5 +96,33 @@ main {
   margin: 0 0 80px;
   padding: 30px;
   border-radius: 40px;
+}
 
+span {
+  font-family: 'real head pro', 'sans serif';;
+}
+
+.sachet-container {
+  display: flex;
+  align-content: center;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: center;
+}
+
+
+.sachet {
+  width: 80%;
+}
+
+.adress {
+  text-align: center;
+  padding-bottom: 20px;
+  font-family: 'real head pro extralight', 'sans serif';;
+}
+
+.footer-logo {
+  width: 60%;
+  margin-left: 75px;
+  margin-bottom: 0;
 }
