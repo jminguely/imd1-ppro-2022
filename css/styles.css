@@ -1,0 +1,280 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --color-main: #ACDC8F;
+  --color-secondary: #11160E;
+  --color-pack-1: #F4A257;
+  --color-pack-2: #8FDCCE;
+  --color-pack-3: #DC8FCB;
+  --font-title: cooper-black-std, serif;
+  --font-text: basic-sans, sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  width: 375px;
+  margin: auto;
+  position: relatives;
+}
+
+header,
+.card-intro,
+.card p,
+.product-card,
+.pop-up,
+.retailers,
+footer {
+  font-family: var(--font-text);
+}
+
+.card h3,
+h2,
+.button-shop {
+  font-family: var(--font-title);
+}
+
+header {
+  background-color: var(--color-main);
+  box-shadow: 0 3px 5px #11160e15;
+  z-index: 1000;
+  position: sticky;
+  top: 0;
+}
+
+header nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+}
+
+.menu {
+  display: none;
+}
+
+.open .menu {
+  position: absolute;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  background-color: var(--color-secondary);
+  padding: 15px;
+  font-size: 12px;
+}
+
+.open .menu a {
+  color: var(--color-main);
+  text-decoration: none;
+}
+
+.card-intro {
+  background-image: url(../img/all-in-one-sac.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 40px 85px 60px;
+  height: 250px;
+  text-align: center;
+  font-weight: 600;
+  text-shadow: 3px 3px 5px #11160e15;
+}
+
+.main-content {
+  padding: 40px 20px;
+}
+
+.card {
+  background-color: var(--color-main);
+  padding: 20px;
+  border-radius: 20px;
+  margin-bottom: 50px;
+}
+
+.card h3 {
+  font-size: 28px;
+  margin-bottom: 15px;
+}
+
+.card p {
+  font-size: 21px;
+}
+
+.first-letter  {
+  font-weight: 800;
+}
+
+h2 {
+  font-size: 40px;
+}
+
+.product-card {
+  background-color: var(--color-main);
+  border-radius: 20px;
+  padding: 30px 50px;
+  margin: 30px 0 50px;
+  text-align: center;
+  box-shadow: 3px 3px 10px #11160e40;
+}
+
+.product-card h3 {
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  font-size: 30px;
+}
+
+.product-card span {
+  font-weight: 100;
+  font-style: italic;
+  margin-bottom: 40px;
+}
+
+.product-card img {
+  margin: 20px 0;
+  width: 100%;
+  filter: drop-shadow(3px 3px 10px #11160e40);
+}
+
+.product-card p {
+  margin-bottom: 20px;
+}
+
+.spec-buy {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: left;
+  font-weight: 100;
+  font-size: 12px;
+}
+
+.spec-buy p {
+  margin-bottom: 0;
+}
+
+.spec-buy a {
+  background-color: var(--color-secondary);
+  padding: 6px 20px;
+  border-radius: 20px;
+}
+
+.spec-buy a img {
+  width: auto;
+  box-shadow: none;
+  margin: 0;
+}
+
+.pumkin {
+  background-color: var(--color-pack-1);
+}
+
+.flower {
+  background-color: var(--color-pack-2);
+}
+
+.bean {
+  background-color: var(--color-pack-3);
+}
+
+.pop-up {
+  font-weight: 600;
+  font-style: italic;
+  text-align: center;
+}
+
+.button-shop {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 35px;
+  color: var(--color-main);
+  font-style: italic;
+  background-color: var(--color-secondary);
+  text-decoration: none;
+  letter-spacing: 3px;
+  border-radius: 20px;
+  padding: 5px 30px;
+  width: 230px;
+  margin: 30px auto;
+  box-shadow: 3px 3px 10px #11160e40;
+}
+
+.retailers {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px 0;
+}
+
+.retailers-name {
+  font-weight: 600;
+}
+
+.retailers span {
+  font-size: 15px;
+  font-weight: 300;
+}
+
+.retailers img {
+  transform: rotate(-90deg);
+}
+
+hr {
+  border-color: var(--color-secondary);
+}
+
+.top-button {
+  position: fixed;
+  bottom: 3%;
+  left: 85%;
+  background-color: var(--color-secondary);
+  border-radius: 20px;
+  padding: 10px;
+  box-shadow: 3px 3px 10px #11160e40;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+}
+
+footer {
+  background-color: var(--color-main);
+  padding: 20px;
+}
+
+footer h2 {
+  margin-bottom: 20px;
+}
+
+footer h3 a {
+  color: var(--color-secondary);
+  text-decoration: none;
+  letter-spacing: 2px;
+  font-weight: 600;
+  font-size: 28px;
+}
+
+footer h3 {
+  margin-bottom: 20px;
+}
+
+footer p {
+  margin-bottom: 20px;
+}
+
+.mail a {
+  color: var(--color-secondary);
+  text-decoration: none;
+}
+
+.copyright {
+  margin-top: 20px;
+  display: inline-block;
+}

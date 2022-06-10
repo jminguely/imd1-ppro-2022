@@ -1,9 +1,221 @@
 <!DOCTYPE html>
-<html>
+<html lang="fr" id="viewport">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title></title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://use.typekit.net/hhl2uil.css">
+    <link rel="shortcut icon" type="image/jpg" href="img/favicon.png">
+    <title>Semences de Pays</title>
   </head>
-  <body></body>
+  <body>
+    <div id="top" class="top-ancor"></div>
+    <header>
+      <nav>
+        <img src="img/logo-semence.svg" alt="logo semences de pays">
+        <a class="menu-bgr" onclick="menuOpen()">
+          <img src="img/menu-burger.svg" alt="menu burger" class="menu-bgr-img">
+        </a>
+      </nav>
+      <div class="menu">
+        <a href="#intro" class="menu-link">Semences de pays</a>
+        <a href="#products" class="menu-link">Nos semences</a>
+        <a href="#retailers" class="menu-link">Points de ventes</a>
+        <a href="#contact" class="menu-link">Contact</a>
+      </div>
+    </header>
+    <main>
+      <div class="card-intro">
+        <h1>Commander simplement et maintenant</h1>
+        <a href="#products">
+          <img src="img/arrow.svg" alt="flèche vers le bas">
+        </a>
+      </div>
+      <div class="main-content">
+        <div class="card" id="intro">
+          <h3>Qui sommes nous ?</h3>
+          <p class="each-word">
+            Semences de pays développe une production de semences reproductibles
+            , rustiques et adaptées à une agriculture biologique proche des 
+            cycles de la nature, en collaboration avec les iinitiatives 
+            nourricières de proximité.
+          </p>
+        </div>
+        <h2 id="products">Nos semences</h2>
+        <div class="product-card pumkin">
+          <h3>potimarron français</h3>
+          <span>cucurbita maxima</span>
+          <img src="img/sac-O.webp" alt="paquet de graines">
+          <p>
+            Potimarron orange en forme de toupie au caractéristique gout de 
+            chataigne. Le plus ancien potimarron débarqué sur le continent.
+          </p>
+          <div class="spec-buy">
+            <p>
+              Semis : d’avril à mai
+              <br>
+              Récolte : avant le premier gel
+              <br>
+              Distance : 100 x 100 cm
+            </p>
+            <a href="https://shop.semencesdepays.ch/">
+              <img src="img/icon-cart-O.svg" alt="icone ajouter au panier">
+            </a>
+          </div>
+        </div>
+        <div class="product-card flower">
+          <h3>bleuet blauer junge</h3>
+          <span>centaurea cyanus</span>
+          <img src="img/sac-B.webp" alt="paquet de graines">
+          <p>
+            Les délicats pétales de cette magnifique fleur des champs 
+            s’emploient pour embellir vos salades et séchés, les pétales se 
+            mettent dans les mélanges de tisanes
+          </p>
+          <div class="spec-buy">
+            <p>
+              Semis : de mars à septembre
+              <br>
+              Floraison : juin à août
+            </p>
+            <a href="https://shop.semencesdepays.ch/">
+              <img src="img/icon-cart-B.svg" alt="icone ajouter au panier">
+            </a>
+          </div>
+        </div>
+        <div class="product-card bean">
+          <h3>haricot à rames borlotto</h3>
+          <span>phaseolus vulgaris</span>
+          <img src="img/sac-C.webp" alt="paquet de graines">
+          <p>
+            Cette variété traditionnelle italienne de haricots à écosser. 
+            Gousses zébrées de rouge donne une belle récolte de graines de 
+            plusieurs couleurs.
+          </p>
+          <div class="spec-buy">
+            <p>
+              semis : de mai à juillet
+              <br>
+              Distance : tout les 60 cm, disposer 6 à 8 graines en cercle
+              <br>
+              Profondeur : 2 cm
+            </p>
+            <a href="https://shop.semencesdepays.ch/">
+              <img src="img/icon-cart-C.svg" alt="icone ajouter au panier">
+            </a>
+          </div>
+        </div>
+        <h2 class="pop-up">
+          Découvrez nos trésors de biodiversité sur le shop !
+        </h2>
+        <a href="https://shop.semencesdepays.ch/" class="button-shop">
+          Aller
+          <img src="img/arrow-green-right.svg" alt="flèche vers la droite">
+        </a>
+        <h2 id="retailers">Nos points de ventes</h2>
+        <img src="img/map.svg" alt="carte de la suisse romande">
+        <div class="retailers">
+          <div class="data-adress">
+            <h3 class="retailers-name">Chez Mamie</h3>
+            <span>
+              Rue des Rois 17
+              <br>
+              1204 Genève
+            </span>
+          </div>
+          <a href="https://www.chezmamie-biovrac.ch/magasins/geneve">
+            <img src="img/arrow.svg" alt="fleche vers la droite">
+          </a>
+        </div>
+        <hr>
+        <div class="retailers">
+          <div class="data-adress">
+            <h3 class="retailers-name">Le Topinambour</h3>
+            <span>
+              Avenue William-Fraisse 9
+              <br>
+              1006 Lausanne
+            </span>
+          </div>
+          <a href="https://topinambour.ch/">
+            <img src="img/arrow.svg" alt="fleche vers la droite">
+          </a>
+        </div>
+        <hr>
+        <div class="retailers">
+          <div class="data-adress">
+            <h3 class="retailers-name">Ferme du Joran</h3>
+            <span>
+              Chemin des Philosophes 15
+              <br>
+              1350 Orbe
+            </span>
+          </div>
+          <a href="https://www.green-list.ch/ferme-du-joran">
+            <img src="img/arrow.svg" alt="fleche vers la droite">
+          </a>
+        </div>
+        <hr>
+        <div class="retailers">
+          <div class="data-adress">
+            <h3 class="retailers-name">Le Grainier</h3>
+            <span>
+              Route des Mines de Sel 13
+              <br>
+              1880 Bex
+            </span>
+          </div>
+          <a href="https://www.legrainier.com/">
+            <img src="img/arrow.svg" alt="fleche vers la droite">
+          </a>
+        </div>
+        <hr>
+        <div class="retailers">
+          <div class="data-adress">
+            <h3 class="retailers-name">Nouvelle Terre</h3>
+            <span>
+              Rue du Grand-Verger 12
+              <br>
+              1920 Martigny
+            </span>
+          </div>
+          <a href="https://www.nouvelleterre.net/">
+            <img src="img/arrow.svg" alt="fleche vers la droite">
+          </a>
+        </div>
+      </div>
+    </main>
+    <footer id="contact">
+      <h2>Contact</h2>
+      <h3>
+        <a href="https://semencesdepays.ch/">
+          Semences de pays
+        </a>
+      </h3>
+      <p>
+        Serres de Belle-Idée
+        <br>
+        Chemin du Petit-Bel-Air 2
+        <br>
+        1225 Chêne-Bourg
+      </p>
+      <span class="mail">
+        <a href="mailto:info@semencesdepays.ch" target="_blank">
+          info@semencesdepays.ch
+        </a>
+      </span>
+      <br>
+      <span class="copyright">
+        Semences De Pays™ 2022
+        <br>
+        ©François Devantay 2022
+        <br>
+        ©eikon 2022
+      </span>
+    </footer>
+    <a href="#top" class="top-button">
+      <img src="img/top-arrow.svg" alt="fleche vers le haut">
+    </a>
+  </body>
+  <script src="js/script.js"></script>
 </html>
