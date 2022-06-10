@@ -60,7 +60,7 @@ p {
 }
 
 p {
-  padding: 0 10px;
+  padding: 0 10px 15px;
 }
 
 .packaging p {
@@ -75,7 +75,8 @@ img {
 
 h1,
 h2,
-h3 {
+h3,
+h4 {
   font-family: var(--title-font);
   font-size: 17px;
   z-index: 10;
@@ -114,8 +115,7 @@ nav a {
 
 /* main ↓ */
 
-h2, 
-h3 {
+h2 {
   font-size: 20px;
 }
 
@@ -125,6 +125,10 @@ h3 {
 
 .about-us h2 {
   padding: 30px 0 20px;
+}
+
+h3 {
+  font-size: 17px;
 }
 
 .button {
@@ -141,30 +145,25 @@ h3 {
   color: var(--third-color);
 }
 
-/* main about-us ↓ */
-
 .title-decoration {
   background-image: url(../img/ornement-titre.webp);
   background-size: cover;
   background-position: center;
 }
 
-/* main products ↓ */
-
 .products img {
   max-width: 250px;
 }
 
 .products .illustration {
-  max-width: 85px;
-  padding: 0 10px;
+  max-width: 68px;
 }
 
 .packaging {
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: center;
+  justify-content: space-around;
 }
 
 .packaging-first {
@@ -183,11 +182,11 @@ h3 {
 }
 
 .packaging img {
-  max-width: 235px;
+  max-width: 208px;
 }
 
 .description-first {
-  transform: translate(5%, -75%);
+  transform: translate(5%, -36%);
   color: #5b61a6;
 }
 
@@ -196,7 +195,7 @@ h3 {
 }
 
 .description-last {
-  transform: translate(7%, -150%);
+  transform: translate(7%, -120%);
   top: 10%;
   color: #a9005f;
 }
@@ -204,7 +203,6 @@ h3 {
 /* footer ↓ */
 
 footer {
-  padding: 15px 0;
   position: relative;
   background-image: url(../img/ornement-footer.webp);
   background-size: cover;
@@ -223,4 +221,8 @@ footer {
 
 footer a {
   text-decoration: underline;
+}
+
+footer p {
+  padding: 10px 0;
 }
