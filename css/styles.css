@@ -114,9 +114,13 @@ nav a {
 
 /* main ↓ */
 
-.about-us h2,
-.shops h2 {
+h2, 
+h3 {
   font-size: 20px;
+}
+
+.shops h2 {
+  padding: 18px;
 }
 
 .about-us h2 {
