@@ -45,12 +45,17 @@ body {
   --text-font: "tablet-gothic", sans-serif;
 }
 
-a {
+a,
+p {
   text-decoration: none;
   color: var(--main-color);
   font-family: var(--text-font);
   font-size: 15px;
   z-index: 10;
+}
+
+.packaging p {
+  font-family: var(--title-font);
 }
 
 img {
@@ -60,7 +65,8 @@ img {
 }
 
 h1,
-h2 {
+h2,
+h3 {
   font-family: var(--title-font);
   font-size: 17px;
   z-index: 10;
@@ -84,6 +90,9 @@ nav {
   align-items: center;
   padding: 10px;
   justify-content: space-around;
+}
+
+.gate {
   background-image: url(../img/grille-nav-vert.webp);
   background-size: cover;
 }
@@ -95,8 +104,8 @@ nav a {
 
 /* main ↓ */
 
-.about-us h1,
-.shops h1 {
+.about-us h2,
+.shops h2 {
   padding: 30px 0 20px;
   font-size: 20px;
 }
@@ -131,12 +140,14 @@ nav a {
 
 .products .illustration {
   max-width: 85px;
+  padding: 0 10px;
 }
 
 .packaging {
   display: flex;
   flex-direction: row;
   align-items: center;
+  justify-content: center;
 }
 
 .packaging-first {
@@ -152,6 +163,25 @@ nav a {
   position: relative;
   bottom: 40px;
   z-index: 2;
+}
+
+.packaging img {
+  max-width: 235px;
+}
+
+.description-first {
+  transform: translate(5%, -75%);
+  color: #5b61a6;
+}
+
+.description-middle {
+  color: #c56120;
+}
+
+.description-last {
+  transform: translate(7%, -150%);
+  top: 10%;
+  color: #a9005f;
 }
 
 /* footer ↓ */
@@ -170,7 +200,7 @@ footer {
   z-index: 10;
 }
 
-.contacts h1 {
+.contacts h3 {
   padding: 0 0 5px;
 }
 
