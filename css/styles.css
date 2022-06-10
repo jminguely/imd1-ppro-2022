@@ -1,0 +1,442 @@
+@font-face { 
+  font-family: 'LotaGrotesque'; 
+  src:  url('../fonts/LotaGrotesque-Light.woff2') format('woff2'); 
+  font-weight: lighter; 
+  font-style: normal; 
+} 
+
+@font-face { 
+  font-family: 'LotaGrotesque'; 
+  src:  url('../fonts/LotaGrotesque-LightIt.woff2') format('woff2'); 
+  font-weight: lighter; 
+  font-style: italic; 
+} 
+
+@font-face { 
+  font-family: 'LotaGrotesque'; 
+  src:  url('../fonts/LotaGrotesque-SemiBold.woff2') format('woff2'); 
+  font-weight: 700; 
+  font-style: normal; 
+} 
+
+@font-face { 
+  font-family: 'SuisseIntl'; 
+  src:  url('../fonts/SuisseIntl-Thin.woff2') format('woff2'); 
+  font-weight: 100; 
+  font-style: normal; 
+}
+
+@font-face { 
+  font-family: 'SuisseIntl'; 
+  src:  url('../fonts/SuisseIntl-Light.woff2') format('woff2'); 
+  font-weight: lighter; 
+  font-style: normal; 
+}
+
+@font-face { 
+  font-family: 'SuisseIntl'; 
+  src:  url('../fonts/SuisseIntl-Book.woff2') format('woff2'); 
+  font-weight: 200; 
+  font-style: normal; 
+} 
+
+@font-face { 
+  font-family: 'SuisseIntl'; 
+  src:  url('../fonts/SuisseIntl-Medium.woff2') format('woff2'); 
+  font-weight: 300; 
+  font-style: normal; 
+} 
+
+html{
+  scroll-behavior: smooth;
+}
+
+body{
+  width: 375px;
+  margin: 0 auto;
+  background-color: #ffffff;
+  color: #111111;
+  text-align: left;
+  font-family: 'LotaGrotesque'; 
+  font-weight: lighter; 
+  font-style: normal;
+  font-size: 14px;
+}
+
+header{
+  padding: 100px 0 20px;
+  border-bottom: 0.5px solid #111111;
+}
+
+nav{
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+div{
+  margin: 20px 0;
+  border-top:0.5px solid #111111;
+  border-bottom: 0.5px solid #111111;
+}
+
+article{
+  display: flex;
+  flex-flow: row-reverse nowrap;
+  border: none;
+  border-top: 0.5px #111111 solid;
+  width: 100%;
+}
+
+h1{
+  font-family: 'SuisseIntl'; 
+  font-weight: 200; 
+  font-style: normal; 
+  font-size: 36px;
+}
+
+h2{
+  font-family: 'SuisseIntl';
+  font-weight: 300; 
+  font-style: normal;
+  font-size: 20px;
+  margin: 0 0 20px;
+  padding: 10px 0 10px 10px;
+  border-bottom: 0.5px solid #111111;
+}
+
+a{
+  font-size: 14px;
+  font-family: 'SuisseIntl'; 
+  font-weight: 100; 
+  font-style: normal; 
+  text-decoration: none;
+  color: #111111;
+  border: 0.5px solid #111111;
+  border-radius: 15px;
+  padding: 5px 8px;
+  margin: 0 3px 15px;
+}
+
+img{
+  margin: 0;
+}
+
+header img{
+  max-width: 235px;
+}
+
+header h1 img{
+  position: relative;
+  left: 20px;
+}
+
+header .img-caption{
+  border: none;
+  margin: 0;
+  position: absolute;
+  right: 0;
+  bottom: 5px;
+}
+
+footer h2{
+  width: 100%;
+}
+
+footer p{
+  font-family: 'SuisseIntl'; 
+  font-weight: lighter; 
+  font-style: normal; 
+}
+
+footer img{
+  max-height: 234px;
+}
+
+article h1{
+  font-family: 'SuisseIntl'; 
+  font-weight: 100; 
+  font-style: normal; 
+  font-size: 14px;
+  text-align: center;
+  margin: 0;
+}
+
+article h2{
+  font-family: 'LotaGrotesque'; 
+  font-weight: lighter; 
+  font-style: normal;  
+  font-size: 14px;
+  border: none;
+}
+
+article img{
+  max-height: 250px;
+  margin: 0;
+}
+
+footer{
+  display: flex;
+  flex-flow: row-reverse nowrap;
+  width: 100%;
+  border-top: 0.5px solid #111111;
+  border-bottom: 0.5px solid #111111;
+}
+
+footer .img-caption{
+  border: none;
+  padding-left: 0;
+}
+.img-caption{
+  font-family: 'SuisseIntl'; 
+  font-weight: lighter; 
+  font-style: normal; 
+  font-size: 6px;
+  border: none;
+  border-bottom: 0.5px solid #111111;
+  margin: 0 0 20px;
+  padding: 0 10px 0;
+}
+
+.brand-introduction{
+  position: relative;
+  margin: 0 0 110px;
+  border: none;
+}
+
+.brand-visual-introduction{
+  position: absolute;
+  right: 0;
+  top: -50px;
+  z-index: -1;
+  border: none;
+}
+
+.brand-information{
+  position: relative;
+  padding: 0 0 20px;
+  margin: 0;
+}
+
+.brand-information .img-caption{
+  text-align: right;
+  border: none;
+  margin: 0 0 0 175px;
+  position: absolute;
+  right: 0;
+}
+
+.brand-information img{
+  max-width: 220px;
+  position: absolute;
+  right: 0;
+  top: 60px;
+  z-index: -1;
+}
+
+.brand-information p{
+  max-width: 190px;
+  position: relative;
+  left: 20px;
+}
+
+.product-presentation{
+  border: none;
+  margin: 0;
+}
+
+.product-presentation h2{
+  margin: 0;
+}
+
+.product-introduction{
+  display: flex;
+  flex-flow: row nowrap;
+  margin-top: 0;
+  margin-bottom: 0;
+  border: none;
+}
+
+.product-introduction-information{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  border: none;
+  margin: 0;
+}
+
+.product-introduction-information .img-caption{
+  border: none;
+}
+
+.product-introduction p{
+  padding: 20px 0 0 10px;
+  margin: 0;
+}
+
+.product-information h1{
+  margin: 20px;
+}
+
+.product-information h2{
+  margin: 0;
+  padding: 0 10px;
+}
+
+.product-introduction img{
+  max-height: 100px;
+  border-right: 0.5px solid #111111;
+}
+
+.product-information{
+  display: flex;
+  flex-flow: column wrap;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  border: none;
+  border-left: 0.5px solid #111111;
+  position: relative;
+}
+
+.product-information a{
+  align-self: flex-end;
+  position: absolute;
+  bottom: 20px;
+  right: 10px;
+}
+
+.product-visual {
+  display: flex;
+  flex-flow: column wrap;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  border: none;
+}
+
+.product-visual img{
+  max-width: 231.5px;
+}
+
+.small-product-visual{
+  display: flex;
+  flex-flow: row nowrap;
+  margin: 0;
+  padding: 0;
+  border: none;
+  border-top: 0.5px solid #111111;
+}
+
+.small-product-visual-left-one{
+  border-right: 0.5px solid #111111;
+}
+
+.small-product-visual img{
+  max-width: 115.5px;
+}
+
+.fabacee-product{
+  flex-flow: row nowrap;
+  margin: 0;
+}
+
+.fabacee-product .product-information{
+  border: none;
+  border-right: 0.5px solid #111111;
+}
+
+.flower-product{
+  border-bottom: 0.5px solid #111111;
+}
+
+.resellers{
+  text-align: center;
+}
+
+.resellers h2{
+  text-align: left;
+  margin: 0;
+}
+
+.resellers img{
+  max-width: 310px;
+  padding: 20px 0 20px;
+}
+
+.resellers-focus{
+  margin: 0;
+  border-bottom: none;
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+.resellers-focus img{
+  max-height: 130px;
+  padding: 0;
+}
+
+.resellers-address{
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  border: none;
+  text-align: center;
+  height: 130px;
+  width: 100%;
+  border-right: 0.5px solid #111111;
+}
+
+.resellers-address p{
+  margin: 1px 0 0 0; 
+  padding: 0;
+  font-family: 'SuisseIntl'; 
+  font-weight: lighter; 
+  font-style: normal;
+  text-align: center;
+}
+
+.resellers-focus-other-view{
+  flex-flow: row-reverse nowrap;
+}
+
+.resellers-focus-other-view .resellers-address{
+  border: none;
+  border-left: 0.5px solid #111111;
+}
+
+.fake-carrousel{
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+.fake-carrousel img{
+  max-width: 189px;
+}
+
+.fake-carrousel-visual{
+  border-right: 0.5px solid #111111;
+}
+
+.contact-information{
+  display: flex;
+  flex-flow: column wrap;
+  align-items: flex-start;
+  border: none;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  border-left: 0.5px solid #111111;
+}
+
+.contact-information h2,
+.contact-information p{
+  padding-left: 20px;
+}
+
+.contact-information a{
+  margin-left: 20px;
+}
