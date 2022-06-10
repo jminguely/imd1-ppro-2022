@@ -1,0 +1,140 @@
+html {
+  scroll-behavior: smooth;
+  background: #b2c99d;
+}
+
+body {
+  width: 375px;
+  background: #e6d8cf;
+  margin: auto;
+  
+}
+
+header,
+footer{
+  background: #719159;
+  color: #e6d8cf;
+}
+
+header {
+  padding: 1px 0 50px 37px;
+}
+
+.header-img {
+  transform: translate(32px);
+  width: 69%;
+}
+
+header div {
+  display: flex;
+  flex-direction: row;
+  margin: 15px 0 65px 0;
+}
+
+header a {
+  padding: 15px 45px 0 0;
+  display: flex;
+  flex-direction: column;
+  color: #e6d8cf;
+  text-decoration: none;
+  text-align: center;
+  font-family: adobe-jenson-pro-subhead, serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 36px;
+}
+
+h1 {
+  width: 30%;
+}
+
+h2 {
+  margin: 40px 0;
+  font-family: park-lane, serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 34px;
+  color: #719159;
+  text-align: center;
+}
+
+.presentation-article p{
+padding: 35px 35px;
+font-size: 16px;
+}
+
+.sale-article {
+  margin: 122px 0 0 0;
+}
+
+.burger-menu {
+  width: 10%;
+  right: 50%;
+  top: 18px;
+  TRANSFORM: translate(166px);
+}
+
+.product-section  {
+  margin: 40px 0;
+ display: flex;
+ overflow-x: scroll;
+}
+
+.shop-button {
+  background: #719159;
+  margin: 0 122px;
+  padding: 6px 13px;
+  font-family: adobe-jenson-pro, serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 38px;
+  color: #e6d8cf;
+  text-decoration: none;
+}
+
+
+.article-img-1,
+.article-img-2{
+  right: 50%;
+  TRANSFORM: translate(62px);
+}
+
+.sales-location img{
+  width: 13%;
+  margin: 0 30px;
+}
+
+.sales-location {
+  margin: 28px 30px;
+  display: flex;
+  flex-direction: row;
+  font-size: 14px;
+}
+
+p {
+  font-family: adobe-jenson-pro, serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+footer {
+  padding: 20px 20px;
+}
+
+footer p { 
+  text-align: center;
+  font-family: adobe-jenson-pro-subhead, serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 27px;
+}
+
+footer a {
+  margin: 0 47px;;
+  font-family: adobe-jenson-pro-subhead, serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 27px;
+  color: #e6d8cf;
+  text-decoration: none;
+}
