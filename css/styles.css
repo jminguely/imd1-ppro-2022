@@ -56,12 +56,16 @@ main {
   display: flex;
   flex-direction: column;
   text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
 }
 
 .intro-text {
   text-align: center;
   font-size: 17px;
-  margin: 42px 43px 64px 43px;
+  margin-top: 42px;
+  margin-bottom: 64px;
 }
 
 main h1, h2 {
@@ -136,24 +140,30 @@ main h1, h2 {
 }
 
 .photo-sdp {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
   width: 375px;
-  margin: 40px 30px;
 }
 
 .reseller-cards {
-  display: flex;
-  flex-direction: column;
+  font-size: 25px;
+}
+
+.container-rs {
+  margin-top: 49px;
 }
 
 .button-voir {
   background-color: black;
   border: none;
   color: white;
-  border-radius: 33px;
+  border-radius: 35px;
   font-size: 22px;
   text-decoration: none;
   padding: 25px 39px;
 }
+
 
 footer {
   background: #ffffff;
