@@ -15,13 +15,13 @@ font-family: itc-avant-garde-gothic-pro, sans-serif;
 font-weight: 500;
 font-style: normal; */
 
-
-/* code hexa
-
-doré : #f1e2b1
-bleu : #73bbe4
-orange : #ec805b
-rouge : #de473f */
+:root {
+    --black: #4c4738;
+    --doré: #f1e2b1;
+    --bleu: #73bbe4;
+    --orange: #ec805b;
+    --rouge: #de473f;
+}
 
 @font-face {
     font-family: 'Zighead';
@@ -157,20 +157,20 @@ main img {
     font-size: 15px;
     padding: 10px 70px;
     font-weight: 700;
-    color: #f1e2b1;
-    box-shadow: -10px 10px 0 #000;
+    color: black;
+    box-shadow: -10px 10px 0 black;
 }
 
 .btn-pottimaron {
-    background-color: #de473f;
+    background-color: var(--rouge);
 }
 
 .btn-bleuet {
-    background-color: #73bbe4;
+    background-color: var(--bleu);
 }
 
 .btn-haricot {
-    background-color: #ec805b;
+    background-color: var(--orange);
 }
 
 .rectangle-title {
