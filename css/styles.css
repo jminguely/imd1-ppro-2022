@@ -17,16 +17,22 @@ footer{
 }
 
 header {
-  padding: 1px 0px 50px 37px;
+  padding: 1px 0 50px 37px;
+}
+
+.header-img {
+  transform: translate(32px);
+  width: 69%;
 }
 
 header div {
   display: flex;
   flex-direction: row;
-  margin: 15px 0px 65px 0px;
+  margin: 15px 0 65px 0;
 }
 
 header a {
+  padding: 15px 45px 0 0;
   display: flex;
   flex-direction: column;
   color: #e6d8cf;
@@ -36,7 +42,6 @@ header a {
   font-weight: 400;
   font-style: normal;
   font-size: 36px;
-  padding: 15px 45px 0px 0px;
 }
 
 h1 {
@@ -44,7 +49,7 @@ h1 {
 }
 
 h2 {
-  margin: 40px 0px;
+  margin: 40px 0;
   font-family: park-lane, serif;
   font-weight: 700;
   font-style: normal;
@@ -69,6 +74,12 @@ font-size: 16px;
   TRANSFORM: translate(166px);
 }
 
+.product-section  {
+  margin: 40px 0;
+ display: flex;
+ overflow-x: scroll;
+}
+
 .shop-button {
   background: #719159;
   margin: 0 122px;
@@ -82,14 +93,15 @@ font-size: 16px;
 }
 
 
-.article-img-1 {
+.article-img-1,
+.article-img-2{
   right: 50%;
-  TRANSFORM: translate(187px);
+  TRANSFORM: translate(62px);
 }
 
 .sales-location img{
   width: 13%;
-  margin: 0px 30px;
+  margin: 0 30px;
 }
 
 .sales-location {
@@ -106,7 +118,7 @@ p {
 }
 
 footer {
-  padding: 0px 0px;
+  padding: 20px 20px;
 }
 
 footer p { 
@@ -115,4 +127,14 @@ footer p {
   font-weight: 400;
   font-style: normal;
   font-size: 27px;
+}
+
+footer a {
+  margin: 0 47px;;
+  font-family: adobe-jenson-pro-subhead, serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 27px;
+  color: #e6d8cf;
+  text-decoration: none;
 }
