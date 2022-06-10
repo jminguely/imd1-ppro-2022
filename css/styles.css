@@ -21,13 +21,18 @@ html {
 }
 
 body {
-  max-width: 375px;
+  width: 375px;
   margin: auto;
   background-color: var(--background-color);
   box-shadow: 0 0 50px rgb(0 0 0 / 20%);
   color: var(--main-color);
   text-align: center;
-  padding: 0 25px;
+}
+
+header,
+main,
+footer {
+padding: 0 25px;
 }
 
 * {
@@ -88,13 +93,14 @@ header h1 {
 nav {
   display: flex;
   align-items: center;
-  padding: 10px;
+  padding: 7px;
   justify-content: space-around;
 }
 
 .gate {
   background-image: url(../img/grille-nav-vert.webp);
-  background-size: cover;
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
 nav a {
