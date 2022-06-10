@@ -132,6 +132,14 @@ header h1 img{
   left: 20px;
 }
 
+header .img-caption{
+  border: none;
+  margin: 0;
+  position: absolute;
+  right: 0;
+  bottom: 5px;
+}
+
 footer h2{
   width: 100%;
 }
@@ -168,6 +176,17 @@ article img{
   margin: 0;
 }
 
+.img-caption{
+  font-family: 'SuisseIntl'; 
+  font-weight: lighter; 
+  font-style: normal; 
+  font-size: 6px;
+  border: none;
+  border-bottom: 0.5px solid #111111;
+  margin: 0 0 20px;
+  padding: 0 10px 0;
+}
+
 .brand-introduction{
   position: relative;
   margin: 0 0 110px;
@@ -185,6 +204,15 @@ article img{
 .brand-information{
   position: relative;
   padding: 0 0 20px;
+  margin: 0;
+}
+
+.brand-information .img-caption{
+  text-align: right;
+  border: none;
+  margin: 0;
+  position: absolute;
+  right: 0;
 }
 
 .brand-information img{
@@ -218,6 +246,17 @@ article img{
   border: none;
 }
 
+.product-introduction-information{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  border: none;
+  margin: 0;
+}
+
+.product-introduction-information .img-caption{
+  border: none;
+}
 
 .product-introduction p{
   padding: 20px 0 0 10px;
@@ -235,6 +274,7 @@ article img{
 
 .product-introduction img{
   max-height: 100px;
+  border-right: 0.5px solid #111111;
 }
 
 .product-information{
@@ -375,6 +415,11 @@ footer{
   width: 100%;
   border-top: 0.5px solid #111111;
   border-bottom: 0.5px solid #111111;
+}
+
+footer .img-caption{
+  border: none;
+  padding-left: 0;
 }
 
 .contact-information{
