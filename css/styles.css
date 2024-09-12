@@ -1,0 +1,278 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+@font-face { 
+  font-family: Recoleta; 
+  src:  url('../fonts/Recoleta-RegularDEMO.woff2') format('woff2'), 
+        url('../fonts/Recoleta-RegularDEMO.woff') format('woff'); 
+} 
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #FEFEF8;
+  width: 375px;
+  margin: auto;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: #D7AB73;
+  padding: 20px 35px;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.introduction p {
+  font-family: acumin-pro, sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+header .logo {
+  max-width: 130px;
+}
+
+header .logo-langue {
+  max-width: 25px;
+}
+
+nav {
+  background-color: #232823;
+  padding: 7px 35px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+nav a {
+  color: #FEFEF8;
+  text-decoration: none;
+  font-size: 11px;
+  font-family: acumin-pro, sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.introduction {
+  text-align: center;
+  padding: 65px 35px;
+  background-image: url(../img/photo-introduction.svg);
+  background-repeat: no-repeat;
+  margin-bottom: 60px;
+}
+
+.introduction h1 {
+  transform: translateY(-30px);
+}
+
+.presentation-produit {
+  background-color: #A2C68D;
+}
+
+h1 {
+  text-align: center;
+  font-family: Recoleta;
+}
+
+.presentation-produit {
+  text-align: center;
+}
+
+.presentation-potimarron {
+  margin-bottom: 90px;
+  background-image: url(../img/potimarron.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 65px 55px;
+}
+
+.presentation-haricot {
+  margin-bottom: 90px;
+  background-image: url(../img/haricot.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 65px 55px;
+}
+
+.presentation-bleuet {
+  margin-bottom: 50px;
+  background-image: url(../img/bleuet.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 65px 55px;
+}
+
+.text-carte img {
+  max-width: 18px;
+}
+
+.titre-semences {
+  margin-bottom: 20px;
+}
+
+.presentation-produit h2 {
+  font-size: 20px;
+}
+
+.presentation-produit h3 {
+  font-size: 16px;
+}
+
+.presentation-produit p {
+  font-size: 14px;
+}
+
+.presentation-produit img {
+  max-width: 205px;
+  transform: translateX(-5px);
+}
+
+.carte {
+  max-width: 265px;
+  padding-left: 55px;
+}
+
+.fenetre-presentation {
+  background-color: #FEFEF8;
+  border-top-left-radius: 50%;
+  border-top-right-radius: 50%;
+  height: 255px;
+  max-width: 200px;
+  margin: auto;
+}
+
+.presentation-produit h2 {
+  font-family: "acumin-pro", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.presentation-produit h3 {
+  font-family: "acumin-pro", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+  padding-bottom: 20px;
+}
+
+.presentation-produit p {
+  font-family: "acumin-pro", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  padding-bottom: 50px;
+}
+
+footer {
+  background-color: #D7AB73;
+  padding: 20px 35px;
+}
+
+footer img {
+  max-width: 130px;
+  margin-bottom: 30px;
+  margin-top: 10px;
+}
+
+footer p {
+  font-family: "acumin-pro", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.bouton-shop a {
+  color: #FEFEF8;
+  text-decoration: none;
+  font-family: "acumin-pro", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 14px;
+}
+
+.bouton-shop {
+  margin: 0px 55px;
+  text-align: center;
+  margin-bottom: 60px;
+  background-color: #232823;
+  padding: 10px 10px;
+  border-radius: 15px;
+}
+
+.filler-photo {
+  padding-bottom: 60px;
+}
+
+.vente-titre {
+  padding-bottom: 40px;
+}
+
+.display-carte {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-bottom: 50px;
+}
+
+.text-carte-titre h2 {
+  font-family: Recoleta;
+}
+
+.text-carte-titre p {
+  font-family: "acumin-pro", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.text-carte-titre-vert {
+  padding-right: 15px;
+}
+
+.text-carte-titre-noir {
+  padding-right: 21px;
+}
+
+.text-carte-titre-bleu {
+  padding-right: 50px;
+  margin-bottom: 40px;
+}
+
+
+.carte {
+  margin-bottom: 60px;
+}
+
+.footer-nom {
+  margin-bottom: 20px;
+}
+
+.adresse {
+  margin-bottom: 20px;
+}
+
+.email {
+  display: flex;
+  text-decoration: none;
+  justify-content: flex-end;
+  color: #232823;
+  font-family: "acumin-pro", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.text-carte {
+  padding: 0px 20px 0px 20px;
+}
+
+.text-carte-titre {
+  transform: translateY(20px);
+}
+
+.text-carte-titre-bleu {
+  transform: translateY(40px);
+}
